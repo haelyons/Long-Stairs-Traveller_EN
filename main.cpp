@@ -1,6 +1,7 @@
 #include "stat.hpp"
 
 const int GEN_LOC_NUM = 4;
+char LANG[] = "EN";
 
 void show_loot(const ConcreteLocation &l, int level, int luck) {
     if (l.loc_id >= 0) {
@@ -33,9 +34,19 @@ void show_loot(const ConcreteLocation &l, int level, int luck) {
                 printf(".");
                 if (chance < current_magic_chance * int(level / LANDING_DIST)) {
                     if (rand() % MAX_PROBABILITY < (CURSED_MAGIC_CHANCE - (luck - PERCENT(50)) / 150)) { // shift <= 10%
-                        printf("\nЧто-то магическое!!! Правда проклятое:(");
+                        if (LANG = "EN"){ 
+				printf("\Something magical!!! Really cursed :( ");
+			}
+			else {
+				printf("\nЧто-то магическое!!! Правда проклятое :( ");
+			}
                     } else {
-                        printf("\nЧто-то магическое!!!");
+			if (LANG = "EN"){
+                        	printf("\nSomething magical!!!");
+			}
+			else {
+				printf("\nЧто-то магическое!!!");
+			}
                     }
                     chance = MAX_PROBABILITY;
                     magic_met += 1;
