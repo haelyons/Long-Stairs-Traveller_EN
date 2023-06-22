@@ -1,4 +1,11 @@
 #include "stat.hpp"	
+
+/* METHODOLOGY
+1. Copy paste to Excel, and then into Google Sheets: add url
+2. Use Google Translate integration to translate (after parsing from "" and ,)
+3. Reformat 
+4. Paste here :) 
+*/
 	
 const char *LANDING_NAME[LANDING_NUM] = {	
     "Hellmouth",	
