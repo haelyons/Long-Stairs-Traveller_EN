@@ -1,4 +1,13 @@
 #include "stat.hpp"
+/*
+#define LANGUAGE
+
+#ifdef LANGUAGE 1
+    #include "names_v1.cpp"
+#else
+    #include "names_v2.cpp"
+#endif
+*/
 
 const char *LANDING_NAME[LANDING_NUM] = {
     "Hellmouth",
