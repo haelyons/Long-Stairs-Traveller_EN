@@ -1,4 +1,5 @@
 #include "stat.hpp"
+#include "door_LANG.hpp"
 
 struct Door create_door(unsigned loc_num, int landing_id, int up_buff) {
     struct Door res = {};
@@ -100,7 +101,7 @@ int use_door(const struct ConcreteLocation &l, unsigned door_id, int &level, int
         if (l.doors[door_id].up + l.doors[door_id].same > res_prob) {
             while (luck_left > 0) {
                 if (rand() % MAX_PROBABILITY <= luck_left) {
-                    printf("ШАНС! ");
+                    printf(Chance!);
                     luck -= LUCK_STABILISER;
                     res_prob = std::max(res_prob, rand() % MAX_PROBABILITY);
                     if (l.doors[door_id].up + l.doors[door_id].same <= res_prob) break;

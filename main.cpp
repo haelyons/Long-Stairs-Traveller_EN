@@ -1,7 +1,6 @@
 #include "stat.hpp"
 
 const int GEN_LOC_NUM = 4;
-char LANG[] = "EN";
 
 void show_loot(const ConcreteLocation &l, int level, int luck) {
     if (l.loc_id >= 0) {
@@ -39,7 +38,6 @@ void show_loot(const ConcreteLocation &l, int level, int luck) {
                         else {
                             printf("\nЧто-то магическое!!!");
                         }
-                    }
                     chance = MAX_PROBABILITY;
                     magic_met += 1;
                     current_magic_chance = MAGIC_LOOT_CHANCE;
