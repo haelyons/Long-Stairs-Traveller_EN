@@ -1,5 +1,7 @@
 #include "stat.hpp"
 
+extern char * LANG = "EN";
+
 const int GEN_LOC_NUM = 4;
 
 void show_loot(const ConcreteLocation &l, int level, int luck) {
