@@ -1,6 +1,5 @@
 #include "stat.hpp"
 
-extern char * LANG = "EN";
 
 const int GEN_LOC_NUM = 4;
 
@@ -24,7 +23,7 @@ void show_loot(const ConcreteLocation &l, int level, int luck) {
         max_cost_real /= 50;
         int max_cost = int(max_cost_real) + (max_cost_real - int(max_cost_real) >= 0.5);
         int cost = (rand() % MAX_PROBABILITY + rand() % MAX_PROBABILITY + rand() % MAX_PROBABILITY) / 3 * max_cost / MAX_PROBABILITY;
-        printf("Улов на %d из %d%s", cost, max_cost, (cost >= MAGIC_LOOT_LIMIT ? "" : "\n"));
+        printf(_("Улов на %d из %d%s"), cost, max_cost, (cost >= MAGIC_LOOT_LIMIT ? "" : "\n"));
         if (cost >= MAGIC_LOOT_LIMIT) {
             int chance = MAX_PROBABILITY;
             int cost_left = cost;
@@ -35,10 +34,10 @@ void show_loot(const ConcreteLocation &l, int level, int luck) {
                 printf(".");
                 if (chance < current_magic_chance * int(level / LANDING_DIST)) {
                         if (rand() % MAX_PROBABILITY < (CURSED_MAGIC_CHANCE - (luck - PERCENT(50)) / 150)) { // shift <= 10%
-                            printf("\nЧто-то магическое!!! Правда проклятое :( ");
+                            printf(_("\nЧто-то магическое!!! Правда проклятое :( "));
                         }
                         else {
-                            printf("\nЧто-то магическое!!!");
+                            printf(_("\nЧто-то магическое!!!"));
                         }
                     chance = MAX_PROBABILITY;
                     magic_met += 1;
@@ -57,28 +56,28 @@ void show_loot(const ConcreteLocation &l, int level, int luck) {
             if (cost > MONEY_TOP_LIMIT) cost = MONEY_TOP_LIMIT - rand() % 5; // we don't want to give folks TONS of money
             int weight_chance = rand() % MAX_PROBABILITY;
             if (weight_chance <= VERY_HEAVY_LOOT_CHANCE) {
-                printf("Тяжеленный (веса 2+)... ");
+                printf(_("Тяжеленный (веса 2+)... "));
             } else if (weight_chance <= HEAVY_LOOT_CHANCE) {
-                printf("Увесистый (веса 1)... ");
+                printf(_("Увесистый (веса 1)... "));
             }
-            printf("%s (%d зм)!\n", TREASURE[rand() % TREASURE_NUM], cost);
+            printf(_("%s (%d зм)!\n"), TREASURE[rand() % TREASURE_NUM], cost);
             if (cost_left > 3 * MONEY_TOP_LIMIT) cost_left = 3 * MONEY_TOP_LIMIT; // too many trinkets is not good as well
             while (cost_left > 0) {
-                printf("Безделушка: %s\n", TRINKET[rand() % TRINKET_NUM]);
+                printf(_("Безделушка: %s\n"), TRINKET[rand() % TRINKET_NUM]);
                 cost_left -= MONEY_TOP_LIMIT;
             }
         } else if (cost > 0) {
-            printf("Безделушка: %s\n", TRINKET[rand() % TRINKET_NUM]);
+            printf(_("Безделушка: %s\n"), TRINKET[rand() % TRINKET_NUM]);
         } else {
-            printf("Полный облом :(\n");
+            printf(_("Полный облом :(\n"));
         }
     } else {
-        printf("В якорных точках не бывает лёгких денег!\n");
+        printf(_("В якорных точках не бывает лёгких денег!\n"));
     }
 }
 
 void show_info(const ConcreteLocation &l, int level, int map_quality, int goal, int luck) {
-    printf("Уровень - %d\tЦель - %d\n", level, goal);
+    printf(_("Уровень - %d\tЦель - %d\n"), level, goal);
     const char *luck_level;
     if (luck >= MAX_PROBABILITY) {
         luck_level = "Умопомрачительное";
@@ -87,9 +86,9 @@ void show_info(const ConcreteLocation &l, int level, int map_quality, int goal, 
     } else {
         luck_level = LUCK_LEVELS[luck / (MAX_PROBABILITY / (LUCK_LEVEL_NUM))];
     }
-    printf("Качество карты - ±%.1lf%%\tВезение - %s\n", map_quality / 2.0, luck_level);
+    printf(_("Качество карты - ±%.1lf%%\tВезение - %s\n"), map_quality / 2.0, luck_level);
     if (level % LANDING_DIST == 0 && level < int(LANDING_DIST * LANDING_NUM)) {
-        printf("Добро пожаловать в якорную точку: %s!\n", LANDING_NAME[level / LANDING_DIST]);
+        printf(_("Добро пожаловать в якорную точку: %s!\n"), LANDING_NAME[level / LANDING_DIST]);
     }
     print_loc(l, map_quality, level);
 }
@@ -126,7 +125,7 @@ int main(void) {
                 if (new_level % LANDING_DIST == 0 && level < int(LANDING_DIST * LANDING_NUM)) {
                     new_l = LANDING[new_level / LANDING_DIST];
                     gen_doors(new_l, GEN_LOC_NUM, new_level, goal, new_luck);
-                    printf("Добро пожаловать в якорную точку: %s!\n", LANDING_NAME[new_level / LANDING_DIST]);
+                    printf(_("Добро пожаловать в якорную точку: %s!\n"), LANDING_NAME[new_level / LANDING_DIST]);
                 } else {
                     gen_doors(new_l, GEN_LOC_NUM, new_level, goal, new_luck);
                     gen_troubles(new_l);
@@ -137,18 +136,18 @@ int main(void) {
                 }
                 show_info(new_l, new_level, map_quality, goal, new_luck);
                 show_loot(new_l, new_level, new_luck);
-                printf("Захлопнуть дверь?(-1 - да): ");
+                printf(_("Захлопнуть дверь?(-1 - да): "));
                 scanf("%d", &door);
                 if (door < 0) {
                     printf("RDP breach detected!\n");
                     map_quality += 4;
                 } else {
-                    printf("Удачи!\n");
+                    printf(_("Удачи!\n"));
                     l = new_l;
                     level = new_level;
                     luck = new_luck;
                     if (level == goal && goal > 0) {
-                        printf("Ура!!! Цель достигнута!!! Новая цель - Hellmouth:)\n");
+                        printf(_("Ура!!! Цель достигнута!!! Новая цель - Hellmouth:)\n"));
                         goal = 0;
                     }
                 }
@@ -162,14 +161,14 @@ int main(void) {
                     // greater chances for at least one trouble
                     gen_troubles(new_l);
                 }
-                printf("Добро пожаловать в якорную точку: %s!\n", LANDING_NAME[level / LANDING_DIST]);
+                printf(_("Добро пожаловать в якорную точку: %s!\n"), LANDING_NAME[level / LANDING_DIST]);
                 print_loc(new_l, map_quality, level);
                 show_loot(new_l, level, luck);
                 int ans = -1;
-                printf("Отменить?(-1 - да): ");
+                printf(_("Отменить?(-1 - да): "));
                 scanf("%d", &ans);
                 if (ans >= 0) {
-                    printf("Удачи!\n");
+                    printf(_("Удачи!\n"));
                     l = new_l;
                 }
             } else {
@@ -189,10 +188,10 @@ int main(void) {
                     }
                     print_loc(new_l, map_quality, level);
                     show_loot(new_l, level, luck);
-                    printf("Отменить?(-1 - да): ");
+                    printf(_("Отменить?(-1 - да): "));
                     scanf("%d", &loc_id);
                     if (loc_id >= 0) {
-                        printf("Удачи!\n");
+                        printf(_("Удачи!\n"));
                         l = new_l;
                     }
                 }
@@ -208,7 +207,7 @@ int main(void) {
             gen_doors(l, GEN_LOC_NUM, level, goal, luck);
             show_info(l, level, map_quality, goal, luck);
         } else if (!strcmp(cmd, "focus")) {
-            printf("Какой меняем (0 - 1ый, 1 - 2ой, 2 - оба)? ");
+            printf(_("Какой меняем (0 - 1ый, 1 - 2ой, 2 - оба)? "));
             int ans = -1;
             scanf("%d", &ans);
             if (ans == 2) {
@@ -221,7 +220,7 @@ int main(void) {
                     l.focus[ans] = rand() % FOCUS_NUM;
                 } while (l.focus[ans] == l.focus[!ans]);
             } else {
-                printf("Неверный ввод!\n");
+                printf(_("Неверный ввод!\n"));
             }
             show_info(l, level, map_quality, goal, luck);
         } else if (!strcmp(cmd, "show")) {
@@ -229,7 +228,7 @@ int main(void) {
             MapSettings data = {};
             if (l.loc_id >= 0) {
                 int use_crates = 0;
-                printf("Враги используют ящики? (1 - да, 0 - нет): ");
+                printf(_("Враги используют ящики? (1 - да, 0 - нет): "));
                 scanf("%d", &use_crates);
                 data = LOC[l.loc_id].map_data;
                 data.width = l.x; data.height = l.y;
@@ -240,42 +239,42 @@ int main(void) {
                     make_map(out, data);
                     fclose(out);
                     printf("DONE\n");
-                    printf("Сохраняйте по ссылке: https://dnd.alex2000.ru/alex/Data/Pictures/Карты/LongStairs/%d.jpg\n", picture_id);
+                    printf(_("Сохраняйте по ссылке: https://dnd.alex2000.ru/alex/Data/Pictures/Карты/LongStairs/%d.jpg\n"), picture_id);
                     picture_id++;
                 }
             } else {
-                printf("Рисуй сам, ленивый ты ДМ!!!\n");
+                printf(_("Рисуй сам, ленивый ты ДМ!!!\n"));
             }
         } else if (!strcmp(cmd, "loot")) {
             show_loot(l, level, luck);
         } else if (!strcmp(cmd, "magic")) {
             int imb = 4, cool = 1;
-            printf("Имбовость: 4 - косметика, 3 - небольшой немеханический бонус, 2 - большой немеханический или небольшой механический бонус, 1 - имба, бан - лютейшая имба\n");
-            printf("Необычность: 1 - тупой обычный предмет, 2 - потуги сделать нечто, 3 - \"а это прикольно\", 4 - поражает до глубины души\n");
-            printf("Класс имбовости (4-1) и необычность (1-4): ");
+            printf(_("Имбовость: 4 - косметика, 3 - небольшой немеханический бонус, 2 - большой немеханический или небольшой механический бонус, 1 - имба, бан - лютейшая имба\n"));
+            printf(_("Необычность: 1 - тупой обычный предмет, 2 - потуги сделать нечто, 3 - \"а это прикольно\", 4 - поражает до глубины души\n"));
+            printf(_("Класс имбовости (4-1) и необычность (1-4): "));
             scanf("%d%d", &imb, &cool);
             int rating = imb + cool;
             switch (rating) {
-                case 4: printf("%d использований (2-4) или %d минут (30-60)\n", gen_range(2, 4), gen_range(30, 60)); break;
-                case 5: printf("%d использований (5-8) или %d минут (60-120)\n", gen_range(5, 8), gen_range(60, 120)); break;
-                case 6: printf("%d использований (9-12) или %d минут (120-180)\n", gen_range(9, 12), gen_range(120, 180)); break;
-                case 7: case 8: printf("Ваше навсегда:)\n"); break;
-                default: printf("Иди лесом!\n");
+                case 4: printf(_("%d использований (2-4) или %d минут (30-60)\n"), gen_range(2, 4), gen_range(30, 60)); break;
+                case 5: printf(_("%d использований (5-8) или %d минут (60-120)\n"), gen_range(5, 8), gen_range(60, 120)); break;
+                case 6: printf(_("%d использований (9-12) или %d минут (120-180)\n"), gen_range(9, 12), gen_range(120, 180)); break;
+                case 7: case 8: printf(_("Ваше навсегда:)\n")); break;
+                default: printf(_("Иди лесом!\n"));
             }
         } else if (!strcmp(cmd, "goal")) {
-            printf("Текущая цель - %d\nЗадайте новую: ", goal);
+            printf(_("Текущая цель - %d\nЗадайте новую: "), goal);
             scanf("%d", &goal);
         } else if (!strcmp(cmd, "luck")) {
-            printf("Текущая удача - %d\nЗадайте новую (%d<=>100%%): ", luck, MAX_PROBABILITY);
+            printf(_("Текущая удача - %d\nЗадайте новую (%d<=>100%%): "), luck, MAX_PROBABILITY);
             scanf("%d", &luck);
         } else if (!strcmp(cmd, "map")) {
-            printf("Текущее качество - %d\nЗадайте новое: ", map_quality);
+            printf(_("Текущее качество - %d\nЗадайте новое: "), map_quality);
             scanf("%d", &map_quality);
         } else if (!strcmp(cmd, "level")) {
-            printf("Текущая глубина - %d\nЗадайте новую: ", level);
+            printf(_("Текущая глубина - %d\nЗадайте новую: "), level);
             scanf("%d", &level);
         } else if (!strcmp(cmd, "pic")) {
-            printf("Текущий id карты - %d\nЗадайте новый: ", picture_id);
+            printf(_("Текущий id карты - %d\nЗадайте новый: "), picture_id);
             scanf("%d", &picture_id);
         } else if (!strcmp(cmd, "save")) {
             save(l, level, map_quality, picture_id, goal, luck);
@@ -283,12 +282,12 @@ int main(void) {
             load(l, level, map_quality, picture_id, goal, luck);
             show_info(l, level, map_quality, goal, luck);
         } else {
-            printf("Хелп:\n\tinfo - о локации, go - идти,\n\tПерегенерировать: loc - локацию по id, trouble - особенности, door - двери, focus - фокус монстров\n\tshow - сгенерить json, loot - потребовать с ДМа лут, magic - потребовать с ДМа магический предмет\n\tУправление: goal - целью, luck - удачей, map - качеством карты, level - глубиной, pic - id карты для отображения\n\tsave/load - сохранить/загрузить игру, quit - сдаться\n");
+            printf(_("Хелп:\n\tinfo - о локации, go - идти,\n\tПерегенерировать: loc - локацию по id, trouble - особенности, door - двери, focus - фокус монстров\n\tshow - сгенерить json, loot - потребовать с ДМа лут, magic - потребовать с ДМа магический предмет\n\tУправление: goal - целью, luck - удачей, map - качеством карты, level - глубиной, pic - id карты для отображения\n\tsave/load - сохранить/загрузить игру, quit - сдаться\n"));
         }
         printf(">");
         scanf("%s", cmd);
     }
     
-    printf("Прощай, слабак!\n");
+    printf(_("Прощай, слабак!\n"));
     return 0;
 }

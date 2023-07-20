@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-20 21:57+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.cpp:26
+#, c-format
+msgid "Улов на %d из %d%s"
+msgstr ""
+
+#: main.cpp:37
+#, c-format
+msgid ""
+"\n"
+"Что-то магическое!!! Правда проклятое :( "
+msgstr ""
+
+#: main.cpp:40
+#, c-format
+msgid ""
+"\n"
+"Что-то магическое!!!"
+msgstr ""
+
+#: main.cpp:59
+#, c-format
+msgid "Тяжеленный (веса 2+)... "
+msgstr ""
+
+#: main.cpp:61
+#, c-format
+msgid "Увесистый (веса 1)... "
+msgstr ""
+
+#: main.cpp:63
+#, c-format
+msgid "%s (%d зм)!\n"
+msgstr ""
+
+#: main.cpp:66 main.cpp:70
+#, c-format
+msgid "Безделушка: %s\n"
+msgstr ""
+
+#: main.cpp:72
+#, c-format
+msgid "Полный облом :(\n"
+msgstr ""
+
+#: main.cpp:75
+#, c-format
+msgid "В якорных точках не бывает лёгких денег!\n"
+msgstr ""
+
+#: main.cpp:80
+#, c-format
+msgid "Уровень - %d\tЦель - %d\n"
+msgstr ""
+
+#: main.cpp:89
+#, c-format
+msgid "Качество карты - ±%.1lf%%\tВезение - %s\n"
+msgstr ""
+
+#: main.cpp:91 main.cpp:128 main.cpp:164
+#, c-format
+msgid "Добро пожаловать в якорную точку: %s!\n"
+msgstr ""
+
+#: main.cpp:139
+#, c-format
+msgid "Захлопнуть дверь?(-1 - да): "
+msgstr ""
+
+#: main.cpp:145 main.cpp:171 main.cpp:194
+#, c-format
+msgid "Удачи!\n"
+msgstr ""
+
+#: main.cpp:150
+#, c-format
+msgid "Ура!!! Цель достигнута!!! Новая цель - Hellmouth:)\n"
+msgstr ""
+
+#: main.cpp:168 main.cpp:191
+#, c-format
+msgid "Отменить?(-1 - да): "
+msgstr ""
+
+#: main.cpp:210
+#, c-format
+msgid "Какой меняем (0 - 1ый, 1 - 2ой, 2 - оба)? "
+msgstr ""
+
+#: main.cpp:223
+#, c-format
+msgid "Неверный ввод!\n"
+msgstr ""
+
+#: main.cpp:231
+#, c-format
+msgid "Враги используют ящики? (1 - да, 0 - нет): "
+msgstr ""
+
+#: main.cpp:242
+#, c-format
+msgid ""
+"Сохраняйте по ссылке: https://dnd.alex2000.ru/alex/Data/Pictures/Карты/"
+"LongStairs/%d.jpg\n"
+msgstr ""
+
+#: main.cpp:246
+#, c-format
+msgid "Рисуй сам, ленивый ты ДМ!!!\n"
+msgstr ""
+
+#: main.cpp:252
+#, c-format
+msgid ""
+"Имбовость: 4 - косметика, 3 - небольшой немеханический бонус, 2 - большой "
+"немеханический или небольшой механический бонус, 1 - имба, бан - лютейшая "
+"имба\n"
+msgstr ""
+
+#: main.cpp:253
+#, c-format
+msgid ""
+"Необычность: 1 - тупой обычный предмет, 2 - потуги сделать нечто, 3 - \"а "
+"это прикольно\", 4 - поражает до глубины души\n"
+msgstr ""
+
+#: main.cpp:254
+#, c-format
+msgid "Класс имбовости (4-1) и необычность (1-4): "
+msgstr ""
+
+#: main.cpp:258
+#, c-format
+msgid "%d использований (2-4) или %d минут (30-60)\n"
+msgstr ""
+
+#: main.cpp:259
+#, c-format
+msgid "%d использований (5-8) или %d минут (60-120)\n"
+msgstr ""
+
+#: main.cpp:260
+#, c-format
+msgid "%d использований (9-12) или %d минут (120-180)\n"
+msgstr ""
+
+#: main.cpp:261
+#, c-format
+msgid "Ваше навсегда:)\n"
+msgstr ""
+
+#: main.cpp:262
+#, c-format
+msgid "Иди лесом!\n"
+msgstr ""
+
+#: main.cpp:265
+#, c-format
+msgid ""
+"Текущая цель - %d\n"
+"Задайте новую: "
+msgstr ""
+
+#: main.cpp:268
+#, c-format
+msgid ""
+"Текущая удача - %d\n"
+"Задайте новую (%d<=>100%%): "
+msgstr ""
+
+#: main.cpp:271
+#, c-format
+msgid ""
+"Текущее качество - %d\n"
+"Задайте новое: "
+msgstr ""
+
+#: main.cpp:274
+#, c-format
+msgid ""
+"Текущая глубина - %d\n"
+"Задайте новую: "
+msgstr ""
+
+#: main.cpp:277
+#, c-format
+msgid ""
+"Текущий id карты - %d\n"
+"Задайте новый: "
+msgstr ""
+
+#: main.cpp:285
+#, c-format
+msgid ""
+"Хелп:\n"
+"\tinfo - о локации, go - идти,\n"
+"\tПерегенерировать: loc - локацию по id, trouble - особенности, door - "
+"двери, focus - фокус монстров\n"
+"\tshow - сгенерить json, loot - потребовать с ДМа лут, magic - потребовать с "
+"ДМа магический предмет\n"
+"\tУправление: goal - целью, luck - удачей, map - качеством карты, level - "
+"глубиной, pic - id карты для отображения\n"
+"\tsave/load - сохранить/загрузить игру, quit - сдаться\n"
+msgstr ""

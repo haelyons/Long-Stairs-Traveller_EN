@@ -5,11 +5,16 @@
     #include <stdlib.h>
     #include <string.h>
     #include <time.h>
+    #include <libintl.h>
+    #include <iostream>
+    #include <cstdlib>
 
     #include <vector>
     #include <set>
     #include <map>
     #include <algorithm>
+
+    #define _(String) gettext(String)
 
     // 0 - NONE, 10 - EVERYWHERE
     const int RARE_LIMIT = 3,
