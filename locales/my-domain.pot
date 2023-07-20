@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-20 21:57+0100\n"
+"POT-Creation-Date: 2023-07-20 22:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -220,4 +220,9 @@ msgid ""
 "\tУправление: goal - целью, luck - удачей, map - качеством карты, level - "
 "глубиной, pic - id карты для отображения\n"
 "\tsave/load - сохранить/загрузить игру, quit - сдаться\n"
+msgstr ""
+
+#: main.cpp:291
+#, c-format
+msgid "Прощай, слабак!\n"
 msgstr ""
