@@ -100,7 +100,7 @@ int use_door(const struct ConcreteLocation &l, unsigned door_id, int &level, int
         if (l.doors[door_id].up + l.doors[door_id].same > res_prob) {
             while (luck_left > 0) {
                 if (rand() % MAX_PROBABILITY <= luck_left) {
-                    printf("ШАНС! ");
+                    printf(_("ШАНС! "));
                     luck -= LUCK_STABILISER;
                     res_prob = std::max(res_prob, rand() % MAX_PROBABILITY);
                     if (l.doors[door_id].up + l.doors[door_id].same <= res_prob) break;
@@ -110,7 +110,7 @@ int use_door(const struct ConcreteLocation &l, unsigned door_id, int &level, int
         } else {
             while (luck_left < MAX_PROBABILITY) {
                 if (rand() % MAX_PROBABILITY > luck_left) {
-                    printf("Упс... ");
+                    printf(_("Упс... "));
                     luck += LUCK_STABILISER;
                     res_prob = std::min(res_prob, rand() % MAX_PROBABILITY);
                     if (l.doors[door_id].up + l.doors[door_id].same > res_prob) break;
@@ -122,7 +122,7 @@ int use_door(const struct ConcreteLocation &l, unsigned door_id, int &level, int
         if (l.doors[door_id].up > res_prob) {
             while (luck_left < MAX_PROBABILITY) {
                 if (rand() % MAX_PROBABILITY > luck_left) {
-                    printf("Упс... ");
+                    printf(_("Упс... "));
                     luck += LUCK_STABILISER;
                     res_prob = std::max(res_prob, rand() % MAX_PROBABILITY);
                     if (l.doors[door_id].up <= res_prob) break;
@@ -132,7 +132,7 @@ int use_door(const struct ConcreteLocation &l, unsigned door_id, int &level, int
         } else {
             while (luck_left > 0) {
                 if (rand() % MAX_PROBABILITY <= luck_left) {
-                    printf("ШАНС! ");
+                    printf(_("ШАНС! "));
                     luck -= LUCK_STABILISER;
                     res_prob = std::min(res_prob, rand() % MAX_PROBABILITY);
                     if (l.doors[door_id].up > res_prob) break;
@@ -151,9 +151,9 @@ int use_door(const struct ConcreteLocation &l, unsigned door_id, int &level, int
             // if (luck < 0) luck = 0;
         }
         level--;
-        printf("Поднялись на %d%s (%.2lf%%)\n", level, (level >= goal ? "!" : ":("), 100.0 * l.doors[door_id].up / MAX_PROBABILITY);
+        printf(_("Поднялись на %d%s (%.2lf%%)\n"), level, (level >= goal ? "!" : ":("), 100.0 * l.doors[door_id].up / MAX_PROBABILITY);
     } else if (l.doors[door_id].up + l.doors[door_id].same > res_prob) {
-        printf("На уровне (%.2lf%%)\n", 100.0 * l.doors[door_id].same / MAX_PROBABILITY);
+        printf(_("На уровне (%.2lf%%)\n"), 100.0 * l.doors[door_id].same / MAX_PROBABILITY);
         luck += LUCK_ON_EVEN;
         // if (luck > MAX_PROBABILITY) luck = MAX_PROBABILITY;
     } else {
@@ -165,7 +165,7 @@ int use_door(const struct ConcreteLocation &l, unsigned door_id, int &level, int
             // if (luck > MAX_PROBABILITY) luck = MAX_PROBABILITY;
         }
         level++;
-        printf("Опустились на %d%s (%.2lf%%)\n", level, (level <= goal ? "!" : ":("), 100.0 * l.doors[door_id].down / MAX_PROBABILITY);
+        printf(_("Опустились на %d%s (%.2lf%%)\n"), level, (level <= goal ? "!" : ":("), 100.0 * l.doors[door_id].down / MAX_PROBABILITY);
     }    
 
     res_prob = rand() % MAX_PROBABILITY;
@@ -173,7 +173,7 @@ int use_door(const struct ConcreteLocation &l, unsigned door_id, int &level, int
     for (auto el = l.doors[door_id].chances.begin(); el != l.doors[door_id].chances.end(); el++) {
         prob_sum += el->second;
         if (prob_sum > res_prob) {
-            printf("Пошли в %s (%.2lf%%)\n", LOC[el->first].name, 100.0 * el->second / MAX_PROBABILITY);
+            printf(_("Пошли в %s (%.2lf%%)\n"), LOC[el->first].name, 100.0 * el->second / MAX_PROBABILITY);
             return el->first;
         }
     }

@@ -14,7 +14,7 @@
     #include <map>
     #include <algorithm>
 
-    #define _(String) gettext(String)
+    #define _(STRING) gettext(STRING)
 
     // 0 - NONE, 10 - EVERYWHERE
     const int RARE_LIMIT = 3,

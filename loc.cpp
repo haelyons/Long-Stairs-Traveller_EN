@@ -5,11 +5,11 @@ int gen_range(int min, int max) {
 }
 
 const char *name_count(int count) {
-    if (count == 0) return "нет";
-    else if (count < RARE_LIMIT) return "мало";
-    else if (count < NORMAL_LIMIT) return "нормально";
-    else if (count < OFTEN_LIMIT) return "много";
-    else return "повсюду";
+    if (count == 0) return _("нет");
+    else if (count < RARE_LIMIT) return _("мало");
+    else if (count < NORMAL_LIMIT) return _("нормально");
+    else if (count < OFTEN_LIMIT) return _("много");
+    else return _("повсюду");
 }
 
 struct ConcreteLocation make_loc(int loc_id) {
@@ -42,30 +42,30 @@ void print_loc(ConcreteLocation l, int map_quality, int level) {
     if (l.loc_id >= 0) {
         printf("%s ", LOC[l.loc_id].name);
     } else {
-        printf("Специальная точка ");
+        printf(_("Специальная точка "));
     }
-	printf("%dx%dx%d клеток (%dx%dx%d футов):\n", l.x, l.y, l.z, l.x * 5, l.y * 5, l.z * 5);
-    printf("Растительность: %d<%s>\t", l.plants, name_count(l.plants));
-    printf("Жидкость: %d<%s>\t", l.fluid, name_count(l.fluid));
-    printf("Камни: %d<%s>\n", l.stones, name_count(l.stones));
-    printf("Противники: %d<%s>\t", l.enemy, name_count(l.enemy));
+	printf(_("%dx%dx%d клеток (%dx%dx%d футов):\n"), l.x, l.y, l.z, l.x * 5, l.y * 5, l.z * 5);
+    printf(_("Растительность: %d<%s>\t"), l.plants, name_count(l.plants));
+    printf(_("Жидкость: %d<%s>\t"), l.fluid, name_count(l.fluid));
+    printf(_("Камни: %d<%s>\n"), l.stones, name_count(l.stones));
+    printf(_("Противники: %d<%s>\t"), l.enemy, name_count(l.enemy));
     if (l.loc_id >= 0) {
-        printf("Модификатор силы противников: %+.2lf (из них %+.2lf от глубины)\n", l.power / 10.0 + int(level / LANDING_DIST) * 0.25, level / LANDING_DIST * 0.25);
-        printf("Типичная жидкость: %s\tТипичные существа: %s\n", LOC[l.loc_id].common_fluid, LOC[l.loc_id].common_enemy);
+        printf(_("Модификатор силы противников: %+.2lf (из них %+.2lf от глубины)\n"), l.power / 10.0 + int(level / LANDING_DIST) * 0.25, level / LANDING_DIST * 0.25);
+        printf(_("Типичная жидкость: %s\tТипичные существа: %s\n"), LOC[l.loc_id].common_fluid, LOC[l.loc_id].common_enemy);
     } else {
-        printf("Модификатор силы противников: %+.2lf\n", l.power / 10.0);
+        printf(_("Модификатор силы противников: %+.2lf\n"), l.power / 10.0);
     }
     if (l.focus[0] || l.focus[1]) {
         // mostly inspiration
-        printf("Фокус (если врагов достаточно для боя):\n");
+        printf(_("Фокус (если врагов достаточно для боя):\n"));
         if (l.focus[0]) printf("\t%s\n", FOCUSES[l.focus[0]]);
         if (l.focus[1]) printf("\t%s\n", FOCUSES[l.focus[1]]);
     }
-    printf("Особенности:\n");
+    printf(_("Особенности:\n"));
     for (TroubleId trouble : l.troubles) {
         printf("\t%s <%s>\n", TROUBLE_GROUPS[trouble.group].elements[trouble.ingroup_id], TROUBLE_GROUPS[trouble.group].name);
     }
-    printf("Всего дверей - %ld:\n", l.doors.size());
+    printf(_("Всего дверей - %ld:\n"), l.doors.size());
     int door_id = 0;
     for (Door d: l.doors) {
         printf("  %d:\t", door_id);
@@ -103,9 +103,9 @@ void print_loc(ConcreteLocation l, int map_quality, int level) {
         else if (prob_down >= prob_up && prob_down >= prob_same) printf("\tVVV");
         else printf("\t===");
         
-        if (prob_up > 0) printf("\tВверх - ~%d%%", prob_up);
-        if (prob_same > 0) printf("\tНа уровне - ~%d%%", prob_same);
-        if (prob_down > 0) printf("\tВниз - ~%d%%", prob_down);
+        if (prob_up > 0) printf(_("\tВверх - ~%d%%"), prob_up);
+        if (prob_same > 0) printf(_("\tНа уровне - ~%d%%"), prob_same);
+        if (prob_down > 0) printf(_("\tВниз - ~%d%%"), prob_down);
         printf("\n");
 		int i = 2;
 		while ((i + printed_chances) % 6 != 0) {

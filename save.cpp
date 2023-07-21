@@ -1,5 +1,6 @@
 #include "stat.hpp"
 
+// RU
 /* Формат сохранения:
 <глубина> <качество карты (в процентах * 2)> <id картинки для генерации> <цель> <удача>
 <тип локации> <XxYxZ в клетках> <число дверей (кроме входной)> <#растений> <#жидкости> <#камней> <#врагов> <модификатор силы врагов * 10>
@@ -10,13 +11,24 @@ Trouble-<число особенностей>
 <id особенностей по 1 в строке: id группы и номер в ней>
 */
 
+// EN
+/* Save format:
+<depth> <map quality (in per cent * 2)> <id of picture to generate> <target> <success>
+<location type> <XxYxZ in squares> <number of doors (except entrance door)> <#plants> <#liquid> <#stones> <#enemies> <enemy strength modifier * 10>
+<first focus> <second focus>
+Door-<number of described doors>
+<descriptions of doors 1 per row: probabilities up, level, down, number of locations and probabilities for each location>
+Trouble-<number of features>
+<id of features 1 per line: id of the group and number in it>
+*/
+
 void save(const ConcreteLocation &l, int level, int map_quality, int picture_id, int goal, int luck) {
     char filepath[256];
-    printf("Куда: ");
+    printf(_("Куда: "));
     scanf("%s", filepath);
     FILE *out = fopen(filepath, "w");
     if (!out) {
-        printf("Не удалось открыть файл на запись:(\n");
+        printf(_("Не удалось открыть файл на запись:(\n"));
         return;
     }
 
@@ -42,11 +54,11 @@ void save(const ConcreteLocation &l, int level, int map_quality, int picture_id,
 
 void load(ConcreteLocation &l, int &level, int &map_quality, int &picture_id, int &goal, int &luck) {
     char filepath[256];
-    printf("Откуда: ");
+    printf(_("Откуда: "));
     scanf("%s", filepath);
     FILE *out = fopen(filepath, "r");
     if (!out) {
-        printf("Не удалось открыть файл на чтение:(\n");
+        printf(_("Не удалось открыть файл на чтение:(\n"));
         return;
     }
 

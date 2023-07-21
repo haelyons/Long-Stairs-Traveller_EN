@@ -5,12 +5,13 @@
     #include <set>
     #include <map>
 
+    #include "colors.hpp"
+
     struct Door {
         std::map<int, int> chances;
         int up, same, down;
     };
 
-    #include "colors.hpp"
     extern const ColorMap DEFAULT_COLORS;
 
     struct MapSettings {
