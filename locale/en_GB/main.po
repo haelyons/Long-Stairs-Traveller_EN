@@ -1,0 +1,4794 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# H.A.Lyons <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-21 15:34+0100\n"
+"PO-Revision-Date: 2023-07-24 14:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: door.cpp:103 door.cpp:135
+#, c-format
+msgid "ШАНС! "
+msgstr "CHANCE! "
+
+#: door.cpp:113 door.cpp:125
+#, c-format
+msgid "Упс... "
+msgstr "Oops... "
+
+#: door.cpp:154
+#, c-format
+msgid "Поднялись на %d%s (%.2lf%%)\n"
+msgstr "Raised by %d%s (%.2lf%%)\n"
+
+#: door.cpp:156
+#, c-format
+msgid "На уровне (%.2lf%%)\n"
+msgstr "At level (%.2lf%%)\n"
+
+#: door.cpp:168
+#, c-format
+msgid "Опустились на %d%s (%.2lf%%)\n"
+msgstr "Lowered by %d%s (%.2lf%%)\n"
+
+#: door.cpp:176
+#, c-format
+msgid "Пошли в %s (%.2lf%%)\n"
+msgstr "Let's go to %s (%.2lf%%)\n"
+
+#: main.cpp:25
+#, c-format
+msgid "Улов на %d из %d%s"
+msgstr "Catch on %d of %d%s"
+
+#: main.cpp:36
+#, c-format
+msgid ""
+"\n"
+"Что-то магическое!!! Правда проклятое :( "
+msgstr ""
+"\n"
+"Something magical!!! Really cursed :( "
+
+#: main.cpp:39
+#, c-format
+msgid ""
+"\n"
+"Что-то магическое!!!"
+msgstr ""
+"\n"
+"Something magical!!!"
+
+#: main.cpp:58
+#, c-format
+msgid "Тяжеленный (веса 2+)... "
+msgstr "Heavy (weights 2+)... "
+
+#: main.cpp:60
+#, c-format
+msgid "Увесистый (веса 1)... "
+msgstr "Weighty (weights 1)... "
+
+#: main.cpp:62
+#, c-format
+msgid "%s (%d зм)!\n"
+msgstr "%s (%d sigma)!\n"
+
+#: main.cpp:65 main.cpp:69
+#, c-format
+msgid "Безделушка: %s\n"
+msgstr "Trinket: %s\n"
+
+#: main.cpp:71
+#, c-format
+msgid "Полный облом :(\n"
+msgstr "Total bummer :(\n"
+
+#: main.cpp:74
+#, c-format
+msgid "В якорных точках не бывает лёгких денег!\n"
+msgstr "There's no such thing as easy money in anchor points!\n"
+
+#: main.cpp:79
+#, c-format
+msgid "Уровень - %d\tЦель - %d\n"
+msgstr "Level - %d Target - %d\n"
+
+#: main.cpp:88
+#, c-format
+msgid "Качество карты - ±%.1lf%%\tВезение - %s\n"
+msgstr "Map quality - ±%.1lf%%\tLuck - %s\n"
+
+#: main.cpp:90 main.cpp:127 main.cpp:163
+#, c-format
+msgid "Добро пожаловать в якорную точку: %s!\n"
+msgstr "Welcome to anchor point: %s!\n"
+
+#: main.cpp:138
+#, c-format
+msgid "Захлопнуть дверь?(-1 - да): "
+msgstr "Slamming the door? "
+
+#: main.cpp:144 main.cpp:170 main.cpp:193
+#, c-format
+msgid "Удачи!\n"
+msgstr "Good luck!\n"
+
+#: main.cpp:149
+#, c-format
+msgid "Ура!!! Цель достигнута!!! Новая цель - Hellmouth:)\n"
+msgstr "Yay!!! Goal achieved!!! New goal is Hellmouth:)\n"
+
+#: main.cpp:167 main.cpp:190
+#, c-format
+msgid "Отменить?(-1 - да): "
+msgstr "Cancel? (-1 - yes): "
+
+#: main.cpp:209
+#, c-format
+msgid "Какой меняем (0 - 1ый, 1 - 2ой, 2 - оба)? "
+msgstr "Which one do we change (0 for 1st, 1 for 2nd, 2 for both)? "
+
+#: main.cpp:222
+#, c-format
+msgid "Неверный ввод!\n"
+msgstr "Wrong input!\n"
+
+#: main.cpp:230
+#, c-format
+msgid "Враги используют ящики? (1 - да, 0 - нет): "
+msgstr "Do enemies use crates? (1 - yes, 0 - no): "
+
+#: main.cpp:241
+#, c-format
+msgid ""
+"Сохраняйте по ссылке: https://dnd.alex2000.ru/alex/Data/Pictures/Карты/"
+"LongStairs/%d.jpg\n"
+msgstr ""
+"Save to this link: https://dnd.alex2000.ru/alex/Data/Pictures/Карты/"
+"LongStairs/%d.jpg\n"
+
+#: main.cpp:245
+#, c-format
+msgid "Рисуй сам, ленивый ты ДМ!!!\n"
+msgstr "Draw it yourself, you lazy DM!!!\n"
+
+#: main.cpp:251
+#, c-format
+msgid ""
+"Имбовость: 4 - косметика, 3 - небольшой немеханический бонус, 2 - большой "
+"немеханический или небольшой механический бонус, 1 - имба, бан - лютейшая "
+"имба\n"
+msgstr ""
+"Imbosity: 4 - cosmetic, 3 - small non-mechanical bonus, 2 - large non-"
+"mechanical or small mechanical bonus, 1 - imba, ban - most imba\n"
+
+#: main.cpp:252
+#, c-format
+msgid ""
+"Необычность: 1 - тупой обычный предмет, 2 - потуги сделать нечто, 3 - \"а "
+"это прикольно\", 4 - поражает до глубины души\n"
+msgstr ""
+"Unusuality: 1 - dumb ordinary object, 2 - trying to do something, 3 - \"and "
+"this is cool\", 4 - striking to the core\n"
+
+#: main.cpp:253
+#, c-format
+msgid "Класс имбовости (4-1) и необычность (1-4): "
+msgstr "Class imbrication (4-1) and singularity (1-4): "
+
+#: main.cpp:257
+#, c-format
+msgid "%d использований (2-4) или %d минут (30-60)\n"
+msgstr "%d uses (2-4) or %d minutes (30-60)\n"
+
+#: main.cpp:258
+#, c-format
+msgid "%d использований (5-8) или %d минут (60-120)\n"
+msgstr "%d uses (5-8) or %d minutes (60-120)\n"
+
+#: main.cpp:259
+#, c-format
+msgid "%d использований (9-12) или %d минут (120-180)\n"
+msgstr "%d uses (9-12) or %d minutes (120-180)\n"
+
+#: main.cpp:260
+#, c-format
+msgid "Ваше навсегда:)\n"
+msgstr "Yours forever:)\n"
+
+#: main.cpp:261
+#, c-format
+msgid "Иди лесом!\n"
+msgstr "Go to the woods!\n"
+
+#: main.cpp:264
+#, c-format
+msgid ""
+"Текущая цель - %d\n"
+"Задайте новую: "
+msgstr ""
+"Current target is %d\n"
+"Set a new one: "
+
+#: main.cpp:267
+#, c-format
+msgid ""
+"Текущая удача - %d\n"
+"Задайте новую (%d<=>100%%): "
+msgstr ""
+"Current luck is %d\n"
+"Set a new one (%d<=>100%%): "
+
+#: main.cpp:270
+#, c-format
+msgid ""
+"Текущее качество - %d\n"
+"Задайте новое: "
+msgstr ""
+"Current quality - %d\n"
+"Set a new one: "
+
+#: main.cpp:273
+#, c-format
+msgid ""
+"Текущая глубина - %d\n"
+"Задайте новую: "
+msgstr ""
+"Current depth is %d\n"
+"Set a new one: "
+
+#: main.cpp:276
+#, c-format
+msgid ""
+"Текущий id карты - %d\n"
+"Задайте новый: "
+msgstr ""
+"Current card id is %d\n"
+"Set a new one: "
+
+#: main.cpp:284
+#, c-format
+msgid ""
+"Хелп:\n"
+"\tinfo - о локации, go - идти,\n"
+"\tПерегенерировать: loc - локацию по id, trouble - особенности, door - "
+"двери, focus - фокус монстров\n"
+"\tshow - сгенерить json, loot - потребовать с ДМа лут, magic - потребовать с "
+"ДМа магический предмет\n"
+"\tУправление: goal - целью, luck - удачей, map - качеством карты, level - "
+"глубиной, pic - id карты для отображения\n"
+"\tsave/load - сохранить/загрузить игру, quit - сдаться\n"
+msgstr ""
+"Help:\n"
+"\tinfo - about location, go - go,\n"
+"\tregenerate: loc - location by id, trouble - features, door - doors, focus "
+"- monsters focus.\n"
+"\tshow - generate json, loot - demand loot from DM, magic - demand magic "
+"item from DM.\n"
+"\tControls: goal - goal, luck - luck, map - map quality, level - depth, pic "
+"- map id to display\n"
+"\tsave/load - save/load game, quit - give up\n"
+
+#: main.cpp:290
+#, c-format
+msgid "Прощай, слабак!\n"
+msgstr "Goodbye, weakling!\n"
+
+#: loc.cpp:8
+msgid "нет"
+msgstr "no"
+
+#: loc.cpp:9
+msgid "мало"
+msgstr "little"
+
+#: loc.cpp:10
+msgid "нормально"
+msgstr "That's all right"
+
+#: loc.cpp:11
+msgid "много"
+msgstr "A lot"
+
+#: loc.cpp:12
+msgid "повсюду"
+msgstr "everywhere"
+
+#: loc.cpp:45
+#, c-format
+msgid "Специальная точка "
+msgstr "Special Point "
+
+#: loc.cpp:47
+#, c-format
+msgid "%dx%dx%d клеток (%dx%dx%d футов):\n"
+msgstr "%dx%dx%d cells (%dx%dx%d ft):\n"
+
+#: loc.cpp:48
+#, c-format
+msgid "Растительность: %d<%s>\t"
+msgstr "Vegetation: %d<%s>\t"
+
+#: loc.cpp:49
+#, c-format
+msgid "Жидкость: %d<%s>\t"
+msgstr "Liquid: %d<%s>\t"
+
+#: loc.cpp:50
+#, c-format
+msgid "Камни: %d<%s>\n"
+msgstr "Stones: %d<%s>\n"
+
+#: loc.cpp:51
+#, c-format
+msgid "Противники: %d<%s>\t"
+msgstr "Opponents: %d<%s>\t"
+
+#: loc.cpp:53
+#, c-format
+msgid "Модификатор силы противников: %+.2lf (из них %+.2lf от глубины)\n"
+msgstr "Opponent Power Modifier: %+.2lf (of which %+.2lf from depth)\n"
+
+#: loc.cpp:54
+#, c-format
+msgid "Типичная жидкость: %s\tТипичные существа: %s\n"
+msgstr "Typical Liquid: %s Typical Creatures: %s\n"
+
+#: loc.cpp:56
+#, c-format
+msgid "Модификатор силы противников: %+.2lf\n"
+msgstr "Opponent Power Modifier: %+.2lf\n"
+
+#: loc.cpp:60
+#, c-format
+msgid "Фокус (если врагов достаточно для боя):\n"
+msgstr "Focus (if there are enough enemies to fight):\n"
+
+#: loc.cpp:64
+#, c-format
+msgid "Особенности:\n"
+msgstr "Features:\n"
+
+#: loc.cpp:68
+#, c-format
+msgid "Всего дверей - %ld:\n"
+msgstr "Total doors - %ld:\n"
+
+#: loc.cpp:106
+#, c-format
+msgid "\tВверх - ~%d%%"
+msgstr "\tUp - ~%d%%"
+
+#: loc.cpp:107
+#, c-format
+msgid "\tНа уровне - ~%d%%"
+msgstr "\tAt the level of - ~%d%%"
+
+#: loc.cpp:108
+#, c-format
+msgid "\tВниз - ~%d%%"
+msgstr "\tDown - ~%d%%"
+
+#: names.cpp:13
+msgid "Hellmouth"
+msgstr "Hellmouth"
+
+#: names.cpp:14
+msgid "Фабрика"
+msgstr "Factory"
+
+#: names.cpp:15
+msgid "Кристальный грот"
+msgstr "Crystal Grotto"
+
+#: names.cpp:16
+msgid "Лабиринт"
+msgstr "Maze"
+
+#: names.cpp:17
+msgid "Предел"
+msgstr "Limit"
+
+#: names.cpp:21
+msgid "Отвратительное"
+msgstr "Disgusting"
+
+#: names.cpp:22
+msgid "Так себе"
+msgstr "So so"
+
+#: names.cpp:23
+msgid "Терпимое"
+msgstr "Tolerant"
+
+#: names.cpp:24
+msgid "Норм"
+msgstr "Norms"
+
+#: names.cpp:25
+msgid "Приятное"
+msgstr "Pleasant"
+
+#: names.cpp:26
+msgid "Существенное"
+msgstr "Significant"
+
+#: names.cpp:27
+msgid "Шикарное"
+msgstr "Elegant"
+
+#: names.cpp:31
+msgid "Клад"
+msgstr "Treasure"
+
+#: names.cpp:32
+msgid "Мешок денег"
+msgstr "A bag of money"
+
+#: names.cpp:33
+msgid "Элемент снаряжения"
+msgstr "Item of equipment"
+
+#: names.cpp:34
+msgid "Мистический артефакт"
+msgstr "Mystical artifact"
+
+#: names.cpp:35
+msgid "Сборник заметок"
+msgstr "Collection of notes"
+
+#: names.cpp:36
+msgid "Образец для исследований"
+msgstr "Sample for research"
+
+#: names.cpp:37
+msgid "Драгоценный кристалл или другой магический компонент"
+msgstr "Precious crystal or other magical component"
+
+#: names.cpp:42
+msgid "Мумифицированная рука гоблина"
+msgstr "Mummified Goblin Hand"
+
+#: names.cpp:43
+msgid "Кусочек кристалла, слабо светящийся в лунном свете"
+msgstr "A piece of crystal glowing faintly in the moonlight"
+
+#: names.cpp:44
+msgid "Золотая монета, отчеканенная в неизвестной стране"
+msgstr "A gold coin minted in an unknown country"
+
+#: names.cpp:45
+msgid "Дневник, написанный на неизвестном вам языке"
+msgstr "A diary written in a language you don't know"
+
+#: names.cpp:46
+msgid "Латунное кольцо, которое не темнеет со временем"
+msgstr "A brass ring that doesn't darken over time"
+
+#: names.cpp:47
+msgid "Старая стеклянная шахматная фигура"
+msgstr "Old glass chess piece"
+
+#: names.cpp:48
+msgid "Пара игральных костей, у обеих вместо шестёрок нарисованы черепа"
+msgstr "A pair of dice, both have skulls drawn instead of sixes"
+
+#: names.cpp:49
+msgid ""
+"Небольшой идол, изображающий страшное чудовище, насылающий кошмары, когда вы "
+"спите рядом с ним"
+msgstr ""
+"A small idol depicting a scary monster that sends nightmares when you sleep "
+"next to it"
+
+#: names.cpp:50
+msgid ""
+"Верёвочное ожерелье, на котором висят четыре мумифицированных эльфийских "
+"пальца"
+msgstr "A rope necklace on which hang four mummified elven fingers"
+
+#: names.cpp:51
+msgid "Квитанция для получения посылки в неизвестном вам королевстве"
+msgstr "Receipt for receiving a parcel in a kingdom unknown to you"
+
+#: names.cpp:52
+msgid "30-граммовый кусочек неизвестного материала"
+msgstr "A 30-gram piece of unknown material"
+
+#: names.cpp:53
+msgid "Маленькая тряпичная кукла, утыканная иголками"
+msgstr "A small rag doll studded with needles"
+
+#: names.cpp:54
+msgid "Зуб неизвестного зверя"
+msgstr "The tooth of an unknown beast"
+
+#: names.cpp:55
+msgid "Огромная чешуйка, возможно, драконья"
+msgstr "A huge scale, possibly dragon"
+
+#: names.cpp:56
+msgid "Ярко-зелёное перо"
+msgstr "Bright green feather"
+
+#: names.cpp:57
+msgid "Старая гадальная карта с лицом, похожим на ваше"
+msgstr "An old fortune telling card with a face similar to yours"
+
+#: names.cpp:58
+msgid "Стеклянная сфера, заполненная дымом"
+msgstr "Glass sphere filled with smoke"
+
+#: names.cpp:59
+msgid "Полукилограммовое яйцо с ярко-красной скорлупой"
+msgstr "Half-kilogram egg with a bright red shell"
+
+#: names.cpp:60
+msgid "Курительная трубка, из которой вылетают пузыри"
+msgstr "A smoking pipe from which bubbles fly out"
+
+#: names.cpp:61
+msgid ""
+"Стеклянный графин с мутной жидкостью, в которой плавает странный кусочек мяса"
+msgstr ""
+"A glass carafe with a cloudy liquid in which a strange piece of meat floats"
+
+#: names.cpp:62
+msgid ""
+"Крошечная музыкальная шкатулка гномьей работы, наигрывающая мелодию, "
+"напоминающую вам о детстве"
+msgstr ""
+"A tiny music box of dwarven work, playing a melody that reminds you of your "
+"childhood"
+
+#: names.cpp:63
+msgid "Маленькая деревянная статуэтка нарядного полурослика"
+msgstr "Small wooden figurine of an elegant halfling"
+
+#: names.cpp:64
+msgid "Латунная сфера, покрытая странными рунами"
+msgstr "Brass sphere covered with strange runes"
+
+#: names.cpp:65
+msgid "Разноцветный каменный диск"
+msgstr "Multi-colored stone disc"
+
+#: names.cpp:66
+msgid "Крошечный серебряный ворон"
+msgstr "Tiny Silver Raven"
+
+#: names.cpp:67
+msgid "Сумка, в которой лежат 47 человеческих зубов. Один с кариесом"
+msgstr "A bag containing 47 human teeth. One with tooth decay"
+
+#: names.cpp:68
+msgid "Кусок обсидиана, всегда тёплый на ощупь"
+msgstr "A piece of obsidian, always warm to the touch"
+
+#: names.cpp:69
+msgid "Коготь дракона, подвешенный на простом кожаном шнурке"
+msgstr "Dragon claw suspended on a simple leather cord"
+
+#: names.cpp:70
+msgid "Пара старых носков"
+msgstr "A pair of old socks"
+
+#: names.cpp:71
+msgid ""
+"Чистая книга, на страницах которой не получается писать ни чернилами, ни "
+"мелом, ни углём, и никакими другими обычными средствами"
+msgstr ""
+"A blank book, on the pages of which it is impossible to write either in ink, "
+"or in chalk, or in charcoal, or by any other ordinary means"
+
+#: names.cpp:72
+msgid "Серебряный значок в форме пятиконечной звезды"
+msgstr "Silver badge in the shape of a five-pointed star"
+
+#: names.cpp:73
+msgid "Нож, принадлежавший родственнику"
+msgstr "A knife belonging to a relative"
+
+#: names.cpp:74
+msgid "Стеклянный флакон с обрезками ногтей"
+msgstr "Glass bottle with nail clippings"
+
+#: names.cpp:75
+msgid ""
+"Прямоугольное металлическое устройство с двумя крошечными металлическими "
+"колпачками на одной стороне. Если его намочить, оно сыпет искры"
+msgstr ""
+"A rectangular metal device with two tiny metal caps on one side. If it is "
+"wet, it pours sparks"
+
+#: names.cpp:76
+msgid "Белые перчатки с блёстками"
+msgstr "White gloves with sequins"
+
+#: names.cpp:77
+msgid "Одеяние с сотней крохотных карманов"
+msgstr "A robe with a hundred tiny pockets"
+
+#: names.cpp:78
+msgid "Маленький каменный кирпич, который ничего не весит"
+msgstr "A small stone brick that weighs nothing"
+
+#: names.cpp:79
+msgid "Крохотный набросок портрета гоблина"
+msgstr "Tiny sketch of a goblin portrait"
+
+#: names.cpp:80
+msgid "Пустой флакон, пахнущий духами при открытии"
+msgstr "An empty bottle that smells of perfume when opened"
+
+#: names.cpp:81
+msgid "Драгоценный камень, который всем кроме вас кажется куском угля"
+msgstr "A gemstone that seems like a lump of coal to everyone but you"
+
+#: names.cpp:82
+msgid "Кусок старого знамени"
+msgstr "A piece of the old banner"
+
+#: names.cpp:83
+msgid "Знак различия древнего легиона"
+msgstr "Insignia of the Ancient Legion"
+
+#: names.cpp:84
+msgid "Крохотный серебряный колокольчик без язычка"
+msgstr "Tiny silver bell without tongue"
+
+#: names.cpp:85
+msgid "Механическая канарейка в гномьей лампе"
+msgstr "Mechanical canary in a dwarven lamp"
+
+#: names.cpp:86
+msgid ""
+"Крохотный сундук, вырезанный так, что кажется, что у него невероятно "
+"глубокое дно"
+msgstr "A tiny chest carved so that it seems to have an incredibly deep bottom"
+
+#: names.cpp:87
+msgid "Мёртвый спрайт в чистой стеклянной бутылке"
+msgstr "Dead sprite in a clean glass bottle"
+
+#: names.cpp:88
+msgid ""
+"Запаянная металлическая банка, в которой, судя по звукам, находится "
+"жидкость, песок, пауки или битое стекло (на ваш выбор)"
+msgstr ""
+"A sealed metal jar that, judging by the sounds, contains liquid, sand, "
+"spiders or broken glass (your choice)"
+
+#: names.cpp:89
+msgid "Стеклянная сфера с водой, в которой плавает механическая золотая рыбка"
+msgstr "A glass sphere with water in which a mechanical goldfish swims"
+
+#: names.cpp:90
+msgid "Серебряная ложка с выгравированной на ручке буквой «М»"
+msgstr "Silver spoon with the letter \"M\" engraved on the handle"
+
+#: names.cpp:91
+msgid "Свисток из дерева золотого цвета"
+msgstr "Whistle made of gold-colored wood"
+
+#: names.cpp:92
+msgid "Мёртвый скарабей размером с ладонь"
+msgstr "A dead scarab the size of a palm"
+
+#: names.cpp:93
+msgid "Два игрушечных солдатика, один без головы"
+msgstr "Two toy soldiers, one without a head"
+
+#: names.cpp:94
+msgid "Небольшая коробка с пуговицами разного размера"
+msgstr "Small box with buttons of different sizes"
+
+#: names.cpp:95
+msgid "Свеча, которая никак не загорается"
+msgstr "A candle that does not light up in any way"
+
+#: names.cpp:96
+msgid "Крохотная клетка без дверцы"
+msgstr "A tiny cage without a door"
+
+#: names.cpp:97
+msgid "Старый ключ"
+msgstr "The old key"
+
+#: names.cpp:98
+msgid "Не поддающаяся расшифровке карта сокровищ"
+msgstr "An indecipherable treasure map"
+
+#: names.cpp:99
+msgid "Рукоятка от сломанного меча"
+msgstr "The hilt of a broken sword"
+
+#: names.cpp:100
+msgid "Кроличья лапка"
+msgstr "Rabbit's foot"
+
+#: names.cpp:101 names.cpp:153 names.cpp:408
+msgid "Стеклянный глаз"
+msgstr "The Glass Eye"
+
+#: names.cpp:102
+msgid "Камея с резным портретом ужасного лица"
+msgstr "Cameo with a carved portrait of a terrible face"
+
+#: names.cpp:103
+msgid "Серебряный череп размером с монету"
+msgstr "A silver skull the size of a coin"
+
+#: names.cpp:104
+msgid "Алебастровая маска"
+msgstr "Alabaster mask"
+
+#: names.cpp:105
+msgid "Пирамидка клейкого чёрного дурно пахнущего благовония"
+msgstr "A pyramid of sticky, black, foul-smelling incense"
+
+#: names.cpp:106
+msgid "Ночной колпак, дарующий приятные сны"
+msgstr "A nightcap that gives pleasant dreams"
+
+#: names.cpp:107
+msgid "Один костяной калтроп"
+msgstr "One bone caltrop"
+
+#: names.cpp:108
+msgid "Золотая оправа монокля без линзы"
+msgstr "Gold monocle frame without lens"
+
+#: names.cpp:109
+msgid ""
+"Кубик с длиной ребра 2 сантиметра, все стороны раскрашены в разные цвета"
+msgstr ""
+"A cube with an edge length of 2 centimeters, all sides are painted in "
+"different colors"
+
+#: names.cpp:110
+msgid "Хрустальная дверная ручка"
+msgstr "Crystal Door Handle"
+
+#: names.cpp:111
+msgid "Пакетик розовой пыли"
+msgstr "A bag of pink dust"
+
+#: names.cpp:112
+msgid "Два листа пергамента с фрагментом нот прекрасной песни"
+msgstr ""
+"Two sheets of parchment with a fragment of the notes of a beautiful song"
+
+#: names.cpp:113
+msgid "Серебряная серьга в виде слезинки, сделанная из настоящей слезинки"
+msgstr "Silver earring in the form of a teardrop, made from a real teardrop"
+
+#: names.cpp:114
+msgid ""
+"Яичная скорлупа, разрисованная с жуткими подробностями сценами человеческих "
+"мук"
+msgstr "Eggshells, painted with eerie detail scenes of human torment"
+
+#: names.cpp:115
+msgid "Веер, на котором в раскрытом состоянии видно спящую кошку"
+msgstr "A fan on which a sleeping cat can be seen in the open state"
+
+#: names.cpp:116
+msgid "Набор костяных трубочек"
+msgstr "A set of bone tubes"
+
+#: names.cpp:117
+msgid "Четырёхлистный клевер, засушенный в книге о манерах и этикете"
+msgstr "Four-leaf clover dried in a book about manners and etiquette"
+
+#: names.cpp:118
+msgid "Лист пергамента, на котором изображена сложная механическая конструкция"
+msgstr "A sheet of parchment depicting a complex mechanical structure"
+
+#: names.cpp:119
+msgid ""
+"Разукрашенные ножны, под которые вы никак не можете найти подходящий клинок"
+msgstr "Decorated sheath, under which you can not find a suitable blade"
+
+#: names.cpp:120
+msgid "Приглашение на вечеринку, на которой произошло убийство"
+msgstr "Invitation to the party at which the murder took place"
+
+#: names.cpp:121
+msgid "Бронзовая пентаграмма с выгравированной в центре крысиной головой"
+msgstr "Bronze pentagram with a rat's head engraved in the center"
+
+#: names.cpp:122
+msgid "Фиолетовый носовой платок с вышитым именем великого архимага"
+msgstr "Purple handkerchief embroidered with the name of the great archmage"
+
+#: names.cpp:123
+msgid "Половинка плана храма, замка или другого строения"
+msgstr "Half of the plan of a temple, castle or other structure"
+
+#: names.cpp:124
+msgid ""
+"Кусочек сложенной ткани, который, если развернуть, превращается в модную "
+"кепку"
+msgstr ""
+"A piece of folded fabric that, when unfolded, turns into a fashionable cap"
+
+#: names.cpp:125
+msgid "Квитанция о депозите в банке далёкого города"
+msgstr "Receipt of a deposit in a bank in a distant city"
+
+#: names.cpp:126
+msgid "Дневник, в котором не хватает семь страниц"
+msgstr "A diary that is missing seven pages"
+
+#: names.cpp:127
+msgid "Пустая серебряная табакерка с надписью на поверхности «грёзы»"
+msgstr ""
+"An empty silver snuffbox with an inscription on the surface of \"dreams\""
+
+#: names.cpp:128
+msgid "Железный святой символ неизвестного божества"
+msgstr "Iron holy symbol of an unknown deity"
+
+#: names.cpp:129
+msgid ""
+"Книга о восхождении и свержении легендарного героя, в которой нет последней "
+"главы"
+msgstr ""
+"A book about the rise and overthrow of a legendary hero that does not have a "
+"final chapter"
+
+#: names.cpp:130
+msgid "Сосуд с драконьей кровью"
+msgstr "Dragon's Blood Vessel"
+
+#: names.cpp:131
+msgid "Древняя эльфийская стрела"
+msgstr "Ancient Elven Arrow"
+
+#: names.cpp:132
+msgid "Иголка, которая никогда не гнётся"
+msgstr "A needle that never bends"
+
+#: names.cpp:133
+msgid "Красивая дварфская брошь"
+msgstr "Beautiful dwarven brooch"
+
+#: names.cpp:134
+msgid ""
+"Пустая бутылка из-под вина с небольшой наклейкой «Винокурня Винного "
+"Волшебника, Красное драконье, 331422-В»"
+msgstr ""
+"Empty wine bottle with small sticker \"Wine Wizard Distillery, Red Dragon, "
+"331422-B\""
+
+#: names.cpp:135
+msgid "Плитка мозаики с разноцветной глазированной поверхностью"
+msgstr "Mosaic tiles with multi-colored glazed surface"
+
+#: names.cpp:136
+msgid "Окаменевшая мышь"
+msgstr "Petrified mouse"
+
+#: names.cpp:137
+msgid "Чёрный пиратский флаг с черепом и костями дракона"
+msgstr "Black pirate flag with dragon skull and bones"
+
+#: names.cpp:138
+msgid ""
+"Крохотный металлический краб или паук, который двигается, когда на него не "
+"смотрят"
+msgstr "A tiny metal crab or spider that moves when not being looked at"
+
+#: names.cpp:139
+msgid "Стеклянная бутылка сала с этикеткой «Жир грифона»"
+msgstr "Glass bottle of lard with the label \"Griffin Fat\""
+
+#: names.cpp:140
+msgid ""
+"Деревянная коробка с керамическим дном, в которой живёт червяк с двумя "
+"головами на каждом конце тела"
+msgstr ""
+"A wooden box with a ceramic bottom in which a worm lives with two heads at "
+"each end of the body"
+
+#: names.cpp:141
+msgid "Металлическая урна с прахом героя"
+msgstr "Metal urn with the ashes of the hero"
+
+#: names.cpp:143
+msgid "Идеальный камешек для метания"
+msgstr "The perfect pebble for throwing"
+
+#: names.cpp:144
+msgid "Три утяжеленных кости, на которых всегда выпадает малый результат"
+msgstr "Three weighted bones on which a small result always falls out"
+
+#: names.cpp:145
+msgid "Медальон с изображением Джима Даркмагика"
+msgstr "Medallion featuring Jim Darkmagic"
+
+#: names.cpp:146
+msgid "Миниатюрная наковальня и кузнечный молот"
+msgstr "Miniature anvil and blacksmith's hammer"
+
+#: names.cpp:147
+msgid "Неработающий неподвижный жезл"
+msgstr "A non-working fixed rod"
+
+#: names.cpp:148
+msgid "Самодельный акупунктурный набор"
+msgstr "Homemade acupuncture set"
+
+#: names.cpp:149
+msgid "Мягкий игрушечный совомед"
+msgstr "Soft toy sovomed"
+
+#: names.cpp:150
+msgid "Чертеж новой боевой лютни"
+msgstr "Drawing of a new battle lute"
+
+#: names.cpp:151
+msgid "Объявление войны нации, о которой никто никогда не слышал"
+msgstr "A declaration of war on a nation that no one has ever heard of"
+
+#: names.cpp:152
+msgid "Трубка, которая испускает зеленый дым"
+msgstr "A pipe that emits green smoke"
+
+#: names.cpp:154
+msgid "Бесценный свечной канделябр"
+msgstr "Priceless candle candelabra"
+
+#: names.cpp:155
+msgid "Великолепная трость с потайным отделением"
+msgstr "A magnificent cane with a hidden compartment"
+
+#: names.cpp:156
+msgid "Письмо, написанное Рози Бестингер"
+msgstr "Letter written by Rosie Bestinger"
+
+#: names.cpp:157
+msgid "Монета, которая всегда приземляется на ребро"
+msgstr "A coin that always lands on an edge"
+
+#: names.cpp:158
+msgid ""
+"Купчая и право собственности на заброшенную ветряную мельницу и три акра "
+"пригодной для возделывания земли, которую вы так и не смогли найти"
+msgstr ""
+"Deed of sale and title to an abandoned windmill and three acres of arable "
+"land that you could never find"
+
+#: names.cpp:159
+msgid "Меню из Хижины “Ням Ням” Большого Папы Донаара"
+msgstr "Menu from Big Daddy Donaar's Yum Yum Hut"
+
+#: names.cpp:160
+msgid "Маленький кошелек, который громко кричит, когда его открывают"
+msgstr "A small wallet that screams loudly when it is opened"
+
+#: names.cpp:161
+msgid "Крепкое перо ворона"
+msgstr "A sturdy raven feather"
+
+#: names.cpp:162
+msgid "Пара брюк, которые всегда слегка пахнут медом."
+msgstr "A pair of pants that always smell slightly of honey."
+
+#: names.cpp:163
+msgid "Однорукая кукла Виари (пропавший аксессуар Кинжала Апокалипсиса)"
+msgstr ""
+"One-armed Viari doll (missing accessory of the Dagger of the Apocalypse)"
+
+#: names.cpp:164
+msgid ""
+"Кожаный мешочек, наполненный различными костяными пальцами неизвестного "
+"происхождения."
+msgstr "A leather pouch filled with various bone fingers of unknown origin."
+
+#: names.cpp:165
+msgid "Ошейник питомца из вашего детства, Мускат"
+msgstr "A pet collar from your childhood, Muscat"
+
+#: names.cpp:166
+msgid "Ракушка, если её прижать к уху, говорит текучими рифмами."
+msgstr "The shell, if pressed to the ear, speaks in fluid rhymes."
+
+#: names.cpp:167
+msgid "Книга рецептов для приготовления грибов"
+msgstr "Recipe book for cooking mushrooms"
+
+#: names.cpp:168
+msgid "Один просроченный билет на « Свободный краеугольный камень»"
+msgstr "One expired ticket for the \"Free Cornerstone\""
+
+#: names.cpp:169
+msgid "Портативный улей"
+msgstr "Portable Hive"
+
+#: names.cpp:170
+msgid "Очки, все буквально окрашивающие в розовый цвет"
+msgstr "Glasses, all literally staining pink"
+
+#: names.cpp:171
+msgid "Волшебная палочка чудес, которая может накладывать только “Починку”"
+msgstr "A magic wand of miracles that can only impose \"Repair\""
+
+#: names.cpp:172
+msgid "Браслет, сплетенный из омелы"
+msgstr "Bracelet woven from mistletoe"
+
+#: names.cpp:173
+msgid ""
+"Изогнутый коготь неизвестного зверя, которого всегда боятся маленькие дети"
+msgstr ""
+"The curved claw of an unknown beast that young children are always afraid of"
+
+#: names.cpp:174
+msgid "Длинный меч, который можно свернуть за 1 минуту и спрятать в кармане"
+msgstr ""
+"A long sword that can be rolled up in 1 minute and hidden in your pocket"
+
+#: names.cpp:175
+msgid "Живой саженец того, что вы считаете Мировым Древом"
+msgstr "A living seedling of what you think is the World Tree"
+
+#: names.cpp:176
+msgid "Поношенный шарф с логотипом Acquisitions Incorporated"
+msgstr "Worn scarf with Acquisitions Incorporated logo"
+
+#: names.cpp:177
+msgid "Ящичек с разорванным письмом"
+msgstr "A box with a torn letter"
+
+#: names.cpp:178
+msgid "Старый контракт с пометкой « недействителен»"
+msgstr "An old contract marked \"invalid\""
+
+#: names.cpp:179
+msgid "Маленький голубь в клетке"
+msgstr "Little pigeon in a cage"
+
+#: names.cpp:180
+msgid "Поролоновый палец «Зеленое Пламя» Acquisitions Incorporated"
+msgstr "Green Flame Foam Finger Acquisitions Incorporated"
+
+#: names.cpp:181
+msgid "Ланчбокс команды «С»"
+msgstr "Lunchbox of the \"C\" team"
+
+#: names.cpp:182
+msgid "Растение в горшке, на каждой ветке которого растут разные плоды"
+msgstr "A potted plant with different fruits growing on each branch"
+
+#: names.cpp:183
+msgid "Книга приключений для детей"
+msgstr "Adventure book for children"
+
+#: names.cpp:184
+msgid "Фигурка Омина со съемными молотом и священным символом"
+msgstr "Omin figurine with removable hammer and sacred symbol"
+
+#: names.cpp:185
+msgid "Пинтовый стакан с выгравированным изображением робота-бочонка"
+msgstr "Pint glass engraved with a barrel robot"
+
+#: names.cpp:186
+msgid "Гигантская хоккейная шайба"
+msgstr "Giant hockey puck"
+
+#: names.cpp:187
+msgid "Миниатюрная пушка, которая действительно стреляет"
+msgstr "A miniature cannon that really shoots"
+
+#: names.cpp:188
+msgid "Очень модный красный шарф и такой же носовой платок"
+msgstr "A very fashionable red scarf and the same handkerchief"
+
+#: names.cpp:189
+msgid "Стрела, когда-то выпущенная Морган"
+msgstr "The arrow once fired by Morgan"
+
+#: names.cpp:190
+msgid "Игрушка лилового червя"
+msgstr "Purple worm toy"
+
+#: names.cpp:191
+msgid "Опаленная кукла, чьи глаза следуют за тобой по комнате."
+msgstr "A scorched doll whose eyes follow you around the room."
+
+#: names.cpp:192
+msgid "Бесконечная чернильница"
+msgstr "Endless inkwell"
+
+#: names.cpp:193
+msgid "Лента с вышитым символом Шести"
+msgstr "Ribbon with embroidered symbol of Six"
+
+#: names.cpp:194
+msgid "Мягкий кактус"
+msgstr "Soft cactus"
+
+#: names.cpp:195
+msgid "Бархатная повязка на глаза"
+msgstr "Velvet blindfold"
+
+#: names.cpp:196
+msgid "Испачканная фигурка трицератопса, которую невозможно очистить"
+msgstr "A soiled Triceratops figurine that can't be cleaned"
+
+#: names.cpp:197
+msgid ""
+"Использованный (и, следовательно, не магический) благородный нож из "
+"Благородного Ножа"
+msgstr "Used (and therefore not magical) noble knife from the Noble Knife"
+
+#: names.cpp:198
+msgid "Перо, которое переливается всеми цветами радуги"
+msgstr "A feather that shimmers with all the colors of the rainbow"
+
+#: names.cpp:199
+msgid "Двадцатигранный куб, который выбрасывает только число 4"
+msgstr "A twenty-sided cube that only throws out the number 4"
+
+#: names.cpp:200
+msgid "Остроконечная шляпа, которая светится в темноте"
+msgstr "A pointed hat that glows in the dark"
+
+#: names.cpp:201
+msgid "Чаша, которая гудит, когда ее наполняют водой"
+msgstr "A bowl that hums when it is filled with water"
+
+#: names.cpp:202
+msgid "Кружка, сделанная из черепа чьего-то врага"
+msgstr "A mug made from someone's enemy's skull"
+
+#: names.cpp:203
+msgid "Небольшая стеклянная баночка с бессмертным светлячком"
+msgstr "A small glass jar with an immortal firefly"
+
+#: names.cpp:204
+msgid "Накладные усы, сделанные из волос с лица гнома"
+msgstr "False mustache made from hair from a gnome's face"
+
+#: names.cpp:205
+msgid "Окаменевший палец тролля"
+msgstr "The petrified finger of the troll"
+
+#: names.cpp:206
+msgid "Половина карты"
+msgstr "Half Map"
+
+#: names.cpp:207
+msgid "Другая половина карты"
+msgstr "The other half of the map"
+
+#: names.cpp:208
+msgid "Неоправданно большое количество карманного ворса"
+msgstr "An unreasonably large amount of pocket pile"
+
+#: names.cpp:209
+msgid "Дюжина листовок для местной закусочной гномов"
+msgstr "A dozen flyers for the local gnome diner"
+
+#: names.cpp:210
+msgid "Визитная карточка Омина Драна"
+msgstr "Omin Drana's business card"
+
+#: names.cpp:211
+msgid "Прядь волос перевертыша"
+msgstr "A strand of a shifter's hair"
+
+#: names.cpp:212
+msgid "Мраморный шарик, который катится вверх"
+msgstr "A marble ball that rolls upwards"
+
+#: names.cpp:213
+msgid ""
+"Кусок пергамента с командным словом для могущественного магического предмета"
+msgstr "A piece of parchment with a command word for a powerful magic item"
+
+#: names.cpp:214
+msgid "Книга под названием Разговорник Великана"
+msgstr "A book called The Giant's Phrasebook"
+
+#: names.cpp:215
+msgid "Инструкция по эксплуатации аппарата Квалиша"
+msgstr "Instructions for use of the apparatus Kvalisha"
+
+#: names.cpp:216
+msgid "Подписанный портрет знаменитого барда Спайса Тмина"
+msgstr "Signed portrait of the famous bard Spice Cumin"
+
+#: names.cpp:217
+msgid "Глаз василиска в хрустальной шкатулке"
+msgstr "The eye of a basilisk in a crystal box"
+
+#: names.cpp:218
+msgid "Открытка из Равники"
+msgstr "Postcard from Ravnica"
+
+#: names.cpp:219
+msgid "Коллекция марок"
+msgstr "Stamp Collection"
+
+#: names.cpp:220
+msgid "Маленький кусочек затвердевшего дыма"
+msgstr "A small piece of solidified smoke"
+
+#: names.cpp:221
+msgid "Шестигранный кубик, на котором иногда выпадает семерка"
+msgstr "A six-sided die on which a seven sometimes falls out"
+
+#: names.cpp:222
+msgid "Перчатка для левой руки"
+msgstr "Left hand glove"
+
+#: names.cpp:223
+msgid "Музыкальная шкатулка, которая проигрывает детские стишки"
+msgstr "A music box that plays nursery rhymes"
+
+#: names.cpp:224
+msgid "Медальон, который снаружи больше, чем внутри"
+msgstr "A medallion that is larger on the outside than on the inside"
+
+#: names.cpp:225
+msgid "Растение в горшке, у которого вместо листьев растут волосы"
+msgstr "A potted plant that grows hair instead of leaves"
+
+#: names.cpp:226
+msgid "Коллекция зубов"
+msgstr "Collection of teeth"
+
+#: names.cpp:227
+msgid "Монета, чья дата чеканки всегда на три года в будущем"
+msgstr "A coin whose minting date is always for three years in the future"
+
+#: names.cpp:228
+msgid "Зеленый рог для питья, позаимствованный у очень крупного быка"
+msgstr "A green horn for drinking, borrowed from a very large bull"
+
+#: names.cpp:229
+msgid ""
+"Небольшая книга, содержащая прессованные и высушенные ботанические образцы"
+msgstr "A small book containing pressed and dried botanical specimens"
+
+#: names.cpp:230
+msgid "Яйцо вылупившейся химеры"
+msgstr "Egg of a hatched chimera"
+
+#: names.cpp:231
+msgid "Слегка поношенная алая бандитская маска"
+msgstr "Lightly worn scarlet gangster mask"
+
+#: names.cpp:232
+msgid "Крошечный кровопийца, закованный в янтарь"
+msgstr "Tiny bloodsucker chained in amber"
+
+#: names.cpp:233
+msgid "Большая бутылка Красного Лиственничного эля, которую нельзя открыть"
+msgstr "A large bottle of Red Larch Ale that can't be opened"
+
+#: names.cpp:234
+msgid "Трость, увенчанная стилизованным золотым бульдогом"
+msgstr "A cane topped with a stylized golden bulldog"
+
+#: names.cpp:235
+msgid "Записка, написанная вашей собственной рукой, о которой вы не помните"
+msgstr "A note written by your own hand that you don't remember"
+
+#: names.cpp:236
+msgid "Пучок трав из сада вашей семьи"
+msgstr "A bunch of herbs from your family's garden"
+
+#: names.cpp:237
+msgid "Кружка, украденная из Драна и Придворного"
+msgstr "A mug stolen from Dran and the Courtier"
+
+#: names.cpp:238
+msgid "Маленькое заспиртованное отрубленное щупальце"
+msgstr "Small alcoholized severed tentacle"
+
+#: names.cpp:239
+msgid "Грецкий орех с изображенным на нем лицом"
+msgstr "A walnut with a face depicted on it"
+
+#: names.cpp:240
+msgid "Маленькая фляжка с водой из Озера Сияющих Туманов"
+msgstr "A small flask of water from the Lake of Shining Mists"
+
+#: names.cpp:241
+msgid "Кубик льда, который никогда не тает"
+msgstr "The Ice Cube That Never Melts"
+
+#: names.cpp:242
+msgid "Искусно вырезанная рукоять меча с аккуратно обломанным лезвием"
+msgstr "An elaborately carved sword hilt with a neatly broken blade"
+
+#: names.cpp:244
+msgid "Компас, который всегда указывает на Мулмастера"
+msgstr "A compass that always points to the Mulmaster"
+
+#: names.cpp:245
+msgid "Бумажный веер, который не создает ветерок, как бы сильно им ни махали"
+msgstr ""
+"A paper fan that doesn't create a breeze, no matter how hard it is waved"
+
+#: names.cpp:246
+msgid "Окаменевшая картошка, похожая на кого-то важного для вас"
+msgstr "A petrified potato that looks like someone important to you"
+
+#: names.cpp:247
+msgid ""
+"Стеклянная чашка, которую можно наполнить лишь наполовину, независимо от "
+"того, сколько жидкости в неё наливают"
+msgstr ""
+"A glass cup that can only be half full, no matter how much liquid is poured "
+"into it"
+
+#: names.cpp:248
+msgid "Зеркало, которое отражает только затылок"
+msgstr "A mirror that reflects only the back of the head"
+
+#: names.cpp:249
+msgid ""
+"Маленькая стеклянная птичка, которая, садясь рядом с водой, опускает голову, "
+"будто хочет напиться"
+msgstr ""
+"A small glass bird that, sitting next to the water, lowers its head as if it "
+"wants to get drunk"
+
+#: names.cpp:250
+msgid "Дамский кошелек с двумя острыми клыками"
+msgstr "Ladies' purse with two sharp fangs"
+
+#: names.cpp:251
+msgid "Маленькая морская раковина с надписью «С самого начала» на кромке"
+msgstr ""
+"A small sea shell with the inscription \"From the beginning\" on the edge"
+
+#: names.cpp:252
+msgid "Промерзший насквозь, покрытый инеем серебряный медальон."
+msgstr "Frozen through, frost-covered silver medallion."
+
+#: names.cpp:253
+msgid ""
+"Печать, на которой запечатлен таинственный, неизвестный герб на твердом камне"
+msgstr "A seal depicting a mysterious, unknown coat of arms on a solid stone"
+
+#: names.cpp:254
+msgid ""
+"Маленькая деревянная кукла, вызывающая приятные воспоминания, когда ее держат"
+msgstr "A small wooden doll that evokes fond memories when held"
+
+#: names.cpp:255
+msgid ""
+"Маленькое ручное зеркальце, которое отражает только неодушевленные предметы"
+msgstr "A small hand-held mirror that reflects only inanimate objects"
+
+#: names.cpp:256
+msgid ""
+"Стеклянное глазное яблоко, которое двигается самостоятельно и может вращаться"
+msgstr "A glass eyeball that moves on its own and can rotate"
+
+#: names.cpp:257
+msgid "Стеклянный шар, который демонстрирует в себе вчерашнюю погоду"
+msgstr "A glass ball that shows yesterday's weather"
+
+#: names.cpp:258
+msgid ""
+"Чашка для питья, которая случайным образом наполняется пресной или соленой "
+"водой. Повторное наполнение после опорожнения"
+msgstr ""
+"A drinking cup that is randomly filled with fresh or salt water. Refilling "
+"after emptying"
+
+#: names.cpp:259
+msgid ""
+"Темно-синий кусок кремня, который при ударе о сталь производит не искру, а "
+"каплю воды."
+msgstr ""
+"A dark blue piece of flint that, when struck by steel, produces not a spark, "
+"but a drop of water."
+
+#: names.cpp:260
+msgid "Ракушка, которая всегда влажная и постоянно сочится соленой водой"
+msgstr "A shell that is always wet and constantly oozes salt water"
+
+#: names.cpp:261
+msgid ""
+"Обугленная, наполовину оплавленная оловянная пряжка, которая светится, будто "
+"она тлеет, но не выделяет тепла"
+msgstr ""
+"A charred, half-melted tin buckle that glows as if it is smoldering, but "
+"does not generate heat"
+
+#: names.cpp:262
+msgid "Заводной зяблик, который хлопает крыльями когда дует ветерок"
+msgstr "A clockwork chaffinch that flaps its wings when the breeze blows"
+
+#: names.cpp:263
+msgid ""
+"Небьющаяся запечатанная банка светящейся воды, которая гудит, когда ее "
+"встряхивают"
+msgstr "An unbreakable sealed jar of glowing water that hums when shaken"
+
+#: names.cpp:264
+msgid ""
+"Маленький, прекрасно отполированный жеод, чьи кристаллы медленно тускнеют "
+"переливаясь всеми цветами спектра"
+msgstr ""
+"A small, beautifully polished geode whose crystals slowly fade, shimmering "
+"with all the colors of the spectrum"
+
+#: names.cpp:265
+msgid "Шершавый каменный глаз окаменевшего существа"
+msgstr "The rough stone eye of a petrified creature"
+
+#: names.cpp:266
+msgid "Каменная курительная трубка, которая никогда не нуждается в зажигании"
+msgstr "A stone smoking pipe that never needs to be ignited"
+
+#: names.cpp:267
+msgid ""
+"Маленький свисток, который, шепчет имя человека или место, неизвестное вам, "
+"вместо звука свистка, когда вы дуете в него"
+msgstr ""
+"A small whistle that whispers the name of a person or a place unknown to "
+"you, instead of the sound of a whistle when you blow into it"
+
+#: names.cpp:268
+msgid "Камень размером с кулак, который «бьется», как сердце"
+msgstr "A stone the size of a fist that \"beats\" like a heart"
+
+#: names.cpp:269
+msgid "Пара бронзовых ножниц в форме пары прыгающих дельфинов"
+msgstr "A pair of bronze scissors in the shape of a pair of jumping dolphins"
+
+#: names.cpp:270
+msgid "Бронзовая масляная лампа, в которой, по слухам, когда-то жил джинн"
+msgstr "A bronze oil lamp in which a genie is once rumored to have lived"
+
+#: names.cpp:271
+msgid ""
+"Одинокая перчатка с огненным орнаментом и неизвестным именем на Первичном"
+msgstr ""
+"A lonely glove with a fiery ornament and an unknown name on the Primary"
+
+#: names.cpp:272
+msgid ""
+"Маленькая одноглазая рыба внутри сферического сосуда, но она больше горлышка "
+"сосуда, у неё хитрый взгляд"
+msgstr ""
+"A small one-eyed fish inside a spherical vessel, but it is larger than the "
+"neck of the vessel, it has a cunning look"
+
+#: names.cpp:273
+msgid ""
+"Крошечный череп кролика, который шепчет язвительные оскорбления, когда никто "
+"не смотрит"
+msgstr ""
+"A tiny rabbit skull that whispers snarky insults when no one is looking"
+
+#: names.cpp:274
+msgid "Тряпичная кукла в виде совомеда"
+msgstr "Rag doll in the form of sovomed"
+
+#: names.cpp:275
+msgid "Иссохшее тело маленькой восьминогой чёрной ящерицы"
+msgstr "The withered body of a small eight-legged black lizard"
+
+#: names.cpp:276
+msgid ""
+"Маленькая игрушечная лодка, сделанная из скорлупы грецкого ореха, зубочистки "
+"и куска ткани"
+msgstr ""
+"A small toy boat made of walnut shells, a toothpick and a piece of cloth"
+
+#: names.cpp:277
+msgid ""
+"Маленькое карманное зеркальце, которое медленно запотевает, пока его держат"
+msgstr "A small pocket mirror that slowly fogs up while it is held"
+
+#: names.cpp:278
+msgid "Ветряные колокольчики, светящиеся, когда на них дует ветер"
+msgstr "Wind bells that glow when the wind blows on them"
+
+#: names.cpp:279
+msgid ""
+"Маленький глиняный квадратик на одной из сторон которого выгравирована "
+"неизвестная руна"
+msgstr "A small clay square, on one side of which an unknown rune is engraved"
+
+#: names.cpp:280
+msgid "Чайник, нагревающийся, когда его наполняют водой"
+msgstr "A kettle that heats up when it is filled with water"
+
+#: names.cpp:281
+msgid ""
+"Старый поцарапанный монокль, который показывает подводный пейзаж всякий раз, "
+"когда кто-то смотрит через него"
+msgstr ""
+"An old scratched monocle that shows an underwater landscape whenever someone "
+"looks through it"
+
+#: names.cpp:282
+msgid "Роза, вырезанная из коралла"
+msgstr "Rose carved from coral"
+
+#: names.cpp:283
+msgid ""
+"Набор кубиков с символами стихий и первичными рунами вместо точек или чисел"
+msgstr ""
+"A set of cubes with elemental symbols and primary runes instead of dots or "
+"numbers"
+
+#: names.cpp:284
+msgid ""
+"Амулет, наполненный жидкостью, которая вспенивается, замерзает или закипает "
+"в соответствии с настроением владельца"
+msgstr ""
+"An amulet filled with a liquid that foams, freezes, or boils according to "
+"the wearer's mood"
+
+#: names.cpp:285
+msgid ""
+"Маленький серебряный колокольчик, который издает звук, похожий на тихий "
+"отдаленный гром, когда в него звонят"
+msgstr ""
+"A small silver bell that makes a sound like quiet distant thunder when it is "
+"rung"
+
+#: names.cpp:286
+msgid ""
+"Маленький пузырек с чёрным песком, который немного светится в лунном свете."
+msgstr "A small bubble of black sand that glows a little in the moonlight."
+
+#: names.cpp:287
+msgid ""
+"Небольшой китовый зуб с выгравированным изображением волн, разбивающихся о "
+"берег"
+msgstr ""
+"A small whale tooth engraved with the image of waves crashing on the shore"
+
+#: names.cpp:288
+msgid "Песочные часы, в которых песок струится вверх, а не вниз"
+msgstr "An hourglass in which sand flows upwards rather than downwards"
+
+#: names.cpp:289
+msgid ""
+"Стеклянный кулон с отверстием в центре, из которого всегда дует легкий "
+"ветерок"
+msgstr ""
+"A glass pendant with a hole in the center, from which a light breeze always "
+"blows"
+
+#: names.cpp:290
+msgid "Легкое перышко, которое падает, как камень, когда его роняют"
+msgstr "A light feather that falls like a stone when dropped"
+
+#: names.cpp:291
+msgid ""
+"Большой прозрачный драгоценный камень, шепчущий на Терране, когда его крепко "
+"сжимают"
+msgstr ""
+"A large transparent gemstone whispering on Terran as it is squeezed tightly"
+
+#: names.cpp:292
+msgid ""
+"Маленький хрустальный снежный шар, который при встряхивании, кажется, "
+"образует силуэты танцующих фигур"
+msgstr ""
+"A small crystal snow globe that, when shaken, seems to form silhouettes of "
+"dancing figures"
+
+#: names.cpp:293
+msgid ""
+"Половина жеода размером с ладонь, который тускло пульсирует фиолетовым светом"
+msgstr "Half a palm-sized geode that pulsates dimly with purple light"
+
+#: names.cpp:294
+msgid ""
+"Книга, заполненная письменами, проявляющиеся только, когда книга находится "
+"под водой"
+msgstr ""
+"A book filled with writings, appearing only when the book is underwater"
+
+#: names.cpp:295
+msgid ""
+"Запечатанный конверт из красной кожи, который вы не можете открыть. Пахнет "
+"костром"
+msgstr ""
+"A sealed envelope made of red leather that you can't open. It smells like a "
+"campfire"
+
+#: names.cpp:296
+msgid ""
+"Медальон с прядью волос, который, по слухам, достался от знаменитого "
+"огненного дженази"
+msgstr ""
+"A locket with a lock of hair, which, according to rumors, came from the "
+"famous fiery jenazi"
+
+#: names.cpp:297
+msgid ""
+"Кремень и сталь, при использовании которых для розжига огня создается "
+"случайное цветное пламя"
+msgstr "Flint and steel, which create a random colored flame to light a fire"
+
+#: names.cpp:298
+msgid "Чистый кусок влажного пергамента, который, кажется, никогда не высыхает"
+msgstr "A clean piece of wet parchment that never seems to dry out"
+
+#: names.cpp:299
+msgid "Маленькая латунная коробка-головоломка, слегка теплая на ощупь"
+msgstr "Small brass puzzle box, slightly warm to the touch"
+
+#: names.cpp:300
+msgid ""
+"Мутный кусок стекла, который, как говорят, содержит частицу дыхания синего "
+"дракона"
+msgstr ""
+"A cloudy piece of glass that is said to contain a particle of blue dragon "
+"breath"
+
+#: names.cpp:301
+msgid "Грубая чаша сделанная из угля"
+msgstr "A rough bowl made of charcoal"
+
+#: names.cpp:302
+msgid ""
+"Миниатюрный медный рожок, не издающий звуков когда вы в него дуете, но "
+"наполняющий воздух ароматом согревающих и экзотических специй"
+msgstr ""
+"A miniature copper horn that does not make a sound when you blow into it, "
+"but fills the air with the aroma of warming and exotic spices"
+
+#: names.cpp:303
+msgid "Голубая жемчужина размером с глаз, плавающая в соленой воде."
+msgstr "An eye-sized blue pearl floating in salt water."
+
+#: names.cpp:304
+msgid ""
+"Камертон, вылитый из темного металла, излучающий слабое белое свечение во "
+"время грозы"
+msgstr ""
+"A tuning fork cast from dark metal, emitting a faint white glow during a "
+"thunderstorm"
+
+#: names.cpp:305
+msgid "Маленький пузырек, который всегда наполнен ароматом осеннего ветерка"
+msgstr ""
+"A small bubble that is always filled with the scent of the autumn breeze"
+
+#: names.cpp:306
+msgid ""
+"Кристально чистый мрамор, который медленно катится к ближайшему источнику "
+"проточной воды"
+msgstr ""
+"Crystal clear marble that slowly rolls to the nearest source of running water"
+
+#: names.cpp:307
+msgid ""
+"Маленькая складная серебряная чашка, которая постоянно запотевает, когда ее "
+"раскрывают"
+msgstr "A small folding silver cup that constantly fogs up when it is opened"
+
+#: names.cpp:308
+msgid "Песочные часы, которые указывают время струящимся туманом вместо песка"
+msgstr ""
+"An hourglass that indicates the time with a flowing mist instead of sand"
+
+#: names.cpp:309
+msgid "Роскошная бритва, бреющая только в мороз"
+msgstr "A luxurious razor that shaves only in the cold"
+
+#: names.cpp:310
+msgid ""
+"Акулий зуб, покрытый крошечными с выгравированными словами на утраченном "
+"языке."
+msgstr "A shark tooth covered with tiny engraved words on a lost tongue."
+
+#: names.cpp:311
+msgid "Большая медная монета без каких-либо надписей или изображений"
+msgstr "A large copper coin without any inscriptions or images"
+
+#: names.cpp:312
+msgid "Маленькая деревянная коробочка, наполненная странной красной глиной"
+msgstr "A small wooden box filled with strange red clay"
+
+#: names.cpp:313
+msgid "Ожерелье с маленьким ржавым железным якорем"
+msgstr "Necklace with a small rusty iron anchor"
+
+#: names.cpp:314
+msgid ""
+"Маленькая латунная флейта, украшенная серебряной проволокой, которая всегда "
+"тихо играет"
+msgstr ""
+"A small brass flute, decorated with silver wire, which always plays quietly"
+
+#: names.cpp:315
+msgid "Красное и чёрное перо Ааракокра"
+msgstr "Aarakocra's Red and Black Feather"
+
+#: names.cpp:316
+msgid ""
+"Камень размером с ладонь, имеющий отверстие, через которое постоянно слышен "
+"шепот ветра"
+msgstr ""
+"A palm-sized stone that has a hole through which the whisper of the wind is "
+"constantly heard"
+
+#: names.cpp:317
+msgid "Маленькая раковина покрытая чёрными кристаллами"
+msgstr "A small shell covered with black crystals"
+
+#: names.cpp:318
+msgid ""
+"Маленькая латунная музыкальная шкатулка. В ней есть пара крошечных "
+"механизмов, напоминающих Эйзера, работающего в кузнице"
+msgstr ""
+"A small brass music box. It has a pair of tiny mechanisms reminiscent of "
+"Eyser working in a forge"
+
+#: names.cpp:319
+msgid ""
+"Стеклянная банка с законсервированным трупом неизвестного водного существа"
+msgstr "Glass jar with the preserved corpse of an unknown aquatic creature"
+
+#: names.cpp:320
+msgid "Кусок окаменевшего дерева, вырезанный в форме морской раковины"
+msgstr "A piece of petrified wood carved in the shape of a sea shell"
+
+#: names.cpp:321
+msgid "Деревянный кубик-головоломка, покрытый символами стихий"
+msgstr "Wooden puzzle cube covered with symbols of the elements"
+
+#: names.cpp:322
+msgid ""
+"Маленький каменный кубик, функционирующий как магнит, когда его помещают на "
+"другой камень"
+msgstr ""
+"A small stone cube that functions as a magnet when placed on another stone"
+
+#: names.cpp:323
+msgid ""
+"Кольцо изготовленное из белого металла. На внутренней стороне выгравировано "
+"имя на Ауране"
+msgstr ""
+"The ring is made of white metal. On the inside is engraved the name on Auran"
+
+#: names.cpp:324
+msgid "Браслет из посеребренных рыболовных крючков"
+msgstr "Bracelet made of silver-plated fish hooks"
+
+#: names.cpp:325
+msgid "Дневник, заполненный рукописными стихами, на Первичном языке."
+msgstr "A diary filled with handwritten poems, in the Primary Language."
+
+#: names.cpp:326
+msgid "Желтый драгоценный камень, тускло светящийся, когда гроза неподалеку"
+msgstr "A yellow gemstone that glows dimly when a thunderstorm is nearby"
+
+#: names.cpp:327
+msgid "Обугленная стамеска с неизвестным символом, выбитым на ее основании"
+msgstr "A charred chisel with an unknown symbol embossed on its base"
+
+#: names.cpp:328
+msgid "Фляга наполненная отвратительно пахнущей оранжевой жижей"
+msgstr "A flask filled with disgusting-smelling orange slurry"
+
+#: names.cpp:329
+msgid "Безликая кукла, сделанную из коряги"
+msgstr "Faceless doll made of driftwood"
+
+#: names.cpp:330
+msgid "Тяжелый железный ключ с именем давно исчезнувшего в море корабля"
+msgstr ""
+"A heavy iron key with the name of a ship that has long disappeared at sea"
+
+#: names.cpp:331
+msgid "Маленькая шкатулка для драгоценностей из панциря черепахи"
+msgstr "Small jewelry box made of turtle shell"
+
+#: names.cpp:332
+msgid "Шахматная фигура выполненная в виде огненного элементального мирмидона"
+msgstr "A chess piece made in the form of a fiery elemental myrmidon"
+
+#: names.cpp:333
+msgid "Волчок с изображением одного из четырех элементов на каждой стороне"
+msgstr "A spinning top with the image of one of the four elements on each side"
+
+#: names.cpp:334
+msgid "Одинокая серьга-обруч из пористого красного камня"
+msgstr "Lonely hoop earring made of porous red stone"
+
+#: names.cpp:335
+msgid "Наконечник стрелы, выточенный из морской соли"
+msgstr "Arrowhead carved from sea salt"
+
+#: names.cpp:336
+msgid "Маленькая расческа из голубого коралла"
+msgstr "Small blue coral comb"
+
+#: names.cpp:337
+msgid "Семь маленьких бусин различных цветов из песчаника на нитке"
+msgstr "Seven small beads of various colors made of sandstone on a string"
+
+#: names.cpp:338
+msgid ""
+"Романтический сборник, написанный на Общем под названием «Всего лишь один "
+"оттенок серого»"
+msgstr ""
+"A romantic collection written in General under the title \"Just One Shade of "
+"Gray\""
+
+#: names.cpp:339
+msgid "Крошечная, сломанная заводная гарпия"
+msgstr "Tiny, broken clockwork harpy"
+
+#: names.cpp:340
+msgid "Фигурка кита из слоновой кости"
+msgstr "Ivory whale figurine"
+
+#: names.cpp:341
+msgid "Покрытая ракушками шестеренка размером с кулак"
+msgstr "A shell-covered gear the size of a fist"
+
+#: names.cpp:342
+msgid "Глазная повязка из обсидиана и чёрным кожаным шнурком"
+msgstr "Obsidian eye patch with black leather lace"
+
+#: names.cpp:343
+msgid ""
+"Стеклянная бутылка с находящимся внутри крошечным кораблем неизвестного вам "
+"вида"
+msgstr "A glass bottle with a tiny ship of an unknown species inside"
+
+#: names.cpp:345
+msgid "Рисунок, на котором вы в детстве изобразили вашего воображаемого друга"
+msgstr "A drawing in which you depicted your imaginary friend as a child"
+
+#: names.cpp:346
+msgid ""
+"Замок, который открывается только если капнуть кровью в его замочную скважину"
+msgstr "A lock that opens only if you drip blood into its keyhole"
+
+#: names.cpp:347
+msgid "Одежда, снятая с пугала"
+msgstr "Clothes taken from the scarecrow"
+
+#: names.cpp:348
+msgid ""
+"Волчок с вырезанными на нём четырьмя лицами: счастливым, грустным, гневным и "
+"мёртвым"
+msgstr ""
+"A spinning top with four faces carved on it: happy, sad, angry and dead"
+
+#: names.cpp:349
+msgid "Ожерелье близкого родственника, который умер в день вашего рождения"
+msgstr "Necklace of a close relative who died on your birthday"
+
+#: names.cpp:350
+msgid "Пучок волос казнённого через обезглавливание"
+msgstr "A tuft of hair executed by beheading"
+
+#: names.cpp:351
+msgid "Нераспечатанное письмо вам от вашего умирающего отца"
+msgstr "An unopened letter to you from your dying father"
+
+#: names.cpp:352
+msgid "Карманные часы, отсчитывающие час назад каждую полночь"
+msgstr "A pocket watch that counts down an hour back every midnight"
+
+#: names.cpp:353
+msgid "Шинель, украденная у умирающего солдата"
+msgstr "An overcoat stolen from a dying soldier"
+
+#: names.cpp:354
+msgid "Пузырёк невидимых чернил, которые можно прочесть только на закате"
+msgstr "A bubble of invisible ink that can only be read at sunset"
+
+#: names.cpp:355
+msgid "Бурдюк вина, который наполняется если оставить его на ночь с мертвецом"
+msgstr "A wineskin that is filled if you leave it overnight with a dead man"
+
+#: names.cpp:356
+msgid "Серебряные столовые приборы, которыми король ел в свой последний раз"
+msgstr "The silver cutlery with which the king ate for the last time"
+
+#: names.cpp:357
+msgid "Подзорная труба, показывающая лишь мир, в котором бушует ужасный шторм"
+msgstr "A spyglass showing only a world in which a terrible storm is raging"
+
+#: names.cpp:358
+msgid "Медальон с профилем, лицо которого расцарапано"
+msgstr "A medallion with a profile whose face is scratched"
+
+#: names.cpp:359
+msgid ""
+"Фонарь с чёрной свечой, которая никогда не заканчивается и горит зелёным "
+"пламенем."
+msgstr ""
+"A lantern with a black candle that never ends and burns with a green flame."
+
+#: names.cpp:360
+msgid "Чайная кружка из детского сервиза, заляпанная кровью"
+msgstr "Tea mug from a children's set, spattered with blood"
+
+#: names.cpp:361
+msgid ""
+"Маленькая чёрная книжка, записывающая ваши, и только ваши, сны, когда вы "
+"спите"
+msgstr ""
+"A little black book that records your, and only your, dreams when you sleep"
+
+#: names.cpp:362
+msgid "Ожерелье составленное из святых символов дюжины разных божеств"
+msgstr "A necklace made up of the holy symbols of a dozen different deities"
+
+#: names.cpp:363
+msgid "Верёвка висельника, которая кажется что весит больше, чем должна"
+msgstr "A gallows rope that seems to weigh more than it should"
+
+#: names.cpp:364
+msgid ""
+"Клетка для птиц, в которую влетают маленькие птицы, но оказавшись внутри "
+"больше не едят и отказываются покинуть её"
+msgstr ""
+"A bird cage into which small birds fly in, but once inside they no longer "
+"eat and refuse to leave it"
+
+#: names.cpp:365
+msgid "Гербарий с бабочками, узоры на крыльях которых напоминают черепа"
+msgstr ""
+"Herbarium with butterflies, the patterns on the wings of which resemble "
+"skulls"
+
+#: names.cpp:366
+msgid "Сосуд с языками упырей в формалине"
+msgstr "Vessel with ghoul tongues in formalin"
+
+#: names.cpp:367
+msgid "Деревянный протез руки отъявленного пирата"
+msgstr "Wooden prosthetic arm of a notorious pirate"
+
+#: names.cpp:368
+msgid "Урна с прахом мёртвого родственника"
+msgstr "Urn with the ashes of a dead relative"
+
+#: names.cpp:369
+msgid "Ручное зеркало с бронзовым изображением медузы на обратной стороне"
+msgstr "Hand mirror with a bronze image of a jellyfish on the reverse side"
+
+#: names.cpp:370
+msgid "Перчатки из бледной кожи с ногтями из слоновой кости"
+msgstr "Pale skin gloves with ivory nails"
+
+#: names.cpp:371
+msgid "Игральные кости, сделанные из костяшек отъявленного шарлатана"
+msgstr "Dice made from the knuckles of a notorious charlatan"
+
+#: names.cpp:372
+msgid "Кольцо с ключами от утерянных замков"
+msgstr "Ring with keys to lost locks"
+
+#: names.cpp:373
+msgid "Гвозди из гроба убийцы"
+msgstr "Nails from the murderer's coffin"
+
+#: names.cpp:374
+msgid "Ключ от семейной крипты"
+msgstr "The key to the family crypto"
+
+#: names.cpp:375
+msgid "Букет похоронных цветов, которые всегда выглядят и пахнут как свежие"
+msgstr "A bouquet of funeral flowers that always look and smell like fresh"
+
+#: names.cpp:376
+msgid "Хлыст, которым вас наказывали в детстве"
+msgstr "The whip with which you were punished as a child"
+
+#: names.cpp:377
+msgid ""
+"Музыкальная шкатулка, которая играет сама по себе, когда держащий её танцует"
+msgstr "A music box that plays on its own when the person holding it dances"
+
+#: names.cpp:378
+msgid ""
+"Прогулочная трость с железным наконечником, который выбивает искры из камней"
+msgstr "A walking stick with an iron tip that knocks sparks out of stones"
+
+#: names.cpp:379
+msgid "Флаг корабля, пропавшего в море"
+msgstr "Flag of a ship missing at sea"
+
+#: names.cpp:380
+msgid "Фарфоровая голова куклы, которая кажется постоянно смотрит на вас"
+msgstr "A porcelain doll head that seems to be constantly looking at you"
+
+#: names.cpp:381
+msgid "Серебряный свисток в виде головы волка"
+msgstr "Silver whistle in the form of a wolf's head"
+
+#: names.cpp:382
+msgid ""
+"Маленькое зеркальце, показывающее значительно более старую версию "
+"смотрящегося"
+msgstr "A small mirror showing a significantly older version of the looker"
+
+#: names.cpp:383
+msgid "Маленькая, поношенная книга детских стихов."
+msgstr "A small, worn-out book of children's poems."
+
+#: names.cpp:384
+msgid "Мумифицированный коготь ворона"
+msgstr "Mummified raven claw"
+
+#: names.cpp:385
+msgid "Сломанная подвеска в виде серебряного дракона, всегда холодная на ощупь"
+msgstr "Broken silver dragon pendant, always cold to the touch"
+
+#: names.cpp:386
+msgid ""
+"Маленькая запертая шкатулка, тихо напевающая прекрасную мелодию по ночам, но "
+"вы всегда забываете её наутро."
+msgstr ""
+"A small locked box, quietly humming a beautiful melody at night, but you "
+"always forget it the next morning."
+
+#: names.cpp:387
+msgid "Чернильница, пишущему с помощью которой становится слегка дурно"
+msgstr "An inkwell with which the writer becomes a little sick"
+
+#: names.cpp:388
+msgid ""
+"Старая, маленькая кукла из тёмного, плотного дерева, у которой отсутствуют "
+"рука и нога"
+msgstr ""
+"An old, small doll made of dark, dense wood, which is missing an arm and a "
+"leg"
+
+#: names.cpp:389
+msgid "Чёрный колпак палача"
+msgstr "The Executioner's Black Cap"
+
+#: names.cpp:390
+msgid "Мошна из плоти, сшитой сухожилиями"
+msgstr "Moshna of flesh stitched together by tendons"
+
+#: names.cpp:391
+msgid "Крохотный клубок чёрной нити, которая никогда не заканчивается"
+msgstr "A tiny ball of black thread that never ends"
+
+#: names.cpp:392
+msgid ""
+"Крохотная статуэтка танцовщицы, в которой не хватает шестерни и потому она "
+"не работает"
+msgstr ""
+"A tiny statuette of a dancer that lacks a gear and therefore does not work"
+
+#: names.cpp:393
+msgid ""
+"Чёрная, деревянная курительная трубка, дым из которой выходит в форме черепов"
+msgstr ""
+"A black, wooden smoking pipe, the smoke from which comes out in the shape of "
+"skulls"
+
+#: names.cpp:394
+msgid "Пузырёк духов, запах которых могут учуять только определённые существа"
+msgstr ""
+"A bubble of perfume, the smell of which can only be smelled by certain "
+"creatures"
+
+#: names.cpp:396
+msgid ""
+"Небольшой блокнот, написанное содержимое, которого исчезает через 1 час."
+msgstr "A small notebook, written content, which disappears after 1 hour."
+
+#: names.cpp:397
+msgid ""
+"Кристаллическая линза из слоновой кости и золота, которая заставляет всё "
+"наблюдаемое через неё казаться окружённым частицами пёстрого света."
+msgstr ""
+"A crystal lens made of ivory and gold that makes everything seen through it "
+"seem surrounded by particles of variegated light."
+
+#: names.cpp:398
+msgid ""
+"Маленькая, размером с грецкий орех, золотая пирамида, покрытая эльфийскими "
+"символами."
+msgstr "A small, walnut-sized, golden pyramid covered with elven symbols."
+
+#: names.cpp:399
+msgid ""
+"Брошь для мантии из эмали в форме бабочки; если снять брошь, то она "
+"превратится в настоящую бабочку и вернётся тогда, когда вы соберётесь снова "
+"надеть мантию."
+msgstr ""
+"Brooch for the mantle made of enamel in the shape of a butterfly; If you "
+"remove the brooch, it will turn into a real butterfly and return when you "
+"are going to put on the mantle again."
+
+#: names.cpp:400
+msgid ""
+"Золотой компас, указывающий, в пределах 10 миль, на ближайший портал в "
+"Королевство Фей."
+msgstr ""
+"A golden compass pointing, within 10 miles, to the nearest portal to the "
+"Fairy Kingdom."
+
+#: names.cpp:401
+msgid ""
+"Маленький серебряный волчок, вращающийся бесконечно, пока его не остановить."
+msgstr "A small silver top, spinning endlessly until it is stopped."
+
+#: names.cpp:402
+msgid ""
+"Маленькая певчая птица из эмали, золотистой проволоки и драгоценного камня; "
+"если произнести её имя на Эльфийском, то безделушка воспроизводит птичье "
+"пение."
+msgstr ""
+"A small songbird made of enamel, golden wire and precious stone; if you "
+"pronounce her name in Elven, then the trinket reproduces birdsong."
+
+#: names.cpp:403
+msgid ""
+"Маленькое изделие из эмали в виде цветка, если её надеть на чьи-либо волосы, "
+"то она оживает, окутывая живой лозой с цветочками волосы носителя; выдернув "
+"любой цветок с лозы, изделие возвращается в неодушевлённую форму."
+msgstr ""
+"A small product made of enamel in the form of a flower, if it is put on "
+"someone's hair, it comes to life, enveloping the wearer's hair with a living "
+"vine with flowers; By pulling out any flower from the vine, the product "
+"returns to its inanimate form."
+
+#: names.cpp:405
+msgid ""
+"Любимая детская игрушка одного из искателей приключений, парящая в воздухе"
+msgstr ""
+"A favorite children's toy of one of the adventurers, floating in the air"
+
+#: names.cpp:406
+msgid ""
+"Оловянная свистулька, которая магическим образом создает красивые цвета и "
+"узоры, когда на ней играют"
+msgstr ""
+"A tin whistle that magically creates beautiful colors and patterns when "
+"played"
+
+#: names.cpp:407
+msgid "Игрушечный вагон молниевого поезда"
+msgstr "Lightning train toy car"
+
+#: names.cpp:409
+msgid ""
+"Серебряная шпилька на лацкане с изображением головы горгоны с рубиновыми "
+"глазами"
+msgstr ""
+"Silver hairpin on the lapel depicting the head of a gorgon with ruby eyes"
+
+#: names.cpp:410
+msgid "Монокль, который можно использовать как телескоп"
+msgstr "A monocle that can be used as a telescope"
+
+#: names.cpp:411
+msgid ""
+"Шестидюймовая механическая обезьянка, нуждающаяся в незначительном ремонте"
+msgstr "A six-inch mechanical monkey in need of minor repairs"
+
+#: names.cpp:412
+msgid ""
+"Маленький серебряный медальон, с изображением башни с глазом наверху и "
+"маленькими глазками по бокам."
+msgstr ""
+"A small silver medallion, with the image of a tower with an eye at the top "
+"and small eyes on the sides."
+
+#: names.cpp:413
+msgid ""
+"Булавка для плаща, сделанная из железа в форме двух молотков, соединенных "
+"полукруглой рукояткой."
+msgstr ""
+"A raincoat pin made of iron in the shape of two hammers connected by a "
+"semicircular handle."
+
+#: names.cpp:414
+msgid "Деревянный динозавр с подвижными ножками"
+msgstr "Wooden dinosaur with movable legs"
+
+#: names.cpp:415
+msgid "Бронзовое кольцо со словом «надежда» на Эльфийском языке"
+msgstr "Bronze ring with the word \"hope\" in the Elvish language"
+
+#: names.cpp:416
+msgid "Высушенный цветок; если его поместить в воду, то он расцветет"
+msgstr "Dried flower; If you put it in water, it will bloom"
+
+#: names.cpp:417
+msgid ""
+"Медальон из чёрного дерева; когда его открывают, голос на Эльфийском шепчет: "
+"«Всегда»"
+msgstr ""
+"Ebony medallion; when it is opened, a voice in Elven whispers, \"Always.\""
+
+#: names.cpp:418
+msgid "Крошечный череп вырезанный из темного дерева"
+msgstr "Tiny skull carved out of dark wood"
+
+#: names.cpp:419
+msgid "Костяшка пальца с неизвестным знаком"
+msgstr "Knuckle with an unknown sign"
+
+#: names.cpp:420
+msgid "Флейта из слоновой кости, которая не издает ни звука"
+msgstr "An ivory flute that doesn't make a sound"
+
+#: names.cpp:421
+msgid "Небольшой дневник из высушенных листьев"
+msgstr "A small diary of dried leaves"
+
+#: names.cpp:422
+msgid "Сборник стихов, написанных бессмертными эльфами"
+msgstr "A collection of poems written by immortal elves"
+
+#: names.cpp:423
+msgid "Проколотая драконья чешуя на шнурке"
+msgstr "Punctured dragon scales on a string"
+
+#: names.cpp:424
+msgid "Статуэтка дракона вырезанная из чёрной кости"
+msgstr "Dragon figurine carved from black bone"
+
+#: names.cpp:425
+msgid "Зуб дракона, с выгравированным неизвестным символом"
+msgstr "Dragon's tooth, engraved with an unknown symbol"
+
+#: names.cpp:426
+msgid "Детская игрушка в виде дракона, сплетенная из кожаных шнуров"
+msgstr "Children's toy in the form of a dragon, woven from leather cords"
+
+#: names.cpp:427
+msgid "Кинжал, вырезанный из когтя дракона"
+msgstr "A dagger carved from a dragon's claw"
+
+#: names.cpp:428
+msgid "Медный диск с изображением чёрного дракона"
+msgstr "Copper disc with the image of a black dragon"
+
+#: names.cpp:429
+msgid "Маленький отполированный кусок кости в форме яйца"
+msgstr "A small polished piece of bone in the shape of an egg"
+
+#: names.cpp:430
+msgid "Обломок кости с медными инкрустированными рунами"
+msgstr "Bone fragment with copper encrusted runes"
+
+#: names.cpp:431
+msgid "Кожаный мешочек с крошечными зубами дракона"
+msgstr "Leather pouch with tiny dragon teeth"
+
+#: names.cpp:432
+msgid "Одно большое семя теплое на ощупь"
+msgstr "One large seed is warm to the touch"
+
+#: names.cpp:433
+msgid ""
+"Раздавленный цветок с ярко-зелеными лепестками; когда вы вдыхаете его "
+"аромат, вы слышите жуткую музыку"
+msgstr ""
+"Crushed flower with bright green petals; When you inhale its scent, you hear "
+"eerie music"
+
+#: names.cpp:434
+msgid ""
+"Крошечный комочек воска; если его положить, он начинает медленно ползать"
+msgstr "A tiny lump of wax; If you put it down, it begins to crawl slowly"
+
+#: names.cpp:435
+msgid "Постоянно теплый диск из темного железа"
+msgstr "Constantly warm dark iron disc"
+
+#: names.cpp:436
+msgid ""
+"Маленький дневник с кожаными страницами; любые слова, которые вы пишете в "
+"нем, постепенно исчезают"
+msgstr ""
+"A small diary with leather pages; Any words you write in it gradually "
+"disappear"
+
+#: names.cpp:437
+msgid "Четырехгранный кубик со странными знаками"
+msgstr "Tetrahedral cube with strange signs"
+
+#: names.cpp:438
+msgid "Камея с силуэтом неизвестного существа"
+msgstr "Cameo with the silhouette of an unknown creature"
+
+#: names.cpp:439
+msgid "Уцелевший палец с пурпурной плотью и четырьмя суставами"
+msgstr "Surviving finger with purple flesh and four joints"
+
+#: names.cpp:440
+msgid ""
+"Прекрасно сохранившийся глаз; если его положить, то он поворачивается вслед "
+"за вашим движением"
+msgstr ""
+"Perfectly preserved eye; If you put it down, it turns after your movement"
+
+#: names.cpp:441
+msgid ""
+"Маленькая коробочка; когда её открывают, то вы единственный кто начинает "
+"слышать крики"
+msgstr ""
+"Small box; When it is opened, you are the only one who begins to hear screams"
+
+#: names.cpp:442
+msgid "Сохранившееся насекомое; вы никогда не видели ничего подобного"
+msgstr "Preserved insect; You've never seen anything like it"
+
+#: names.cpp:443
+msgid ""
+"Отполированный хрустальный шар; когда вы сжимаете его в кулаке, "
+"телепатический голос начинает рассказывать вам историю у вас в голове"
+msgstr ""
+"Polished crystal ball; As you clench it in your fist, a telepathic voice "
+"begins to tell you a story in your head"
+
+#: names.cpp:444
+msgid ""
+"Каплевидная подвеска, сделанная из полированной раковины; когда вы её "
+"держите, вы видите изображение молодого Риедранца"
+msgstr ""
+"Teardrop-shaped pendant made of polished shell; when you hold it, you see a "
+"picture of a young Riedranz"
+
+#: names.cpp:445
+msgid ""
+"Шестигранный кристаллический кубик; когда вы совершаете им бросок, вы в "
+"течении 6 секунд ощущаете всплеск эмоций"
+msgstr ""
+"Hexagonal crystal cube; When you throw it, you feel a surge of emotions "
+"within 6 seconds"
+
+#: names.cpp:446
+msgid "Запечатанный флакон, заполненный слабо светящимся голубым туманом"
+msgstr "Sealed vial filled with a faintly glowing blue mist"
+
+#: names.cpp:447
+msgid "Кристаллический диск с выгравированным узором в виде лабиринта"
+msgstr "Crystal disc with an engraved pattern in the form of a labyrinth"
+
+#: names.cpp:448
+msgid ""
+"Сборник стихов калаштар в кожаном переплете под названием «Осколки света»"
+msgstr ""
+"A collection of leather-bound Kalashtar poems entitled \"Shards of Light\""
+
+#: names.cpp:449
+msgid ""
+"Шар из полированного хрусталя; когда вы держите его в руке, вы ощущаете, что "
+"он знает и понимает вас"
+msgstr ""
+"Ball of polished crystal; When you hold him in your hand, you feel that he "
+"knows and understands you"
+
+#: names.cpp:450
+msgid ""
+"Игрушка с чашкой и мячом; когда вы успешно ловите мяч чашкой, вы ощущаете "
+"мгновенный прилив радости"
+msgstr ""
+"A toy with a cup and a ball; When you successfully catch the ball with a "
+"cup, you feel an instant surge of joy"
+
+#: names.cpp:451
+msgid "Перфорированный билет на рейс из Шарна в Штормовой Предел"
+msgstr "Perforated ticket for a flight from Charne to Storm Reach"
+
+#: names.cpp:452
+msgid "Жало скорпиона с выгравированной на нем единственной Эльфийской буквой"
+msgstr "The sting of a scorpion with a single Elven letter engraved on it"
+
+#: names.cpp:453
+msgid ""
+"Медная монета такая большая, что ее можно использовать как обеденную тарелку"
+msgstr "The copper coin is so large that it can be used as a dinner plate"
+
+#: names.cpp:454
+msgid "Изображение эльфийского воина, выгравированное на зубе великана"
+msgstr "An image of an elven warrior engraved on a giant's tooth"
+
+#: names.cpp:455
+msgid "Одна страница из гигантской волшебной книги с незавершенным заклинанием"
+msgstr "One page from a giant magic book with an unfinished spell"
+
+#: names.cpp:456
+msgid "Обрывок пергамента, часть карты Штормового Предела"
+msgstr "A piece of parchment, part of the Storm Reach map"
+
+#: names.cpp:457
+msgid "Небольшая книжка под названием «Строшные звири Зендрика»"
+msgstr "A small book called \"Zendrika's Stroshnye Zviri\""
+
+#: names.cpp:458
+msgid "Сахуагин вырезанный скримшоу"
+msgstr "Sahuagin carved scrimshaw"
+
+#: names.cpp:459
+msgid "Маленькая призма, вырезанная из нетающего льда"
+msgstr "A small prism carved out of non-melting ice"
+
+#: names.cpp:460
+msgid ""
+"Ржавая железная монета, изображающая повелителя гномов и миры «Five Rex "
+"Undra»"
+msgstr ""
+"A rusty iron coin depicting the Dwarf Lord and the worlds of \"Five Rex "
+"Undra\""
+
+#: names.cpp:461
+msgid "Пара восьмигранных кубиков, вырезанных из нетающего льда"
+msgstr "A pair of octagonal cubes carved from non-melting ice"
+
+#: names.cpp:462
+msgid ""
+"Кусок серебристого меха, холодного на ощупь, возможно, от полярного волка."
+msgstr "A piece of silvery fur, cold to the touch, possibly from a polar wolf."
+
+#: names.cpp:463
+msgid "Снежок; он не тает и не может быть превращен в лед"
+msgstr "Snowball; It doesn't melt and can't be turned into ice"
+
+#: names.cpp:464
+msgid "Крошечный белый дракон, высеченный из нетающего льда"
+msgstr "A tiny white dragon carved out of non-melting ice"
+
+#: names.cpp:465
+msgid "Ключ, вырезанный из нетающего льда"
+msgstr "A key carved out of non-melting ice"
+
+#: names.cpp:466
+msgid "Одна чешуйка белого дракона"
+msgstr "One white dragon scale"
+
+#: names.cpp:468
+msgid ""
+"Маленькая деревянная фигурка зевающего моржа, раскрашенная в красный и "
+"чёрный цвета."
+msgstr "A small wooden figure of a yawning walrus, painted in red and black."
+
+#: names.cpp:469
+msgid ""
+"Пара запонок с выгравированным на них изображением рыбака на лодке, в "
+"технике скримшоу."
+msgstr ""
+"A pair of cufflinks engraved with the image of a fisherman on a boat, using "
+"the scrimshaw technique."
+
+#: names.cpp:470
+msgid "Маленький железный ключик с потрепанным сине-золотым шнуром."
+msgstr "A small iron key with a battered blue and gold cord."
+
+#: names.cpp:471
+msgid ""
+"Небольшая иллюстрированная книга с мифами северян, в которой не хватает "
+"страниц."
+msgstr ""
+"A small illustrated book with the myths of the northerners, in which there "
+"are not enough pages."
+
+#: names.cpp:472
+msgid "Поврежденная камея с изображением мерфолка, в технике скримшоу."
+msgstr ""
+"Damaged cameo with the image of merfolk, in the technique of scrimshaw."
+
+#: names.cpp:473
+msgid ""
+"Камень из погребальной пирамиды с вырезанной на нем крошечной Дварфийской "
+"руной"
+msgstr "A stone from a funerary pyramid with a tiny Dwarven rune carved on it"
+
+#: names.cpp:474
+msgid "Часть разорванного паруса с символом, который вы не узнаёте."
+msgstr "Part of a torn sail with a symbol you don't recognize."
+
+#: names.cpp:475
+msgid "Нож Улу с рукояткой выполненной в технике скримшоу"
+msgstr "Ulu knife with a handle made in the technique of scrimshaw"
+
+#: names.cpp:476
+msgid "Сосуд с неидентифицируемым сладким, липким содержимым"
+msgstr "Vessel with unidentifiable sweet, sticky contents"
+
+#: names.cpp:477
+msgid ""
+"Изысканный стеклянный шар, расписанный снежинками, увенчанный металлической "
+"петлей с прикрепленным к ней крошечным крючком"
+msgstr ""
+"An exquisite glass ball painted with snowflakes, topped with a metal loop "
+"with a tiny hook attached to it"
+
+#: names.cpp:478
+msgid ""
+"Экспедиционный журнал с отсутствующими страницами и прижатым цветком, "
+"использованным в качестве закладки"
+msgstr ""
+"Expedition journal with missing pages and pressed flower used as a bookmark"
+
+#: names.cpp:479
+msgid "Фигурка совы, вырезанная из китового уса"
+msgstr "Owl figurine carved from whalebone"
+
+#: names.cpp:480
+msgid ""
+"Шкатулка с набором для шитья, пахнущая старым деревом, с тремя катушками "
+"синих ниток внутри."
+msgstr ""
+"A box with a sewing kit that smells like old wood, with three spools of blue "
+"thread inside."
+
+#: names.cpp:481
+msgid ""
+"Перьевая ручка с пером вырезанным в технике скримшоу и чёрными руническими "
+"узорами по всей его длине"
+msgstr ""
+"Fountain pen with a pen carved in the technique of scrimshaw and black runic "
+"patterns along its entire length"
+
+#: names.cpp:482
+msgid "Брошь с маленьким насекомым, заключенным в янтарь."
+msgstr "Brooch with a small insect encased in amber."
+
+#: names.cpp:483
+msgid "Перечница с буквой W на ней, выгравированной в технике скримшоу"
+msgstr ""
+"A pepper maker with the letter W on it, engraved in the scrimshaw technique"
+
+#: names.cpp:484
+msgid ""
+"Старый ледоруб с деревянной ручкой, испачканный кровью, которую не смыть."
+msgstr ""
+"An old ice axe with a wooden handle, stained with blood that cannot be "
+"washed off."
+
+#: names.cpp:485
+msgid "Тряпичная кукла с сердитым выражением лица"
+msgstr "Rag doll with an angry expression on his face"
+
+#: names.cpp:486
+msgid "Набор ветряных колокольчиков из морских ракушек"
+msgstr "Set of seashell wind bells"
+
+#: names.cpp:487
+msgid ""
+"Красивая серебряная консервная банка, из которой пахнет гниющей рыбой, когда "
+"ее открывают."
+msgstr "A beautiful silver tin can that smells like rotting fish when opened."
+
+#: names.cpp:488
+msgid ""
+"Окровавленный ловец снов, сделанный из лески, золотой проволоки и "
+"белоснежных перьев совы"
+msgstr ""
+"A bloody dreamcatcher made of fishing line, gold wire and snow-white owl "
+"feathers"
+
+#: names.cpp:489
+msgid "Фигурка белого медведя, вырезанная из льда, который никогда не тает."
+msgstr "A figurine of a polar bear carved out of ice that never melts."
+
+#: names.cpp:490
+msgid "Снежный шар, который не нужно трясти"
+msgstr "A snow globe that doesn't need to be shaken"
+
+#: names.cpp:491
+msgid "Кусочек морского стекла в форме рога единорога"
+msgstr "A piece of sea glass in the shape of a unicorn horn"
+
+#: names.cpp:492
+msgid ""
+"Темно - синий шарф, который становится тем светлее в тени, чем выше высота "
+"владельца"
+msgstr ""
+"A dark blue scarf that becomes lighter in the shade the higher the height of "
+"the wearer"
+
+#: names.cpp:494
+msgid "Форма для печенья в виде единорога"
+msgstr "Unicorn cookie pan"
+
+#: names.cpp:495
+msgid "Два соединенных тисовых кольца"
+msgstr "Two connected yew rings"
+
+#: names.cpp:496
+msgid "Серебряное ручное зеркальце с рукоятью в виде нимфы"
+msgstr "Silver hand mirror with a handle in the form of a nymph"
+
+#: names.cpp:497
+msgid ""
+"Разукрашенный деревянный ключ, чьи бородка меняется каждый день на рассвете"
+msgstr "A decorated wooden key whose beard changes every day at dawn"
+
+#: names.cpp:498
+msgid "Изящный серебряный медальон с портретами близнецов"
+msgstr "Elegant silver medallion with portraits of twins"
+
+#: names.cpp:499
+msgid "Золотая подвеска-амулет в форме лепрекона"
+msgstr "Gold pendant-amulet in the shape of a leprechaun"
+
+#: names.cpp:500
+msgid ""
+"Крохотная деревянная шкатулка с набором для игры в крокет для пикси или "
+"спрайтов"
+msgstr "A tiny wooden box with a croquet set for pixies or sprites"
+
+#: names.cpp:501
+msgid "Крохотные железные острые ножницы"
+msgstr "Tiny iron sharp scissors"
+
+#: names.cpp:502
+msgid ""
+"Шахматная фигура в виде танцующего сатира в епископской митре и с корявым "
+"посохом"
+msgstr ""
+"A chess piece in the form of a dancing satyr in a bishop's mitre and with a "
+"gnarled staff"
+
+#: names.cpp:503
+msgid "Солонка в виде башни волшебника"
+msgstr "Salt shaker in the form of a wizard's tower"
+
+#: names.cpp:504
+msgid "Кристалльная сфера, позволяющая держащему её эльфу уснуть"
+msgstr "A crystal sphere that allows the elf holding it to fall asleep"
+
+#: names.cpp:505
+msgid "Кулон, показывающий фазы луны"
+msgstr "A pendant showing the phases of the moon"
+
+#: names.cpp:506
+msgid "Большой железный ноготь"
+msgstr "Large iron nail"
+
+#: names.cpp:507
+msgid "Крохотный свисток из электрума, который могут слышать только Феи"
+msgstr "A tiny electrum whistle that only Fairies can hear"
+
+#: names.cpp:508
+msgid ""
+"Кусок деревянной головоломки размером с блюдце с изображением кувшина на нём"
+msgstr ""
+"A piece of wooden puzzle the size of a saucer with a picture of a jug on it"
+
+#: names.cpp:509
+msgid "Катушка блестящей серебряной нитки"
+msgstr "A spool of shiny silver thread"
+
+#: names.cpp:510
+msgid "Ноты песни, расстраивающей гоблинов, когда они слышат её"
+msgstr "Notes of a song that upsets goblins when they hear it"
+
+#: names.cpp:511
+msgid "Гнилой зуб огра с вытравленным на нём эльфийским символом \"луна\")"
+msgstr "A rotten ogre tooth with the elven symbol \"moon\" etched on it)"
+
+#: names.cpp:512
+msgid "Остеклённый глаз ускользающего зверя"
+msgstr "The glazed eye of the elusive beast"
+
+#: names.cpp:513
+msgid "Крохотный гроб из темнодерева с пеплом тролля"
+msgstr "A tiny coffin made of dark wood with the ashes of a troll"
+
+#: names.cpp:514
+msgid ""
+"Старое приглашение на банкет на собрании богов, написанный Сильваном "
+"чернилами по велени"
+msgstr ""
+"An old invitation to a banquet at the meeting of the gods, written by "
+"Silvanus in ink at the behest of"
+
+#: names.cpp:515
+msgid "Слабо светящаяся в лунном свете шаль"
+msgstr "A shawl glowing faintly in the moonlight"
+
+#: names.cpp:516
+msgid "Бильбоке, издающая короткий победный звон, когда мяч оказывается в чаше"
+msgstr "Bilboke, which makes a short victory call when the ball is in the bowl"
+
+#: names.cpp:517
+msgid "Покрытый чернильными отпечатками пальцев череп спрайта"
+msgstr "Ink Fingerprint Sprite Skull"
+
+#: names.cpp:518
+msgid "Серебряная вилка с отогнутыми боковыми зубцами"
+msgstr "Silver fork with bent side teeth"
+
+#: names.cpp:519
+msgid ""
+"Выпачканный в саже носок, в котором каждый рассвет магически появляется "
+"кусок угля"
+msgstr ""
+"A soot-stained sock, in which a piece of coal magically appears every dawn"
+
+#: names.cpp:520
+msgid ""
+"Крохотный деревянный стул (размером по пикси или спрайту), занозящий "
+"держащего"
+msgstr ""
+"A tiny wooden chair (the size of a pixie or sprite) that splinters the holder"
+
+#: names.cpp:521
+msgid ""
+"Крошечная заводная стрекоза, медленно бьющая крыльями при заводе (но не "
+"способная взлететь)"
+msgstr ""
+"A tiny clockwork dragonfly that beats its wings slowly when planted (but "
+"unable to take off)"
+
+#: names.cpp:522
+msgid "Выкрашенный в яркие цвета игрушечный деревянный единорог"
+msgstr "Brightly painted toy wooden unicorn"
+
+#: names.cpp:523
+msgid "Плюшевая пикси, поющая при сжимании"
+msgstr "Plush pixie singing when squeezed"
+
+#: names.cpp:524
+msgid "Рисунок спящего эльфа на дюймовом квадратике бумаги"
+msgstr "Drawing of a sleeping elf on an inch square of paper"
+
+#: names.cpp:525
+msgid "Напёрсток, помогающий погружаться в мечты"
+msgstr "A thimble that helps you immerse yourself in dreams"
+
+#: names.cpp:526
+msgid ""
+"Тыквенный кекс, магически восстанавливающийся в своей бумажной чашке каждый "
+"рассвет"
+msgstr "Pumpkin cupcake magically regenerating in its paper cup every dawn"
+
+#: names.cpp:527
+msgid ""
+"Поддельная карта \"Ставки Трёх Драконов\" с изображением волшебного "
+"дракончика"
+msgstr "Fake card \"Three Dragon Bets\" with the image of a magic dragon"
+
+#: names.cpp:528
+msgid ""
+"Чашка из лакированной шляпки гриба, магически поддерживающая теплоту напитка"
+msgstr ""
+"A cup made of lacquered mushroom cap that magically maintains the warmth of "
+"the drink"
+
+#: names.cpp:529
+msgid "Парящий камешек, достаточно маленький, чтобы спрятаться в кулаке"
+msgstr "A floating pebble, small enough to hide in a fist"
+
+#: names.cpp:530
+msgid "Крошечная бутылочка с дождевой водой из Царства Фей"
+msgstr "A tiny bottle of rainwater from the Fairy Realm"
+
+#: names.cpp:531
+msgid "Слабо светящаяся раковина, хохочущая, если её приложить к уху"
+msgstr "A faintly glowing shell, laughing if it is applied to the ear"
+
+#: names.cpp:532
+msgid "Фиал вязкой жидкости с этикеткой \"Слюна фомора. Не пить!\""
+msgstr "Vial viscous liquid with the label \"Saliva fomora. Don't drink!\""
+
+#: names.cpp:533
+msgid "Восковая свеча, гудящая и трещащая как целый костёр, если её поджечь"
+msgstr ""
+"A wax candle that buzzes and crackles like a whole fire if it is set on fire"
+
+#: names.cpp:534
+msgid "Нарцисс в горшке, склоняющийся, если рядом играет музыка"
+msgstr "Narcissus in a pot, bending over if music is playing nearby"
+
+#: names.cpp:535
+msgid ""
+"Двухсотграммовая винная бутылка, магически восстанавливающаяся через минуту, "
+"если её разбить"
+msgstr ""
+"A two-hundred-gram wine bottle that magically recovers in a minute if it is "
+"broken"
+
+#: names.cpp:536
+msgid "Крошечная деревянная голова сильфиды для модели корабля"
+msgstr "Tiny wooden sylph head for ship model"
+
+#: names.cpp:537
+msgid "Крохотный котел из мореного дуба в форме тыквы"
+msgstr "Tiny bog oak cauldron in the shape of a pumpkin"
+
+#: names.cpp:538
+msgid "Кусок мыла, пахнущий чем-то из вашего детства"
+msgstr "A bar of soap that smells like something from your childhood"
+
+#: names.cpp:539
+msgid "Кусок оранжевого пергамента, сложенный в рыцаря верхом на единороге"
+msgstr "A piece of orange parchment folded into a knight riding a unicorn"
+
+#: names.cpp:540
+msgid "Солнцезащитные очки настолько тёмные, что через них ничего не видно"
+msgstr "Sunglasses are so dark that you can't see anything through them"
+
+#: names.cpp:541
+msgid "Двадцатисантиметровая стеклянная статуэтка муравья"
+msgstr "Twenty-centimeter glass statuette of an ant"
+
+#: names.cpp:542
+msgid "Кусок пергамента с детским рисунком они на нём"
+msgstr "A piece of parchment with a children's drawing they are on it"
+
+#: names.cpp:543
+msgid "Крохотные песочные часы без песка внутри"
+msgstr "Tiny hourglass with no sand inside"
+
+#: names.cpp:544
+msgid "Пустой фиал, запаянный с обоих сторон"
+msgstr "Empty phial, sealed on both sides"
+
+#: names.cpp:545
+msgid "Пара зелёных лепреконских ботинок, связанных шнурками"
+msgstr "A pair of green leprechaun boots tied with laces"
+
+#: names.cpp:546
+msgid "Курительная трубка из корня дерева"
+msgstr "Smoking pipe made of tree root"
+
+#: names.cpp:547
+msgid "Красная фуражка, постоянно сваливающаяся на плечо"
+msgstr "A red cap that constantly falls on his shoulder"
+
+#: names.cpp:548
+msgid "Маска, помогающая не забывать сны, если спать в ней"
+msgstr "A mask that helps not to forget dreams if you sleep in it"
+
+#: names.cpp:549
+msgid ""
+"Записная книжка, показывающая записи только если её держать вверх ногами"
+msgstr "A notebook that shows notes only if you hold it upside down"
+
+#: names.cpp:550
+msgid ""
+"Деревянный волчок с четырьмя сторонами с изображениями ребёнка, "
+"наслаждающегося каждым из времён года"
+msgstr ""
+"A wooden spinning top with four sides with images of a child enjoying each "
+"of the seasons"
+
+#: names.cpp:551
+msgid "Крошечный парик-улей для спрайта или пикси"
+msgstr "Tiny beehive wig for sprite or pixie"
+
+#: names.cpp:552
+msgid "Деревянная фигурка мыши, пищащая при нажатии"
+msgstr "Wooden mouse figurine squeaking when pressed"
+
+#: names.cpp:553
+msgid "Мягкая кукла-они с жуткой улыбкой и одним глазом"
+msgstr "Soft doll-oni with a creepy smile and one eye"
+
+#: names.cpp:554
+msgid "Пустая сумка с биркой \"Сласти\""
+msgstr "Empty bag with \"Sweets\" tag"
+
+#: names.cpp:555
+msgid "Монокль с тёмным стеклом, через который всё выглядит зелёным"
+msgstr "A monocle with dark glass through which everything looks green"
+
+#: names.cpp:556
+msgid "Чёрный колпак палача размером для пикси или спрайта"
+msgstr "A black executioner's cap the size of a pixie or sprite"
+
+#: names.cpp:557
+msgid "Клавиша пианино, выточенная из рога сатира"
+msgstr "Piano key carved from the horn of satyr"
+
+#: names.cpp:558
+msgid "Крошечная деревянная лютня с кошачьими шерстинками вместо струн"
+msgstr "Tiny wooden lute with cat hair instead of strings"
+
+#: names.cpp:559
+msgid "Железная игла с ушком, через которое не пройдёт нить"
+msgstr "An iron needle with an eye through which the thread will not pass"
+
+#: names.cpp:560
+msgid "Крошечные солнечные часы, отбрасывающие тень только в лунном свете"
+msgstr "A tiny sundial that casts a shadow only in the moonlight"
+
+#: names.cpp:561
+msgid "Деревянная флейта пана, привлекающая безвредную живность"
+msgstr "A wooden pan flute that attracts harmless living creatures"
+
+#: names.cpp:562
+msgid "Посеребрённая шишка"
+msgstr "Silver-plated cone"
+
+#: names.cpp:563
+msgid ""
+"Фляжка с призрачными светлячками, меняющими цвет в зависимости от настроение "
+"владельца"
+msgstr ""
+"Flask with ghostly fireflies that change color depending on the mood of the "
+"wearer"
+
+#: names.cpp:564
+msgid "Выкрашенное в синий деревянное яблоко"
+msgstr "Blue-painted wooden apple"
+
+#: names.cpp:565
+msgid "Камертон, звучащий нотой Фа"
+msgstr "Tuning fork sounding the note of F"
+
+#: names.cpp:566
+msgid "Нунчаки размером для пикси или спрайта"
+msgstr "Pixie or sprite-sized nunchucks"
+
+#: names.cpp:567
+msgid ""
+"Медная монета с улыбающимся лицом сатира с одной стороны и черепом сатира с "
+"другой"
+msgstr ""
+"Copper coin with a smiling satyr face on one side and a satyr's skull on the "
+"other"
+
+#: names.cpp:568
+msgid "Отрезанная куриная нога на кожаном шнкурке"
+msgstr "Severed chicken leg on a leather skin"
+
+#: names.cpp:569
+msgid "Коллекция молочных зубов в маленькой деревянной шкатулке"
+msgstr "Collection of milk teeth in a small wooden box"
+
+#: names.cpp:570
+msgid "Вертушка на палочке, крутящаяся даже без ветра"
+msgstr "Turntable on a stick, spinning even without wind"
+
+#: names.cpp:571
+msgid "Покрытый мхом и листьями детский зонтик"
+msgstr "Children's umbrella covered with moss and leaves"
+
+#: names.cpp:572
+msgid "Деревянная оправа увеличительного стекла с рукоятью"
+msgstr "Wooden magnifying glass frame with handle"
+
+#: names.cpp:573
+msgid ""
+"Поблескивающий гриб с красной шляпкой в виде колокольчика, звенящий, если "
+"его потрясти"
+msgstr "A gleaming mushroom with a red bell-shaped cap that rings if shaken"
+
+#: names.cpp:574
+msgid "Кисет с семенами, пахнущими как дом"
+msgstr "Pouch with seeds that smell like home"
+
+#: names.cpp:575
+msgid "Окаменелое яйцо малиновки"
+msgstr "Fossilized robin egg"
+
+#: names.cpp:576
+msgid "Деревянная ложка с дыркой посредине"
+msgstr "A wooden spoon with a hole in the middle"
+
+#: names.cpp:577
+msgid "Гнездо бумажных ос в банке"
+msgstr "A nest of paper wasps in a jar"
+
+#: names.cpp:578
+msgid "Веточка розмарина с повязанным бантиком"
+msgstr "A sprig of rosemary with a tied bow"
+
+#: names.cpp:579
+msgid "Крохотный кукольный дом без мебели для ребёнка-пикси"
+msgstr "Tiny dollhouse without furniture for a pixie child"
+
+#: names.cpp:580
+msgid "Полностью керамическая кисть - не исключая и щетину"
+msgstr "Fully ceramic brush - not excluding bristles"
+
+#: names.cpp:581
+msgid ""
+"Подсвечник, огонь свечи в котором выглядит как крохотная танцующая огненная "
+"фея"
+msgstr ""
+"A candlestick, the candle fire in which looks like a tiny dancing fire fairy"
+
+#: names.cpp:582
+msgid "Оправа очков в форме крыльев бабочки"
+msgstr "The frame of the glasses in the shape of butterfly wings"
+
+#: names.cpp:583
+msgid "Деревянные вставные челюсти"
+msgstr "Wooden false jaws"
+
+#: names.cpp:584
+msgid "Крошечная книга сказок"
+msgstr "A tiny book of fairy tales"
+
+#: names.cpp:585
+msgid "Рюкзак, в котором каждый рассвет магически появляется одна картофелина"
+msgstr "A backpack in which one potato magically appears every dawn"
+
+#: names.cpp:586
+msgid "Зимняя куртка пикси с оторочкой из лисьего меха"
+msgstr "Winter pixie jacket with fox fur trim"
+
+#: names.cpp:587
+msgid "Украшение для винного бокала в виде спрайта"
+msgstr "Decoration for a wine glass in the form of a sprite"
+
+#: names.cpp:588
+msgid "Слабая магнитная палочка"
+msgstr "Weak magnetic wand"
+
+#: names.cpp:589
+msgid "Стогранная кость размером со сливу, сделанная из угля"
+msgstr "A hundred-sided bone the size of a plum made of charcoal"
+
+#: names.cpp:590
+msgid "Хрустальная туфелька без пары"
+msgstr "Crystal shoe without a pair"
+
+#: names.cpp:591
+msgid "Крохотный ловец снов"
+msgstr "Tiny Dreamcatcher"
+
+#: names.cpp:592
+msgid "Гантель размером для пикси или спрайта"
+msgstr "A dumbbell the size of a pixie or sprite"
+
+#: names.cpp:593
+msgid ""
+"Музыкальная шкатулка, играющая бодрый мотив, который вы помните с детства"
+msgstr "A music box playing a peppy tune that you remember from childhood"
+
+#: names.cpp:887
+msgid "Туман"
+msgstr "Fog"
+
+#: names.cpp:888
+msgid "Слабый туман (40 фт зрения)"
+msgstr "Low fog (40 ft vision)"
+
+#: names.cpp:889
+msgid "Сильный туман (20 фт зрения)"
+msgstr "Heavy fog (20 ft vision)"
+
+#: names.cpp:890
+msgid "Жутчайший туман (5 фт зрения)"
+msgstr "The most horrible fog (5 ft of vision)"
+
+#: names.cpp:891
+msgid ""
+"Здесь жутчайший туман (5 фт зрения), в котором обитает жуткий туманный "
+"монстр (не представляет угрозы, только страшный)"
+msgstr ""
+"Here is the most horrible fog (5 ft of vision), which is inhabited by a "
+"creepy foggy monster (does not pose a threat, only scary)"
+
+#: names.cpp:892
+msgid ""
+"Здесь жутчайший туман (5 фт зрения), в котором обитает жуткий туманный "
+"монстр силы +2"
+msgstr ""
+"Here is the most horrible fog (5 ft of vision), which is inhabited by a "
+"creepy foggy monster of power +2"
+
+#: names.cpp:894
+msgid "Угрозы/проблемы восприятия"
+msgstr "Threats/perceptual problems"
+
+#: names.cpp:895
+msgid "Меметическая угроза"
+msgstr "Memetic threat"
+
+#: names.cpp:896
+msgid "Антимеметическая угроза"
+msgstr "Antimemetic threat"
+
+#: names.cpp:897
+msgid "Комната погружена в магическую тьму"
+msgstr "The room is immersed in magical darkness"
+
+#: names.cpp:898
+msgid "Комната магически освещена"
+msgstr "The room is magically lit"
+
+#: names.cpp:899
+msgid "Сильная вонь (плохо работает обоняние)"
+msgstr "Strong stench (the sense of smell does not work well)"
+
+#: names.cpp:901
+msgid "Комната наполнена несвязным криком (проблемы со слухом)"
+msgstr "The room is filled with incoherent screaming (hearing problems)"
+
+#: names.cpp:902
+msgid "Вы не различаете друзей и врагов"
+msgstr "You don't distinguish between friends and enemies"
+
+#: names.cpp:903
+msgid ""
+"До выхода каждый уверен, что один из членов отряда - предатель и хочет "
+"завести их на верную смерть"
+msgstr ""
+"Before leaving, everyone is sure that one of the members of the squad is a "
+"traitor and wants to lead them to certain death"
+
+#: names.cpp:904
+msgid "Все существа в комнате не могут читать (в том числе карты...)"
+msgstr "All creatures in the room cannot read (including maps...)"
+
+#: names.cpp:905
+msgid ""
+"Все члены отряда не понимают, сколько урона они нанесли (ДМ бросает все кубы "
+"урона в закрытую)"
+msgstr ""
+"All members of the squad do not understand how much damage they have done "
+"(DM throws all damage cubes into the closed one)"
+
+#: names.cpp:907
+msgid ""
+"Все члены отряда не запоминают, кого из монстров они атаковали последним и "
+"выбирают цели случайным образом"
+msgstr ""
+"All members of the squad do not remember which of the monsters they attacked "
+"last and choose targets randomly"
+
+#: names.cpp:908
+msgid "К отряду тихо присоединяется Боб (спутник-антимем)"
+msgstr "Bob (anti-meme satellite) quietly joins the squad"
+
+#: names.cpp:909
+msgid "К отряду заметно присоединяется Боб (спутник-антимем)"
+msgstr "Bob (antimeme satellite) visibly joins the squad"
+
+#: names.cpp:910
+msgid "Отряд находит документ, заражённый Вальтером (искажение текстов)"
+msgstr "The squad finds a document infected with Walter (distortion of texts)"
+
+#: names.cpp:911
+msgid ""
+"Все члены отряда не видят и не слышат друг друга (антимеметический эффект); "
+"однако осязание работает"
+msgstr ""
+"All members of the squad do not see or hear each other (antimemetic effect); "
+"However, the sense of touch works"
+
+#: names.cpp:913
+msgid ""
+"Всем членам отряда кажется, что их снаряжение исчезло, но на самом деле это "
+"не так"
+msgstr ""
+"It seems to all members of the squad that their equipment has disappeared, "
+"but in fact it is not"
+
+#: names.cpp:914
+msgid ""
+"Мужчины и женщины воспринимают разные части противников в комнате (хотя по "
+"количеству их поровну); антимеметический эффект"
+msgstr ""
+"Men and women perceive different parts of opponents in the room (although "
+"they are equal in number); Antimemetic effect"
+
+#: names.cpp:915
+msgid ""
+"Один из членов отряда немедленно влюбляется в остальных и лезет с ними "
+"целоваться (эффект проходит при выходе из комнаты)"
+msgstr ""
+"One of the members of the squad immediately falls in love with the others "
+"and climbs to kiss them (the effect disappears when leaving the room)"
+
+#: names.cpp:916
+msgid "Все предметы (в том числе двери) из этой комнаты невидимы"
+msgstr "All objects (including doors) from this room are invisible"
+
+#: names.cpp:917
+msgid ""
+"Все монстры в комнате кажутся милыми и добрыми, хотя на самом деле таковыми "
+"не являются"
+msgstr ""
+"All the monsters in the room seem cute and kind, although in fact they are "
+"not"
+
+#: names.cpp:919
+msgid ""
+"До выхода каждый член отряда помнит только некоторую часть RDP "
+"(антимеметический эффект)"
+msgstr ""
+"Before leaving, each member of the squad remembers only some part of the RDP "
+"(antimemetic effect)"
+
+#: names.cpp:921
+msgid "Проблемы с дверьми"
+msgstr "Problems with doors"
+
+#: names.cpp:922
+msgid "До одной из дверей сложно добраться"
+msgstr "One of the doors is difficult to get to"
+
+#: names.cpp:923
+msgid ""
+"Ни одна из дверей не соответствует описанию (прибавьте к выбору игроков 1)"
+msgstr "None of the doors match the description (add 1 to the players' choice)"
+
+#: names.cpp:924
+msgid ""
+"Ни одна из дверей не соответствует описанию (прибавьте к выбору игроков 3)"
+msgstr ""
+"None of the doors match the description (add 3 players to the selection)"
+
+#: names.cpp:925
+msgid ""
+"Ни одна из дверей не соответствует описанию (вычтите из выбора игроков 1)"
+msgstr ""
+"None of the doors match the description (subtract 1 from the players' "
+"selection)"
+
+#: names.cpp:926
+msgid ""
+"Ни одна из дверей не соответствует описанию (вычтите из выбора игроков 3)"
+msgstr ""
+"None of the doors match the description (subtract 3 from the players' "
+"selection)"
+
+#: names.cpp:928
+msgid ""
+"Все двери одинаковы и согласно картам ведут к скоропостижной кончине (хотя "
+"по факту это не так)"
+msgstr ""
+"All doors are the same and, according to the cards, lead to a sudden death "
+"(although in fact this is not the case)"
+
+#: names.cpp:929
+msgid ""
+"Все двери одинаковы и согласно картам ведут вниз в лес (хотя по факту это не "
+"так)"
+msgstr ""
+"All doors are the same and, according to the maps, lead down into the forest "
+"(although in fact this is not the case)"
+
+#: names.cpp:930
+msgid ""
+"Все двери одинаковы и согласно картам ведут вверх в болото (хотя по факту "
+"это не так)"
+msgstr ""
+"All doors are the same and, according to the maps, lead up into the swamp "
+"(although in fact this is not the case)"
+
+#: names.cpp:931
+msgid "При входе в комнату двери становятся невидимыми для всех, кроме новичка"
+msgstr ""
+"Upon entering the room, the doors become invisible to everyone except the "
+"newcomer"
+
+#: names.cpp:932
+msgid "Некоторые из дверей надёжно заперты"
+msgstr "Some of the doors are securely locked"
+
+#: names.cpp:934
+msgid ""
+"Некоторые из дверей заперты на ненадёжные замки, которые несложно сбить "
+"мечом/ломиком"
+msgstr ""
+"Some of the doors are locked with loose locks, which are easy to knock down "
+"with a sword / crowbar"
+
+#: names.cpp:936
+msgid "Случай из RDP"
+msgstr "Case from RDP"
+
+#: names.cpp:937
+msgid "Случай из RDP: еда/вода"
+msgstr "Case from RDP: Food/Water"
+
+#: names.cpp:938
+msgid "Случай из RDP: торговец"
+msgstr "RDP Case: Merchant"
+
+#: names.cpp:939
+msgid "Случай из RDP: подарки"
+msgstr "The Case from RDP: Gifts"
+
+#: names.cpp:940
+msgid "Случай из RDP: белая мышь"
+msgstr "Case from RDP: White Mouse"
+
+#: names.cpp:942
+msgid "Неожиданное изменение уровня"
+msgstr "Unexpected level change"
+
+#: names.cpp:943
+msgid "Если вы спускались вниз, эта комната ещё на уровень ниже"
+msgstr "If you went downstairs, this room is still one level lower"
+
+#: names.cpp:944
+msgid "Если вы поднимались вверх, эта комната ещё на уровень выше"
+msgstr "If you went upstairs, this room is even higher"
+
+#: names.cpp:945
+msgid "Вы остались на уровне"
+msgstr "You've stayed on the level"
+
+#: names.cpp:946
+msgid "Вы попали в ближайшую якорную точку"
+msgstr "You've landed at the nearest anchor point"
+
+#: names.cpp:947
+msgid "Вы попали в Hellmouth"
+msgstr "You're in Hellmouth"
+
+#: names.cpp:949
+msgid "Бесполезность магии/оружия/способностей"
+msgstr "The Uselessness of Magic/Weapons/Abilities"
+
+#: names.cpp:950
+msgid "В комнате не работает магия"
+msgstr "Magic doesn't work in the room"
+
+#: names.cpp:951
+msgid "Враги бестелесны и против них не работает материальное оружие"
+msgstr "Enemies are disembodied and material weapons do not work against them"
+
+#: names.cpp:952
+msgid "Комната находится в зоне магической тишины"
+msgstr "The room is located in a zone of magical silence"
+
+#: names.cpp:953
+msgid "До выхода вы все не можете использовать сложные ходы"
+msgstr "Before exiting, you all can't use complex moves"
+
+#: names.cpp:954
+msgid "До выхода вы забываете все свои заклинания"
+msgstr "Before you leave, you forget all your spells"
+
+#: names.cpp:956
+msgid "В комнате не действует исцеляющая магия"
+msgstr "There is no healing magic in the room"
+
+#: names.cpp:957
+msgid ""
+"В комнате невозможно восстанавливать здоровье и излечиваться от болезней и "
+"травм"
+msgstr ""
+"In the room it is impossible to restore health and recover from diseases and "
+"injuries"
+
+#: names.cpp:958
+msgid ""
+"До выхода все члены отряда нематериальны и не могут влиять на окружающий "
+"мир, кроме как посредством магии (за исключением открытия дверей)"
+msgstr ""
+"Before leaving, all members of the squad are intangible and cannot influence "
+"the world around them, except through magic (except for opening doors)"
+
+#: names.cpp:960
+msgid "Неожиданные находки"
+msgstr "Unexpected finds"
+
+#: names.cpp:961
+msgid "Здесь лежит тело бойца"
+msgstr "Here lies the body of a fighter"
+
+#: names.cpp:962
+msgid ""
+"На постаменте аккуратно разложены карты (следующие им улучшают карту на 5)"
+msgstr ""
+"Cards are neatly laid out on the pedestal (the following ones improve the "
+"map by 5)"
+
+#: names.cpp:963
+msgid "Здесь лежит тело неизвестного существа"
+msgstr "Here lies the body of an unknown creature"
+
+#: names.cpp:964
+msgid "Здесь лежит брошенное снаряжение Ордена (тел рядом с ним не видно)"
+msgstr ""
+"Here lies the abandoned equipment of the Order (no bodies are visible next "
+"to it)"
+
+#: names.cpp:965
+msgid "Здесь лежит раздетое тело бойца (снаряжения рядом не видно)"
+msgstr ""
+"Here lies the naked body of a fighter (equipment is not visible nearby)"
+
+#: names.cpp:967
+msgid "Здесь лежит тело бойца со всем снаряжением, кроме сапогов"
+msgstr ""
+"Here lies the body of a fighter with all the equipment, except for boots"
+
+#: names.cpp:968
+msgid "Отряд наход связку ключей"
+msgstr "Squad find a bunch of keys"
+
+#: names.cpp:969
+msgid "Отряд находит чемодан с грибами"
+msgstr "The squad finds a suitcase with mushrooms"
+
+#: names.cpp:970
+msgid ""
+"Отряд находит коробку, набитую наркотиками и использованными презервативами, "
+"а также полбутылки самого дрянного алкоголя"
+msgstr ""
+"The squad finds a box full of drugs and used condoms, as well as half a "
+"bottle of the crappiest alcohol"
+
+#: names.cpp:971
+msgid ""
+"(Если уместно) отряд находит пепелище и опрокинутый железный мангал в центре "
+"комнаты"
+msgstr ""
+"(If appropriate) the squad finds ashes and an overturned iron brazier in the "
+"center of the room"
+
+#: names.cpp:973
+msgid "Встречи"
+msgstr "Meeting"
+
+#: names.cpp:974
+msgid "Здесь синие"
+msgstr "Here are the blue"
+
+#: names.cpp:975
+msgid "Здесь красные"
+msgstr "Here are the reds"
+
+#: names.cpp:976
+msgid "Здесь и синие, и красные"
+msgstr "There are both blue and red"
+
+#: names.cpp:977
+msgid "Здесь живут культисты"
+msgstr "Cultists live here"
+
+#: names.cpp:978
+msgid "Здесь культисты проводят ритуал"
+msgstr "This is where cultists perform a ritual"
+
+#: names.cpp:980
+msgid "Здесь есть монстр за гранью возможностей персонажей (бегите!!!)"
+msgstr ""
+"There's a monster here beyond the capabilities of the characters (run!!)"
+
+#: names.cpp:981
+msgid "В комнате есть оракул, отвечающий на вопросы"
+msgstr "There is an oracle in the room that answers questions"
+
+#: names.cpp:982
+msgid "В комнате есть оракул, предсказывающий будущее"
+msgstr "There is an oracle in the room that predicts the future"
+
+#: names.cpp:983
+msgid "Вы сталкиваетесь с другим отрядом; с ними все нормально"
+msgstr "You encounter a different squad; Everything is fine with them"
+
+#: names.cpp:984
+msgid ""
+"Вы сталкиваетесь с другим отрядом; у них пара раненых, но в целом ничего "
+"страшного"
+msgstr ""
+"You encounter a different squad; They have a couple of wounded, but overall "
+"it's okay"
+
+#: names.cpp:986
+msgid "Вы сталкиваетесь с остатками отряда"
+msgstr "You encounter the remnants of the squad"
+
+#: names.cpp:987
+msgid ""
+"Вы сталкиваетесь с случайно выжившим бойцом без карты (единственным из "
+"своего отряда)"
+msgstr ""
+"You encounter a randomly surviving fighter without a map (the only one from "
+"his squad)"
+
+#: names.cpp:988
+msgid ""
+"Вы сталкиваетесь с случайно выжившим капитаном (единственным из своего "
+"отряда)"
+msgstr ""
+"You encounter a randomly surviving captain (the only one from his squad)"
+
+#: names.cpp:989
+msgid ""
+"Вы сталкиваетесь с случайно выжившим медиком (единственным из своего отряда)"
+msgstr "You encounter a randomly surviving medic (the only one from his squad)"
+
+#: names.cpp:990
+msgid "Здесь синие проводят шаманский ритуал"
+msgstr "Here, the Blues perform a shamanic ritual"
+
+#: names.cpp:992
+msgid "Здесь красные обустраивают чей-то храм"
+msgstr "Here the Reds are equipping someone's temple"
+
+#: names.cpp:993
+msgid "Здесь есть босс (одиночка силы +1)"
+msgstr "There's a boss here (power lone +1)"
+
+#: names.cpp:994
+msgid "Здесь есть босс (одиночка силы +2)"
+msgstr "There's a boss here (power lone +2)"
+
+#: names.cpp:995
+msgid "Комната наводнена враждебными мимиками"
+msgstr "The room is awash with hostile facial expressions"
+
+#: names.cpp:996
+msgid "Комната наводнена нейтральными мимиками"
+msgstr "The room is flooded with neutral facial expressions"
+
+#: names.cpp:998
+msgid "Комната наводнена дружелюбными мимиками"
+msgstr "The room is flooded with friendly facial expressions"
+
+#: names.cpp:999
+msgid ""
+"В этой комнате нечто, вполне способное устроить ТПК (гигантский сборный "
+"голем, древний дракон, Fel Seed и т.п.)"
+msgstr ""
+"There is something in this room that is quite capable of arranging a TPK (a "
+"giant prefabricated golem, an ancient dragon, Fel Seed, etc.)"
+
+#: names.cpp:1001
+msgid "\"Косметические\" эффекты"
+msgstr "\"Cosmetic\" effects"
+
+#: names.cpp:1002
+msgid ""
+"Постоянно слышны шепотки и злобные смешки из не обозреваемых частей комнаты"
+msgstr ""
+"Whispers and angry laughter are constantly heard from unobservable parts of "
+"the room"
+
+#: names.cpp:1003
+msgid "Все огни в комнате горят синим пламенем"
+msgstr "All the lights in the room burn with a blue flame"
+
+#: names.cpp:1004
+msgid "Комната выглядит жутко (хотя реальной опасности это не представляет)"
+msgstr "The room looks creepy (although it does not pose a real danger)"
+
+#: names.cpp:1005
+msgid "Все существа в комнате говорят тонкими писклявыми голосами"
+msgstr "All the creatures in the room speak in thin, squeaky voices"
+
+#: names.cpp:1006
+msgid "Все существа в комнате говорят низким басом"
+msgstr "All the creatures in the room speak in low bass"
+
+#: names.cpp:1008
+msgid ""
+"Периодически в потолке открываются люки, и оттуда высовываются странные "
+"существа (глюки); за ними - вселенская пустота"
+msgstr ""
+"Periodically, hatches open in the ceiling, and strange creatures (glitches) "
+"protrude from there; Behind them is the universal emptiness"
+
+#: names.cpp:1009
+msgid "До выхода все члены отряда невидимы, но не их снаряжение"
+msgstr ""
+"Before leaving, all members of the squad are invisible, but not their "
+"equipment"
+
+#: names.cpp:1010
+msgid "До выхода всё снаряжение всех членов отряда невидимо"
+msgstr ""
+"Until the exit, all the equipment of all members of the squad is invisible"
+
+#: names.cpp:1011
+msgid "Все существа в комнате, включая отряд, непрерывно поют"
+msgstr "All the creatures in the room, including the squad, sing continuously"
+
+#: names.cpp:1013
+msgid "Ловушки"
+msgstr "Traps"
+
+#: names.cpp:1014
+msgid "Комната наводнена физическими ловушками"
+msgstr "The room is flooded with physical traps"
+
+#: names.cpp:1015
+msgid "Комната наводнена магическими ловушками"
+msgstr "The room is flooded with magical traps"
+
+#: names.cpp:1016
+msgid "Комната наводнена физическими и магическими ловушками"
+msgstr "The room is flooded with physical and magical traps"
+
+#: names.cpp:1018
+msgid "ДМские приколы"
+msgstr "DM jokes"
+
+#: names.cpp:1019
+msgid ""
+"ДМ молчит до выхода отряда из комнаты (но может общаться жестами, чтобы не "
+"было совсем больно)"
+msgstr ""
+"DM is silent until the squad leaves the room (but can communicate with "
+"gestures so that it does not hurt at all)"
+
+#: names.cpp:1020
+msgid "ДМ обзывается и ругает игроков до выхода отряда из комнаты"
+msgstr "DM calls names and scolds players before the squad leaves the room"
+
+#: names.cpp:1021
+msgid "ДМ хвалит игроков и признаётся им в любви до выхода из комнаты"
+msgstr ""
+"DM praises the players and confesses his love to them before leaving the room"
+
+#: names.cpp:1022
+msgid ""
+"ДМ делает бросок по любимой таблице дикой магии и применяет эффект до выхода "
+"из комнаты"
+msgstr ""
+"DM makes a throw on his favorite wild magic table and applies the effect "
+"before leaving the room"
+
+#: names.cpp:1023
+msgid ""
+"ДМ делает бросок по любимой таблице дикой магии и применяет эффект до входа "
+"в якорную точку"
+msgstr ""
+"DM makes a throw on his favorite wild magic table and applies the effect "
+"before entering the anchor point"
+
+#: names.cpp:1025
+msgid "ДМ злобно смеётся и говорит, что здесь отряд встретит свою смерть"
+msgstr "DM laughs wickedly and says that here the squad will meet its death"
+
+#: names.cpp:1026
+msgid "ДМ описывает комнату максимально не опасной"
+msgstr "DM describes the room as non-dangerous as possible"
+
+#: names.cpp:1027
+msgid "ДМ описывает комнату максимально опасной"
+msgstr "DM describes the room as the most dangerous"
+
+#: names.cpp:1028
+msgid "ДМ говорит \"ну, нафиг\" и выходит из игры (чтобы потом вернуться)"
+msgstr "DM says \"well, what for\" and leaves the game (to come back later)"
+
+#: names.cpp:1029
+msgid "ДМ включает до выхода из комнаты боевую музыку"
+msgstr "DM turns on battle music before leaving the room"
+
+#: names.cpp:1031
+msgid "Проблемы с речью"
+msgstr "Speech problems"
+
+#: names.cpp:1032
+msgid "До выхода вы все начинаете говорить на разных языках"
+msgstr "Before you leave, you all start speaking different languages"
+
+#: names.cpp:1033
+msgid ""
+"Все существа в комнате могут говорить только на русском (если не знают его - "
+"говорить не могут)"
+msgstr ""
+"All the creatures in the room can only speak Russian (if they don't know it, "
+"they can't speak)"
+
+#: names.cpp:1034
+msgid ""
+"Все существа в комнате могут говорить только на английском (если не знают "
+"его - говорить не могут)"
+msgstr ""
+"All creatures in the room can only speak English (if they don't know it, "
+"they can't speak)"
+
+#: names.cpp:1035
+msgid ""
+"Все существа в комнате могут говорить только на типичном языке монстров "
+"(если не знают его - говорить не могут)"
+msgstr ""
+"All creatures in the room can only speak the typical language of monsters "
+"(if they don't know it, they can't speak)"
+
+#: names.cpp:1036
+msgid "Все существа в комнате говорят задом-наперёд"
+msgstr "All the creatures in the room speak backwards"
+
+#: names.cpp:1038
+msgid "Все существа в комнате не понимают устной речи"
+msgstr "All the creatures in the room do not understand spoken language"
+
+#: names.cpp:1039
+msgid ""
+"Все существа в комнате понимают друг друга, даже если не владеют никаким "
+"языком (можно говорить со зверями:))"
+msgstr ""
+"All the creatures in the room understand each other, even if they do not "
+"speak any language (you can talk to animals :))"
+
+#: names.cpp:1040
+msgid ""
+"Все существа в комнате могут общаться телепатически и понимать друг друга "
+"вне зависимости от используемого языка (общения со зверями нет)"
+msgstr ""
+"All creatures in the room can communicate telepathically and understand each "
+"other, regardless of the language used (there is no communication with "
+"animals)"
+
+#: names.cpp:1042
+msgid "Согласно RDP..."
+msgstr "According to RDP..."
+
+#: names.cpp:1043
+msgid "Согласно RDP вы обязаны поспать в этой комнате"
+msgstr "According to RDP, you are required to sleep in this room"
+
+#: names.cpp:1044
+msgid "Согласно RDP вы обязаны заняться сексом"
+msgstr "According to RDP, you are required to have sex"
+
+#: names.cpp:1045
+msgid ""
+"Согласно RDP вы обязаны избить капитана (как минимум по 1 урона от каждого "
+"из участников отряда)"
+msgstr ""
+"According to RDP, you are required to beat the captain (at least 1 damage "
+"from each of the squad members)"
+
+#: names.cpp:1046
+msgid ""
+"Согласно RDP вы обязаны избить медика (как минимум по 1 урона от каждого из "
+"участников отряда)"
+msgstr ""
+"According to RDP, you are required to beat the medic (at least 1 damage from "
+"each of the squad members)"
+
+#: names.cpp:1047
+msgid ""
+"Согласно RDP вы обязаны избить новичка (как минимум по 1 урона от каждого из "
+"участников отряда)"
+msgstr ""
+"According to RDP, you are required to beat a newcomer (at least 1 damage "
+"from each of the squad members)"
+
+#: names.cpp:1049
+msgid "Согласно RDP вы обязаны напиться (и алкоголь тут есть:))"
+msgstr ""
+"According to RDP, you are obliged to get drunk (and there is alcohol here :))"
+
+#: names.cpp:1050
+msgid "Согласно RDP вы обязаны исповедоваться и покаяться в своих грехах"
+msgstr "According to RDP, you are required to confess and repent of your sins"
+
+#: names.cpp:1051
+msgid "Согласно RDP вы обязаны спеть песню или прочитать стих"
+msgstr "According to RDP, you are required to sing a song or read a verse"
+
+#: names.cpp:1052
+msgid "Согласно RDP вы обязаны принести клятву верности кому-то или чему-то"
+msgstr ""
+"According to RDP, you are required to take an oath of allegiance to someone "
+"or something"
+
+#: names.cpp:1053
+msgid "Согласно RDP вы обязаны кого-то убить (лучше монстра:))"
+msgstr ""
+"According to RDP, you are obliged to kill someone (preferably a monster :))"
+
+#: names.cpp:1055
+msgid "Согласно RDP вы обязаны покинуть комнату в течение минуты"
+msgstr "According to RDP, you are required to leave the room within a minute"
+
+#: names.cpp:1056
+msgid "Согласно RDP вы обязаны провести в комнате не менее часа"
+msgstr ""
+"According to RDP, you are required to spend at least an hour in the room"
+
+#: names.cpp:1057
+msgid "Согласно RDP вы обязаны съесть сапог или шляпу (можно один на всех)"
+msgstr ""
+"According to RDP, you are required to eat a boot or a hat (you can have one "
+"for all)"
+
+#: names.cpp:1058
+msgid "Согласно RDP вы обязаны пропеть матерные частушки"
+msgstr "According to RDP, you are required to sing obscene ditties"
+
+#: names.cpp:1059
+msgid ""
+"Согласно RDP вы обязаны пообещать никогда больше не спускаться в Long Stairs"
+msgstr ""
+"According to RDP, you are required to promise never to go down to Long "
+"Stairs again"
+
+#: names.cpp:1060
+msgid ""
+"Согласно RDP вы обязаны пообещать никогда больше не подниматься в Hellmouth"
+msgstr ""
+"According to RDP, you are obliged to promise never to climb into Hellmouth "
+"again"
+
+#: names.cpp:1061
+msgid "Согласно RDP член команды должен станцевать стриптиз"
+msgstr "According to RDP, a team member must dance a striptease"
+
+#: names.cpp:1062
+msgid "Согласно RDP вы обязаны признаться в любви к кому-то или чему-то"
+msgstr ""
+"According to RDP, you are required to confess your love for someone or "
+"something"
+
+#: names.cpp:1063
+msgid "Согласно RDP вы обязаны пожертвовать что-то ценное для отряда"
+msgstr ""
+"According to RDP, you are obliged to donate something valuable to the squad"
+
+#: names.cpp:1064
+msgid "Согласно RDP вы должны посвятить кому-то или чему-то балладу"
+msgstr ""
+"According to RDP, you have to dedicate a ballad to someone or something"
+
+#: names.cpp:1066
+msgid "Согласно RDP вы не можете разговаривать в этой комнате"
+msgstr "According to RDP, you can't talk in this room"
+
+#: names.cpp:1067
+msgid "Согласно RDP в этой комнате вы не можете говорить правду"
+msgstr "According to RDP, you can't tell the truth in this room"
+
+#: names.cpp:1068
+msgid ""
+"Согласно RDP в этой комнате вы не можете лгать (но можете недоговаривать)"
+msgstr "According to RDP, in this room you can't lie (but you can not speak)"
+
+#: names.cpp:1069
+msgid ""
+"Согласно RDP вы должны громко поздороваться со всеми существами в комнате"
+msgstr ""
+"According to RDP, you have to say hello loudly to all the creatures in the "
+"room"
+
+#: names.cpp:1070
+msgid "Согласно RDP вы должны громко вслух проговаривать все свои действия"
+msgstr "According to RDP, you have to say all your actions out loud"
+
+#: names.cpp:1071
+msgid "Согласно RDP все члены отряда должны через слово материться"
+msgstr ""
+"According to the RDP, all members of the squad must swear through the word"
+
+#: names.cpp:1072
+msgid ""
+"Согласно RDP все фразы должны произносится в среднем роде, и не должны "
+"использоваться никакие личные местоимения, кроме \"оно\" и \"они\""
+msgstr ""
+"According to RDP, all phrases must be pronounced in the neuter gender, and "
+"no personal pronouns other than \"it\" and \"they\" should be used"
+
+#: names.cpp:1073
+msgid "Согласно RDP вы можете использовать только нечётные двери"
+msgstr "According to RDP, you can only use odd doors"
+
+#: names.cpp:1074
+msgid "Согласно RDP вы можете использовать только чётные двери"
+msgstr "According to RDP, you can only use even doors"
+
+#: names.cpp:1075
+msgid ""
+"Согласно RDP вы можете использовать только те двери, для номера которых "
+"выполнено x * 2 - 7 <= 3"
+msgstr ""
+"According to RDP, you can only use doors whose number is x * 2 - 7 < = 3"
+
+#: names.cpp:1076
+msgid ""
+"Согласно RDP вам запрещено смотреть за дверь, пока не пройдёте через неё"
+msgstr ""
+"According to RDP, you are not allowed to look out the door until you pass "
+"through it"
+
+#: names.cpp:1077
+msgid ""
+"Согласно RDP капитан должен сказать \"Ой, извините, дверью ошиблись!\", "
+"немедленно развернуться и вернутся в прошлую комнату (ДА! Через ВХОДНУЮ "
+"дверь! Это НЕ ОПИСКА!)"
+msgstr ""
+"According to RDP, the captain must say \"Oh, sorry, the door was wrong!\", "
+"immediately turn around and return to the last room (YES! Through the FRONT "
+"door! This is NOT a TYPO!)"
+
+#: names.cpp:1078
+msgid "Согласно RDP все члены отряда должны непереставая молиться"
+msgstr ""
+"According to the RDP, all members of the squad must pray without ceasing"
+
+#: names.cpp:1079
+msgid "Согласно RDP все члены отряда должны говорить стихами"
+msgstr "According to the RDP, all members of the squad must speak in verse"
+
+#: names.cpp:1080
+msgid ""
+"Согласно RDP вы должны обращаться к другим существам с максимальным "
+"уважением: на Вы и добавляя к каждому обращению \"достопочтенный\""
+msgstr ""
+"According to RDP, you should address other beings with the utmost respect: "
+"on you and adding \"honorable\" to each address"
+
+#: names.cpp:1081
+msgid ""
+"Согласно RDP вы не можете повторно использовать уже сказанные вами в этой "
+"комнате слова"
+msgstr ""
+"According to RDP, you can't reuse words you've already said in this room"
+
+#: names.cpp:1082
+msgid ""
+"Согласно RDP вы можете использовать только слова \"вероятно\", "
+"\"сомнительно\", \"оперируй\", \"одумайся\" и \"RDP\""
+msgstr ""
+"According to RDP, you can only use the words \"probably\", \"doubtful\", "
+"\"operate\", \"think again\" and \"RDP\""
+
+#: names.cpp:1084
+msgid "Изменения бросков"
+msgstr "Changes in throws"
+
+#: names.cpp:1085
+msgid "На всех бросках урона в комнате выпадает максимум"
+msgstr "On all throws of damage in the room, the maximum falls out"
+
+#: names.cpp:1086
+msgid "На всех бросках урона в комнате выпадает минимум"
+msgstr "On all throws of damage in the room, a minimum falls out"
+
+#: names.cpp:1087
+msgid "На всех бросках исцеления в комнате выпадает максимум"
+msgstr "On all healing throws in the room, the maximum falls out"
+
+#: names.cpp:1088
+msgid "На всех бросках исцеления в комнате выпадает минимум"
+msgstr "On all healing throws in the room, the minimum drops out"
+
+#: names.cpp:1089
+msgid "+1 на все ходы в комнате"
+msgstr "+1 for all moves in the room"
+
+#: names.cpp:1090
+msgid "+2 на все ходы в комнате"
+msgstr "+2 for all moves in the room"
+
+#: names.cpp:1091
+msgid "-1 на все ходы в комнате"
+msgstr "-1 for all moves in the room"
+
+#: names.cpp:1092
+msgid "-2 на все ходы в комнате"
+msgstr "-2 for all moves in the room"
+
+#: names.cpp:1093
+msgid ""
+"Броски на 10+ считаются провальными, а на 6- - успешными (нынче всё "
+"наоборот:))"
+msgstr ""
+"Throws on 10+ are considered a failure, and on 6- - successful (now it's the "
+"other way around :))"
+
+#: names.cpp:1094
+msgid "Комната наполнена магией мира: +1 к броне всем"
+msgstr "The room is filled with the magic of the world: +1 to the armor of all"
+
+#: names.cpp:1095
+msgid "Комната наполнена магией разрушения: +1 к урону всем"
+msgstr "The room is filled with the magic of destruction: +1 damage to all"
+
+#: names.cpp:1097
+msgid "Советы Чутья"
+msgstr "Instinct Tips"
+
+#: names.cpp:1098
+msgid "Чутьё говорит капитану не заходить в эту комнату"
+msgstr "Instinct tells the captain not to go into this room"
+
+#: names.cpp:1099
+msgid "Чутьё говорит медику не заходить в эту комнату"
+msgstr "Instinct tells the medic not to go into this room"
+
+#: names.cpp:1100
+msgid "Чутьё говорит новичку не заходить в эту комнату"
+msgstr "Instinct tells the newcomer not to enter this room"
+
+#: names.cpp:1101
+msgid "Чутьё говорит капитану зайти именно в эту комнату"
+msgstr "Instinct tells the captain to go into this room"
+
+#: names.cpp:1102
+msgid "Чутьё говорит медику зайти именно в эту комнату"
+msgstr "Instinct tells the medic to go into this room"
+
+#: names.cpp:1103
+msgid "Чутьё говорит новичку зайти именно в эту комнату"
+msgstr "Instinct tells the newcomer to go into this particular room"
+
+#: names.cpp:1104
+msgid "Капитан панически боится выбирать следующую дверь"
+msgstr "The captain is terrified of choosing the next door"
+
+#: names.cpp:1106
+msgid "Неожиданные эффекты"
+msgstr "Unexpected effects"
+
+#: names.cpp:1107
+msgid "Монстров нет"
+msgstr "There are no monsters"
+
+#: names.cpp:1108
+msgid "Это тупик!!!"
+msgstr "It's a dead end!!"
+
+#: names.cpp:1109
+msgid "Цель миссии находится в этой комнате"
+msgstr "The goal of the mission is in this room"
+
+#: names.cpp:1110
+msgid "Все существа в комнате, кроме отряда, крепко спят"
+msgstr "All the creatures in the room, except for the squad, are fast asleep"
+
+#: names.cpp:1111
+msgid "Раз в несколько минут все двери меняются"
+msgstr "Every few minutes, all the doors change"
+
+#: names.cpp:1112
+msgid "Раз в несколько минут все особенности комнаты меняются"
+msgstr "Every few minutes, all the features of the room change"
+
+#: names.cpp:1113
+msgid ""
+"Новичок вспоминает где-то услышанное RDP, которого реально не существует"
+msgstr ""
+"A newcomer remembers an RDP he heard somewhere, which really does not exist"
+
+#: names.cpp:1114
+msgid "Это засада!"
+msgstr "It's an ambush!"
+
+#: names.cpp:1116
+msgid "Болезни и травмы"
+msgstr "Illnesses and injuries"
+
+#: names.cpp:1117
+msgid "Один из членов отряда получает травму"
+msgstr "One of the members of the squad is injured"
+
+#: names.cpp:1118
+msgid "Один из членов отряда заражается известной болезнью"
+msgstr "One of the members of the squad becomes infected with a known disease"
+
+#: names.cpp:1119
+msgid "Один из членов отряда заражается неизвестной болезнью"
+msgstr ""
+"One of the members of the squad becomes infected with an unknown disease"
+
+#: names.cpp:1120
+msgid ""
+"Один из членов отряда заражается неизвестной болезнью, не поддающейся "
+"немагическому лечению"
+msgstr ""
+"One of the members of the squad becomes infected with an unknown disease "
+"that does not respond to non-magical treatment"
+
+#: names.cpp:1121
+msgid "Каждый член отряда получает травму"
+msgstr "Each member of the squad is injured"
+
+#: names.cpp:1122
+msgid "Каждый член отряда заражается известной болезнью"
+msgstr "Each member of the squad is infected with a known disease"
+
+#: names.cpp:1123
+msgid "У одного из членов отряда отказывают ноги до выхода из комнаты"
+msgstr ""
+"One of the members of the squad has his legs failing before leaving the room"
+
+#: names.cpp:1124
+msgid ""
+"Один из членов отряда заражается неизвестной болезнью, которая быстро "
+"прогрессирует"
+msgstr ""
+"One of the members of the squad becomes infected with an unknown disease "
+"that progresses rapidly"
+
+#: names.cpp:1125
+msgid ""
+"Один из членов отряда заражается известной болезнью, которая быстро "
+"прогрессирует"
+msgstr ""
+"One of the members of the squad becomes infected with a known disease that "
+"progresses rapidly"
+
+#: names.cpp:1127
+msgid "Быстрое восстановление"
+msgstr "Fast recovery"
+
+#: names.cpp:1128
+msgid ""
+"\"Чистокровные\" (без ходов других классов) кастеры могут немедленно "
+"подготовить новые заклинания"
+msgstr ""
+"\"Purebloods\" (without moves of other classes) casters can immediately "
+"prepare new spells"
+
+#: names.cpp:1129
+msgid "Все кастеры могут немедленно подготовить новые заклинания"
+msgstr "All casters can immediately prepare new spells"
+
+#: names.cpp:1130
+msgid "Все члены отряда немедленно получают преимущества отдыха в лагере"
+msgstr ""
+"All members of the squad immediately receive the benefits of rest in the camp"
+
+#: names.cpp:1131
+msgid "Все члены отряда немедленно получают эффект зелья здоровья"
+msgstr ""
+"All members of the squad immediately receive the effect of a health potion"
+
+#: names.cpp:1132
+msgid "Все члены отряда немедленно получают эффект противоядия"
+msgstr ""
+"All members of the squad immediately receive the effect of the antidote"
+
+#: names.cpp:1133
+msgid "Первый, к кому обращаются по имени, немедленно восстанавливает 10 хитов"
+msgstr "The first person to be addressed by name immediately recovers 10 hits"
+
+#: names.cpp:1134
+msgid "Все входящие в комнату немедленно излечиваются от всех своих травм"
+msgstr ""
+"Everyone who enters the room is immediately healed of all their injuries"
+
+#: names.cpp:1135
+msgid ""
+"Все входящие в комнату немедленно излечивают по одной из своих травм (на их "
+"выбор)"
+msgstr ""
+"Everyone who enters the room is immediately healed by one of their injuries "
+"(of their choice)"
+
+#: names.cpp:1136
+msgid "Все мёртвые, кого вносят в комнату, воскресают"
+msgstr "All the dead who are brought into the room are resurrected"
+
+#: names.cpp:1137
+msgid "Все мёртвые, кого вносят в комнату, восстают как нежить"
+msgstr "All the dead who are brought into the room rise up as undead"
+
+#: names.cpp:1138
+msgid "Отрезаемые конечности быстро вырастают заново"
+msgstr "Severed limbs quickly grow back"
+
+#: names.cpp:1140
+msgid "Потеря снаряжения"
+msgstr "Loss of equipment"
+
+#: names.cpp:1141
+msgid "До выхода вы теряете всю одежду (включая броню)"
+msgstr "Before leaving, you lose all clothing (including armor)"
+
+#: names.cpp:1142
+msgid ""
+"До выхода вы теряете всё снаряжение, которое не находилось у вас в руках или "
+"в прямом контакте с кожей (сохраняются сумки, но не содержимое)"
+msgstr ""
+"Before leaving, you lose all equipment that was not in your hands or in "
+"direct contact with the skin (bags are saved, but not the contents)"
+
+#: names.cpp:1143
+msgid "До выхода вы теряете всё снаряжение, которое находилось у вас в руках"
+msgstr "Before leaving, you lose all the equipment that was in your hands"
+
+#: names.cpp:1144
+msgid ""
+"Снаряжение всех членов отряда исчезает, но каждый уверен, что его снаряжение "
+"на месте"
+msgstr ""
+"The equipment of all members of the squad disappears, but everyone is sure "
+"that his equipment is in place"
+
+#: names.cpp:1145
+msgid ""
+"Ваше личное снаряжение в этой комнате будет неэффективно. Согласно RDP вам "
+"следует обменяться им с другими членами отряда"
+msgstr ""
+"Your personal equipment in this room will be ineffective. According to RDP, "
+"you should exchange it with other squad members"
+
+#: names.cpp:1146
+msgid ""
+"До выхода все ваши сумки считаются сумками хранения (и требуют "
+"соответствующих бросков)"
+msgstr ""
+"Prior to going out, all of your bags are considered storage bags (and "
+"require appropriate throws)"
+
+#: names.cpp:1147
+msgid ""
+"Отряд теряет всё оружие и броню: они сложены кучей за следующей открываемой "
+"дверью"
+msgstr ""
+"The squad loses all weapons and armor: they are stacked in a heap behind the "
+"next door that opens"
+
+#: names.cpp:1149
+msgid "Магическое снаряжение"
+msgstr "Magic equipment"
+
+#: names.cpp:1150
+msgid ""
+"До выхода всё снаряжение отряда становится магическим, хотя его эффекты "
+"почти бесполезны"
+msgstr ""
+"Before the exit, all the equipment of the squad becomes magical, although "
+"its effects are almost useless"
+
+#: names.cpp:1151
+msgid ""
+"До выхода всё снаряжение отряда становится магическим, его эффекты "
+"неизвестны, но наверняка полезны"
+msgstr ""
+"Before the release, all the equipment of the squad becomes magical, its "
+"effects are unknown, but certainly useful"
+
+#: names.cpp:1152
+msgid ""
+"До выхода всё снаряжение отряда становится магическим, его эффекты "
+"неизвестны и могут быть придуманы ИГРОКАМИ!!!"
+msgstr ""
+"Before the release, all the equipment of the squad becomes magical, its "
+"effects are unknown and can be invented by PLAYERS!!"
+
+#: names.cpp:1153
+msgid ""
+"До выхода всё снаряжение отряда становится магическим, его эффекты "
+"неизвестны, но наверняка вредны"
+msgstr ""
+"Before leaving, all the equipment of the squad becomes magical, its effects "
+"are unknown, but certainly harmful"
+
+#: names.cpp:1155
+msgid "Искажение гравитации/времени/воздуха комнаты"
+msgstr "Distortion of gravity/time/air of the room"
+
+#: names.cpp:1156
+msgid "Сила гравитации вдвое выше"
+msgstr "The force of gravity is twice as high"
+
+#: names.cpp:1157
+msgid "Сила гравитации вдвое меньше"
+msgstr "The force of gravity is half that"
+
+#: names.cpp:1158
+msgid "Сила гравитации направлена к потолку"
+msgstr "The force of gravity is directed towards the ceiling"
+
+#: names.cpp:1159
+msgid "В комнате невесомость"
+msgstr "There is weightlessness in the room"
+
+#: names.cpp:1160
+msgid ""
+"Воздух в комнате вязкий: скорость передвижения падает вдвое, -1 на атаки "
+"дальнобойным и метательным оружием"
+msgstr ""
+"The air in the room is viscous: the speed of movement drops by half, -1 for "
+"attacks with long-range and throwing weapons"
+
+#: names.cpp:1162
+msgid "Комната находится во временной петле"
+msgstr "The room is in a time loop"
+
+#: names.cpp:1163
+msgid ""
+"При убийстве последнего врага отряд откатывается назад во времени на момент "
+"входа в комнату"
+msgstr ""
+"When killing the last enemy, the squad rolls back in time at the time of "
+"entering the room"
+
+#: names.cpp:1164
+msgid ""
+"Все в комнате двигаются вдвое медленнее (но скорость восприятия не меняется)"
+msgstr ""
+"Everyone in the room moves twice as slowly (but the speed of perception does "
+"not change)"
+
+#: names.cpp:1165
+msgid ""
+"Все в комнате двигаются вдвое быстрее (но скорость восприятия не меняется)"
+msgstr ""
+"Everyone in the room moves twice as fast (but the speed of perception does "
+"not change)"
+
+#: names.cpp:1166
+msgid "Комната заполнена видимым ядовитым газом"
+msgstr "The room is filled with visible poisonous gas"
+
+#: names.cpp:1168
+msgid "Комната заполнена невидимым ядовитым газом"
+msgstr "The room is filled with an invisible poisonous gas"
+
+#: names.cpp:1169
+msgid "Комната заполнена метаном (любая искра и кранты)"
+msgstr "The room is filled with methane (any spark and taps)"
+
+#: names.cpp:1170
+msgid "В комнате вакуум"
+msgstr "There is a vacuum in the room"
+
+#: names.cpp:1171
+msgid ""
+"В комнате очень жарко. Любой предмет, который не несут и не носят немедленно "
+"вспыхивает"
+msgstr ""
+"The room is very hot. Any item that is not carried or worn will immediately "
+"flare up"
+
+#: names.cpp:1172
+msgid ""
+"В комнате очень холодно. Все жидкости, в том числе переносимая вода и зелья "
+"вне утеплённых контейнеров замерзают"
+msgstr ""
+"The room is very cold. All liquids, including portable water and potions "
+"outside the insulated containers, freeze"
+
+#: names.cpp:1174
+msgid "Перенос/поглощение урона"
+msgstr "Damage Transfer/Absorption"
+
+#: names.cpp:1175
+msgid "До выхода капитан иммунен к урону и негативным состояниям"
+msgstr "Before leaving, the captain is immune to damage and negative states"
+
+#: names.cpp:1176
+msgid "До выхода медик иммунен к урону и негативным состояниям"
+msgstr "Before the release, the medic is immune to damage and negative states"
+
+#: names.cpp:1177
+msgid "До выхода новичок иммунен к урону и негативным состояниям"
+msgstr ""
+"Before the release, the newcomer is immune to damage and negative states"
+
+#: names.cpp:1178
+msgid ""
+"Весь получаемый отрядом урон до вычета брони переносится на капитана (не "
+"игнорирует его броню)"
+msgstr ""
+"All damage received by the squad before deducting armor is transferred to "
+"the captain (does not ignore his armor)"
+
+#: names.cpp:1179
+msgid ""
+"Весь получаемый отрядом урон до вычета брони переносится на медика (не "
+"игнорирует его броню)"
+msgstr ""
+"All damage received by the squad before deducting armor is transferred to "
+"the medic (does not ignore his armor)"
+
+#: names.cpp:1180
+msgid ""
+"Весь получаемый отрядом урон до вычета брони переносится на новичка (не "
+"игнорирует его броню)"
+msgstr ""
+"All damage received by the squad before deducting armor is transferred to "
+"the newcomer (does not ignore his armor)"
+
+#: names.cpp:1181
+msgid ""
+"Весь получаемый отрядом урон после вычета брони переносится на капитана "
+"(игнорирует его броню)"
+msgstr ""
+"All damage received by the squad after deducting armor is transferred to the "
+"captain (ignores his armor)"
+
+#: names.cpp:1182
+msgid ""
+"Весь получаемый отрядом урон после вычета брони переносится на медика "
+"(игнорирует его броню)"
+msgstr ""
+"All damage received by the squad after deducting the armor is transferred to "
+"the medic (ignores his armor)"
+
+#: names.cpp:1183
+msgid ""
+"Весь получаемый отрядом урон после вычета брони переносится на новичка "
+"(игнорирует его броню)"
+msgstr ""
+"All damage received by the squad after deducting armor is transferred to the "
+"newcomer (ignores his armor)"
+
+#: names.cpp:1184
+msgid ""
+"При нанесении урона в рукопашном бою нанесший урон теряет столько же "
+"здоровья, сколько и получивший его"
+msgstr ""
+"When dealing damage in hand-to-hand combat, the person who dealt the damage "
+"loses as much health as the person who received it"
+
+#: names.cpp:1185
+msgid "Монстры игнорируют урон от первого нанесённого удара"
+msgstr "Monsters ignore the damage from the first blow inflicted"
+
+#: names.cpp:1186
+msgid "Вместо смерти монстры сначала опускаются до 1 хита"
+msgstr "Instead of dying, monsters first drop to 1 hit"
+
+#: names.cpp:1187
+msgid ""
+"Маги противника имунны к магическому урону, лучники - урону от физических "
+"дальнобойных атак, милишники - от любого ближнего боя"
+msgstr ""
+"The enemy's mages are immune to magic damage, archers to damage from "
+"physical long-range attacks, milishniki to any melee"
+
+#: names.cpp:1188
+msgid ""
+"Все маги имунны к магическому урону, лучники - урону от физических "
+"дальнобойных атак, милишники - от любого ближнего боя"
+msgstr ""
+"All mages are immune to magic damage, archers to damage from physical long-"
+"range attacks, milishniki to any melee"
+
+#: names.cpp:1190
+msgid "Потеря бойцов"
+msgstr "Loss of fighters"
+
+#: names.cpp:1191
+msgid ""
+"Один из членов отряда невидим, неслышим, неосязаем и не может влиять на "
+"окружение до выхода из комнаты"
+msgstr ""
+"One of the members of the squad is invisible, inaudible, intangible and "
+"cannot influence the environment until leaving the room"
+
+#: names.cpp:1192
+msgid ""
+"Один из членов отряда немедленно умирает. Он воскреснет со старым здоровьем "
+"при выносе тела из комнаты"
+msgstr ""
+"One of the members of the squad dies immediately. He will be resurrected "
+"with his old health when the body is taken out of the room"
+
+#: names.cpp:1193
+msgid ""
+"Один из членов отряда немедленно умирает. Он воскреснет со старым здоровьем "
+"через 5 минут"
+msgstr ""
+"One of the members of the squad dies immediately. He will be resurrected "
+"with his old health in 5 minutes"
+
+#: names.cpp:1194
+msgid ""
+"Один из членов отряда немедленно умирает. Он воскреснет со старым здоровьем, "
+"если начать по нему поминальную службу"
+msgstr ""
+"One of the members of the squad dies immediately. He will be resurrected "
+"with his old health if a memorial service is started for him"
+
+#: names.cpp:1195
+msgid ""
+"Случайный член отряда впадает в ступор на одну минуту при входе в комнату"
+msgstr ""
+"A random member of the squad falls into a stupor for one minute at the "
+"entrance to the room"
+
+#: names.cpp:1196
+msgid "Случайный член отряда немедленно падает и засыпает немагическим сном"
+msgstr ""
+"A random member of the squad immediately falls and falls asleep in a non-"
+"magical sleep"
+
+#: names.cpp:1197
+msgid "Первый, к кому обращаются по имени, немедленно падает в обморок"
+msgstr "The first person to be addressed by name immediately faints"
+
+#: names.cpp:1198
+msgid ""
+"Первый, к кому обращаются по имени, немедленно умирает. Воскресает при "
+"выходе из комнаты"
+msgstr ""
+"The first person to be addressed by name dies immediately. Resurrects when "
+"leaving the room"
+
+#: names.cpp:1200
+msgid "Неожиданная комната"
+msgstr "An unexpected room"
+
+#: names.cpp:1201
+msgid ""
+"На самом деле это Опасная Комната, скрытая иллюзией (перегенерируйте "
+"соответсвенно)"
+msgstr ""
+"In fact, this is a Dangerous Room, hidden by illusion (regenerate "
+"accordingly)"
+
+#: names.cpp:1202
+msgid ""
+"На самом деле это первая по вероятности комната, скрытая иллюзией "
+"(перегенерируйте соответсвенно)"
+msgstr ""
+"In fact, this is the first most likely room hidden by an illusion "
+"(regenerate accordingly)"
+
+#: names.cpp:1203
+msgid ""
+"На самом деле это первая по вероятности из оставшихся комнат, скрытая "
+"иллюзией (перегенерируйте соответсвенно)"
+msgstr ""
+"In fact, this is the first most likely of the remaining rooms, hidden by an "
+"illusion (regenerate accordingly)"
+
+#: names.cpp:1204
+msgid ""
+"На самом деле это последняя по вероятности комната, скрытая иллюзией "
+"(перегенерируйте соответсвенно)"
+msgstr ""
+"In fact, this is the last room in terms of probability, hidden by an "
+"illusion (regenerate accordingly)"
+
+#: names.cpp:1205
+msgid ""
+"На самом деле это Пустая Комната, скрытая иллюзией (перегенерируйте "
+"соответсвенно)"
+msgstr ""
+"In fact, this is an Empty Room, hidden by an illusion (regenerate "
+"accordingly)"
+
+#: names.cpp:1207
+msgid "Отсылки к предысториям"
+msgstr "References to backstories"
+
+#: names.cpp:1208
+msgid "В комнате кому-то нужна помощь"
+msgstr "Someone needs help in the room"
+
+#: names.cpp:1209
+msgid "В комнате есть деньги"
+msgstr "There is money in the room"
+
+#: names.cpp:1210
+msgid "В комнате есть что-то ценное"
+msgstr "There's something valuable about the room"
+
+#: names.cpp:1211
+msgid "В комнате есть книги/таблички с загадочными текстами"
+msgstr "There are books/tablets with mysterious texts in the room"
+
+#: names.cpp:1212
+msgid "Комната находится под взглядом Великого Древнего"
+msgstr "The room is under the gaze of the Great Ancient"
+
+#: names.cpp:1214
+msgid "Комната находится под взглядом Великого Исчадия"
+msgstr "The room is under the gaze of the Great Fiend"
+
+#: names.cpp:1215
+msgid "Комната находится под взглядом Бога Жизни"
+msgstr "The room is under the gaze of the God of Life"
+
+#: names.cpp:1216
+msgid ""
+"Комната находится под взглядом бога религии, к которой принадлежит жрец/"
+"паладин/храмовник"
+msgstr ""
+"The room is under the gaze of the god of the religion to which the priest/"
+"paladin/templar belongs"
+
+#: names.cpp:1217
+msgid "В комнате есть единоверцы религии жреца/паладина/храмовника"
+msgstr ""
+"There are co-religionists of the priest/paladin/templar religion in the room"
+
+#: names.cpp:1218
+msgid "В комнате есть место магической силы"
+msgstr "There is a place of magical power in the room"
+
+#: names.cpp:1220
+msgid "В комнате есть место божественной силы"
+msgstr "There is a place of divine power in the room"
+
+#: names.cpp:1222
+msgid "Подляны"
+msgstr "Podlyany"
+
+#: names.cpp:1223
+msgid "Сказавший первым слово превращается в жирную корову на 1 минуту"
+msgstr "The one who said the first word turns into a fat cow for 1 minute"
+
+#: names.cpp:1224
+msgid ""
+"Делая шаг, вы телепортируетесь на 10 футов (на 5 удастся сдвинуться только "
+"уперевшись в стену)"
+msgstr ""
+"By taking a step, you teleport 10 feet (5 will only be able to move by "
+"resting against the wall)"
+
+#: names.cpp:1225
+msgid "Исцеляющая магия в этой комнате наносит урон вместо лечения"
+msgstr "Healing magic in this room deals damage instead of healing"
+
+#: names.cpp:1226
+msgid "Боевая магия в этой комнате исцеляет вместо нанесения урона"
+msgstr "Combat magic in this room heals instead of dealing damage"
+
+#: names.cpp:1227
+msgid ""
+"Исцеляющая магия наносит накладывающему урон, равный исцелённому им здоровью "
+"(для паладинов считайте 10+ при наложении рук за 7-9)"
+msgstr ""
+"Healing magic deals damage equal to the health healed by the person (for "
+"paladins, count 10+ when laying on of hands for 7-9)"
+
+#: names.cpp:1229
+msgid ""
+"Первые 3 слова любой фразы интерпретируются как желание и исполняются. "
+"Желание не может выходить за пределы комнаты и не ограничивается ничем, "
+"кроме сказанных слов. Оно максимально подлое на усмотрение ДМа"
+msgstr ""
+"The first 3 words of any phrase are interpreted as a wish and are fulfilled. "
+"Desire cannot go beyond the room and is not limited to anything other than "
+"spoken words. It is as despicable as possible at the discretion of the DM"
+
+#: names.cpp:1230
+msgid ""
+"Первый вошедший немедленно бросает 2d6 без модификаторов: 10+ - ничего не "
+"происходит, 7-9 - теряет половину текущего здоровья, 6- - теряет хиты в "
+"количестве половины максимального здоровья"
+msgstr ""
+"The first person to enter immediately throws 2d6 without modifiers: 10+ - "
+"nothing happens, 7-9 - loses half of the current health, 6- - loses hits in "
+"the amount of half of the maximum health"
+
+#: names.cpp:1231
+msgid ""
+"Когда в комнате произносится любое существительное, названный предмет/"
+"существ появляется над сказавшим (они исчезают при выносе из комнате)"
+msgstr ""
+"When any noun is pronounced in the room, the named object/creatures appear "
+"above the person who said it (they disappear when taken out of the room)"
+
+#: names.cpp:1232
+msgid ""
+"Когда в комнате кто-то говорит об истинности некоторого факта, этот факт в "
+"ней немедленно становится ложным"
+msgstr ""
+"When someone in a room talks about the truth of a fact, that fact in it "
+"immediately becomes false"
+
+#: names.cpp:1233
+msgid ""
+"До выхода вы меняетесь телами (капитан попадает в тело медика, медик - "
+"новичка, новичок - капитана)."
+msgstr ""
+"Before leaving, you change bodies (the captain enters the body of the medic, "
+"the medic - the newcomer, the newcomer - the captain)."
+
+#: names.cpp:1235
+msgid ""
+"Члены отряда засыпают через 10 секунд после входа в комнату. Они просыпаются "
+"раздетыми и связанными в разных углах комнаты, освободиться сам может лишь "
+"один из них"
+msgstr ""
+"Squad members fall asleep 10 seconds after entering the room. They wake up "
+"naked and tied up in different corners of the room, only one of them can "
+"free himself"
+
+#: names.cpp:1237
+msgid "Прочие эффекты"
+msgstr "Other effects"
+
+#: names.cpp:1238
+msgid "Всё, что происходит в этой комнате, слышно существам в следующей"
+msgstr ""
+"Everything that happens in this room is heard by the beings in the next one"
+
+#: names.cpp:1239
+msgid "Выстрелы из \"воображаемого\" оружия наносят реальный урон"
+msgstr "Shots from \"imaginary\" weapons do real damage"
+
+#: names.cpp:1240
+msgid "Все противники в комнате владеют магией"
+msgstr "All opponents in the room have magic"
+
+#: names.cpp:1241
+msgid "До выхода все члены отряда вместе со снаряжением невидимы"
+msgstr ""
+"Before leaving, all members of the squad, along with equipment, are invisible"
+
+#: names.cpp:1242
+msgid ""
+"Все монстры в комнате кажутся милыми и добрыми, и на самом деле являются "
+"таковыми (готовы помочь отряду, если это не связано с прохождением через "
+"двери)"
+msgstr ""
+"All the monsters in the room seem cute and kind, and in fact they are (ready "
+"to help the squad if it does not involve passing through doors)"
+
+#: names.cpp:1244
+msgid "Комната освящена"
+msgstr "The room is consecrated"
+
+#: names.cpp:1245
+msgid "Комната проклята"
+msgstr "The room is cursed"
+
+#: names.cpp:1247
+msgid "Погода"
+msgstr "Weather"
+
+#: names.cpp:1248
+msgid "Светло и ясно, ни ветерка"
+msgstr "Light and clear, not a breeze"
+
+#: names.cpp:1249
+msgid "Довольно влажно и зябко"
+msgstr "Quite humid and chilly"
+
+#: names.cpp:1250
+msgid "Лёгкий стелющийся туманчик"
+msgstr "Light creeping fog"
+
+#: names.cpp:1251
+msgid "Слабый дождик"
+msgstr "Light rain"
+
+#: names.cpp:1252
+msgid "Дождь"
+msgstr "Rain"
+
+#: names.cpp:1254
+msgid "Гроза"
+msgstr "Thunderstorm"
+
+#: names.cpp:1255
+msgid "Снег"
+msgstr "Snow"
+
+#: names.cpp:1256
+msgid "Сильный ветер"
+msgstr "Strong wind"
+
+#: names.cpp:1257
+msgid "Порывистый ветер"
+msgstr "Gusty wind"
+
+#: save.cpp:27
+#, c-format
+msgid "Куда: "
+msgstr "Where to: "
+
+#: save.cpp:31
+#, c-format
+msgid "Не удалось открыть файл на запись:(\n"
+msgstr "Failed to open the file for writing:(\n"
+
+#: save.cpp:57
+#, c-format
+msgid "Откуда: "
+msgstr "From where: "
+
+#: save.cpp:61
+#, c-format
+msgid "Не удалось открыть файл на чтение:(\n"
+msgstr "Failed to open file for reading:(\n"

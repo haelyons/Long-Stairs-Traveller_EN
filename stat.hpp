@@ -1,11 +1,15 @@
 #ifndef STAT_HPP
     #define STAT_HPP
 
+    #include <libintl.h>
+    #include <locale.h>
+
+    #define _(STRING) gettext(STRING)
+
     #include <stdio.h>
     #include <stdlib.h>
     #include <string.h>
     #include <time.h>
-    #include <libintl.h>
     #include <iostream>
     #include <cstdlib>
 
@@ -14,7 +18,10 @@
     #include <map>
     #include <algorithm>
 
-    #define _(STRING) gettext(STRING)
+    #if WIN32
+    #define WIN32_LEAN_AND_MEAN
+    #include <Windows.h>
+    #endif
 
     // 0 - NONE, 10 - EVERYWHERE
     const int RARE_LIMIT = 3,

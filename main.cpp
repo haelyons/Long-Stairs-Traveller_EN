@@ -1,6 +1,30 @@
 #include "stat.hpp"
 
+#define GETTEXT_DOMAIN "lst_en"
+#define GETTEXT_TARGET "gettext-target"
+#define GETTEXT_OUTPUT_DIR "/usr/share/locale/"
+#define GETTEXT_LANGUAGE "en_GB.UTF-8"
+
 const int GEN_LOC_NUM = 4;
+
+static void setup_i18n(const std::string_view locale) {
+#if WIN32
+    // LocaleNameToLCID requires a LPCWSTR so we need to convert from char to wchar_t
+    const auto wStringSize = MultiByteToWideChar(CP_UTF8, 0, locale.data(), static_cast<int>(locale.length()), nullptr, 0);
+    std::wstring localeName;
+    localeName.reserve(wStringSize);
+    MultiByteToWideChar(CP_UTF8, 0, locale.data(), static_cast<int>(locale.length()), localeName.data(), wStringSize);
+
+    _configthreadlocale(_DISABLE_PER_THREAD_LOCALE);
+    const auto localeId = LocaleNameToLCID(localeName.c_str(), LOCALE_ALLOW_NEUTRAL_NAMES);
+    SetThreadLocale(localeId);
+#else
+    setlocale(LC_MESSAGES, locale.data());
+#endif
+    bindtextdomain(GETTEXT_DOMAIN, GETTEXT_OUTPUT_DIR);
+    bind_textdomain_codeset(GETTEXT_DOMAIN, "UTF-8");
+    textdomain(GETTEXT_DOMAIN);
+}
 
 void show_loot(const ConcreteLocation &l, int level, int luck) {
     if (l.loc_id >= 0) {
@@ -93,6 +117,24 @@ void show_info(const ConcreteLocation &l, int level, int map_quality, int goal, 
 }
 
 int main(void) {
+    
+    //setup_i18n("en_GB");
+    /*
+    setlocale (LC_MESSAGES, "en");
+    //bindtextdomain ("initial-domain", "/mnt/c/Users/helio/Documents/Github/Long-Stairs-Traveller_EN/locale/");
+    bindtextdomain("initial-domain", "./locale/");
+    textdomain ("initial-domain");
+    */
+
+    //i18n: initializes the entire current locale of the program as per environment variables set by the user
+	setlocale(LC_MESSAGES, "en_GB");
+	
+	//i18n: Indicate the path of the i18n catalog file
+	bindtextdomain(GETTEXT_DOMAIN, GETTEXT_OUTPUT_DIR);
+	
+	//i18n: sets the message domain
+	textdomain(GETTEXT_DOMAIN);
+
     srand(time(NULL));
 
     ConcreteLocation l = LANDING[0];
