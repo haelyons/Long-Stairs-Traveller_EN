@@ -1,36 +1,23 @@
 #!/bin/bash
 
-# Check if the correct number of arguments is provided
-if [ $# -ne 1 ]; then
-	  echo "Usage: $0 <filename>"
-	    exit 1
-    fi
+# Function to add brackets around a quoted string
+add_brackets() {
+  echo "(${1:1:-1})"
+}
 
-    filename=$1
+# Check if the file exists
+if [ -f "$1" ]; then
+  # Read the content of the file
+  content=$(<"$1")
 
-    # Check if the file exists
-    if [ ! -f "$filename" ]; then
-	      echo "Error: File not found."
-	        exit 1
-	fi
+  # Regex pattern to match quoted strings
+  pattern='"[^"]*"'
 
-	# Function to add braces around quoted text in a given string
-	add_braces_to_quoted_text() {
-		  local input_string=$1
-		    local result_string=""
+  # Use sed to apply the regex pattern and the function to add brackets
+  updated_content=$(echo "$content" | sed "s/$pattern/$(add_brackets '&')/g")
 
-		      while [[ $input_string =~ (.*?)(\"[^\"]+\")(.*) ]]; do
-			      result_string+="${BASH_REMATCH[1]}_(${BASH_REMATCH[2]})"
-				      input_string=${BASH_REMATCH[3]}
-				        done
-
-					  result_string+=$input_string
-					    echo "$result_string"
-				    }
-
-				    # Process the file line by line, adding braces around quoted text
-				    while IFS= read -r line; do
-					      line_with_braces=$(add_braces_to_quoted_text "$line")
-					        echo "$line_with_braces"
-					done < "$filename"
-
+  # Write the updated content back to the file
+  echo "$updated_content" > "$1"
+else
+  echo "Error: File not found."
+fi

@@ -5,19 +5,6 @@
 #define GETTEXT_OUTPUT_DIR "/usr/share/locale/"
 #define GETTEXT_LANGUAGE "en_GB.UTF-8"
 
-const int GEN_LOC_NUM = 4;
-
-char* my_env(const char* var) {
-    char* rv = NULL;
-    char* ptr = getenv(var);
-    if (ptr) {
-        rv = (char*)malloc(strlen(ptr) + 1);
-        if (rv) {
-            strcpy(rv, ptr);
-        }
-    }
-    return rv;
-}
 /*
 static void setup_i18n(const std::string_view locale) {
 #if WIN32
@@ -38,6 +25,20 @@ static void setup_i18n(const std::string_view locale) {
     textdomain(GETTEXT_DOMAIN);
 }
 */
+
+const int GEN_LOC_NUM = 4;
+
+char* my_env(const char* var) {
+    char* rv = NULL;
+    char* ptr = getenv(var);
+    if (ptr) {
+        rv = (char*)malloc(strlen(ptr) + 1);
+        if (rv) {
+            strcpy(rv, ptr);
+        }
+    }
+    return rv;
+}
 
 void show_loot(const ConcreteLocation &l, int level, int luck) {
     if (l.loc_id >= 0) {
