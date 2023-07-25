@@ -1,28 +1,23 @@
+CPPFLAGS=-std=c++17 -Wall -Wextra
+main: main.cpp loc.cpp map.cpp save.cpp colors.hpp loc_data.hpp stat.hpp names.cpp door.cpp
 
-#CPPFLAGS=-Wall -Wextra -std=c++17
-#main: main.cpp loc.cpp map.cpp save.cpp colors.hpp loc_data.hpp stat.hpp names.cpp door.cpp
+# Compiler flags \
+CPPFLAGS = -std=gnu++17 -Wall -Wextra /usr/lib/libintl.dll.a -liconv
 
-CFLAGS = -Wall -Wextra -std=c++17 -g
-CPPFLAGS = -I.
-LDFLAGS =
+# List of source files \
+SOURCES = main.cpp loc.cpp map.cpp save.cpp names.cpp door.cpp
 
-EXEC = main
+# Generate object file names from source files (replace .cpp with .o) \
+OBJECTS = $(SOURCES:.cpp=.o)
 
-all: $(EXEC) locale/en/$(EXEC).mo
+# Target to build the executable 'main' \
+main: $(OBJECTS) \
+	gcc $(CPPFLAGS) $(OBJECTS) -o main
 
-$(EXEC): $(EXEC).cpp 
-    $(CC) $(CFLAGS) $(CPPFLAGS) -o $@ $< $(LDFLAGS)
+# Rule to compile each source file to its object file \
+%.o: %.cpp \
+	gcc $(CPPFLAGS) -o $@
 
-locale/en/$(EXEC).mo: locale/en/$(EXEC).po
-    msgfmt --output-file=$@ $<
-
-locale/en/$(EXEC).po: po/$(EXEC).pot
-    msgmerge --update $@ $<
-
-locale/$(EXEC).pot: $(EXEC).c
-    xgettext -k_ -j -lC -c -s -o locale/main.pot main.cpp loc.cpp map.cpp save.cpp colors.hpp loc_data.hpp stat.hpp names.cpp door.cpp
-
-clean:
-    @rm -f $(EXEC) locale/en/*.mo *~
-
-.PHONY: clean
+# Clean up object files and executable \
+clean: \
+	rm -f $(OBJECTS) main

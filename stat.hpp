@@ -2,7 +2,7 @@
     #define STAT_HPP
 
     #include <libintl.h>
-    #include <locale.h>
+-   #include <locale.h>
 
     #define _(STRING) gettext(STRING)
 

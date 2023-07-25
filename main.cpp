@@ -7,6 +7,18 @@
 
 const int GEN_LOC_NUM = 4;
 
+char* my_env(const char* var) {
+    char* rv = NULL;
+    char* ptr = getenv(var);
+    if (ptr) {
+        rv = (char*)malloc(strlen(ptr) + 1);
+        if (rv) {
+            strcpy(rv, ptr);
+        }
+    }
+    return rv;
+}
+/*
 static void setup_i18n(const std::string_view locale) {
 #if WIN32
     // LocaleNameToLCID requires a LPCWSTR so we need to convert from char to wchar_t
@@ -22,9 +34,10 @@ static void setup_i18n(const std::string_view locale) {
     setlocale(LC_MESSAGES, locale.data());
 #endif
     bindtextdomain(GETTEXT_DOMAIN, GETTEXT_OUTPUT_DIR);
-    bind_textdomain_codeset(GETTEXT_DOMAIN, "UTF-8");
+    bind_textdomain_codeset(GETTEXT_DOMAIN, GETTEXT_LANGUAGE);
     textdomain(GETTEXT_DOMAIN);
 }
+*/
 
 void show_loot(const ConcreteLocation &l, int level, int luck) {
     if (l.loc_id >= 0) {
@@ -117,7 +130,25 @@ void show_info(const ConcreteLocation &l, int level, int map_quality, int goal, 
 }
 
 int main(void) {
-    
+    char* pwd = my_env("PWD");
+    char* language = getenv("LANG");
+    printf("getenv(LANG): %s\n", language ? language : "NULL");
+
+    char* set = setlocale(LC_MESSAGES, "en_US.UTF-8");
+    printf("setlocale(): %s\n", set ? set : "NULL");
+
+    char* text = textdomain("lst-en");
+    printf("textdomain(): %s\n", text ? text : "NULL");
+
+    char* pwd_locales = (char*)malloc(strlen(pwd) + 9);
+    strcpy(pwd_locales, pwd);
+    strcat(pwd_locales, "/locales");
+
+    char* bind = bindtextdomain("lst-en", "/mnt/c/Users/helio/Documents/Github/Long-Stairs-Traveller_EN/locales");
+    printf("bindtextdomain(): %s\n", bind ? bind : "NULL");
+
+    bind_textdomain_codeset("lst-en", "UTF-8");
+
     //setup_i18n("en_GB");
     /*
     setlocale (LC_MESSAGES, "en");
@@ -127,13 +158,13 @@ int main(void) {
     */
 
     //i18n: initializes the entire current locale of the program as per environment variables set by the user
-	setlocale(LC_MESSAGES, "en_GB");
+	//setlocale(LC_MESSAGES, "en_GB");
 	
 	//i18n: Indicate the path of the i18n catalog file
-	bindtextdomain(GETTEXT_DOMAIN, GETTEXT_OUTPUT_DIR);
+	//bindtextdomain(GETTEXT_DOMAIN, GETTEXT_OUTPUT_DIR);
 	
 	//i18n: sets the message domain
-	textdomain(GETTEXT_DOMAIN);
+	//textdomain(GETTEXT_DOMAIN);
 
     srand(time(NULL));
 
