@@ -142,10 +142,10 @@ int main(void) {
     scanf("%s", lang);
     if (!strcmp(lang, "1")) {
         setup_i18n(NULL);
-        printf("\n\nВы входите на Длинную лестницу...\n");
+        printf("\nВы входите на Длинную лестницу...\n\n");
     } else {
         setup_i18n("en_US.UTF-8");
-        printf("\n\nYou are entering the Long Stairs...\n");
+        printf("\nYou are entering the Long Stairs...\n\n");
     }
 
     ConcreteLocation l = LANDING[0];
