@@ -137,15 +137,15 @@ int main(void) {
     srand(time(NULL));
 
     char lang[2] = {};
-    printf("Please select language: \n1. Русский \n2. English\n");
+    printf("Пожалуйста, выберите язык / Please select language: \n1. Русский \n2. English\n");
     printf(">");
     scanf("%s", lang);
     if (!strcmp(lang, "1")) {
         setup_i18n(NULL);
-        printf("Вы входите на Длинную лестницу.");
+        printf("\n\nВы входите на Длинную лестницу...\n");
     } else {
         setup_i18n("en_US.UTF-8");
-        printf("You are entering the Long Stairs.");
+        printf("\n\nYou are entering the Long Stairs...\n");
     }
 
     ConcreteLocation l = LANDING[0];
