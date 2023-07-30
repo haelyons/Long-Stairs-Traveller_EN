@@ -137,7 +137,7 @@ int main(void) {
     srand(time(NULL));
 
     char lang[2] = {};
-    printf("Пожалуйста, выберите язык / Please select language: \n1. Русский \n2. English\n");
+    printf("Пожалуйста, выберите язык / Please select language: (1) Русский (2) English\n");
     printf(">");
     scanf("%s", lang);
     if (!strcmp(lang, "1")) {
