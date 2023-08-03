@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-30 13:49+0100\n"
+"POT-Creation-Date: 2023-08-03 17:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,6 +140,185 @@ msgstr ""
 #: loc.cpp:108
 #, c-format
 msgid "\tВниз - ~%d%%"
+msgstr ""
+
+#: loc_data.hpp:82
+msgid "Пустыня"
+msgstr ""
+
+#: loc_data.hpp:82 loc_data.hpp:108
+msgid "Лава или вода"
+msgstr ""
+
+#: loc_data.hpp:82
+msgid "Дракониды или демоны"
+msgstr ""
+
+#: loc_data.hpp:84
+msgid "Лес"
+msgstr ""
+
+#: loc_data.hpp:84 loc_data.hpp:86 loc_data.hpp:88 loc_data.hpp:93
+#: loc_data.hpp:95 loc_data.hpp:97 loc_data.hpp:99 loc_data.hpp:106
+#: loc_data.hpp:110 loc_data.hpp:112 loc_data.hpp:115 loc_data.hpp:121
+#: loc_data.hpp:123 loc_data.hpp:126
+msgid "Вода"
+msgstr ""
+
+#: loc_data.hpp:84 loc_data.hpp:106
+msgid "Звери, монстры или лесные жители"
+msgstr ""
+
+#: loc_data.hpp:86
+msgid "Болото"
+msgstr ""
+
+#: loc_data.hpp:86
+msgid "Монстры, нежить или болотные жители"
+msgstr ""
+
+#: loc_data.hpp:88
+msgid "Каменная комната"
+msgstr ""
+
+#: loc_data.hpp:88 loc_data.hpp:90 loc_data.hpp:99
+msgid "Роботы"
+msgstr ""
+
+#: loc_data.hpp:90
+msgid "Стальная комната"
+msgstr ""
+
+#: loc_data.hpp:90 loc_data.hpp:104 names_modified.cpp:1253
+msgid "Нет"
+msgstr ""
+
+#: loc_data.hpp:93
+msgid "Степь"
+msgstr ""
+
+#: loc_data.hpp:93
+msgid "Звери или дракониды"
+msgstr ""
+
+#: loc_data.hpp:95
+msgid "Деревянная комната"
+msgstr ""
+
+#: loc_data.hpp:95
+msgid "Растения или роботы"
+msgstr ""
+
+#: loc_data.hpp:97
+msgid "Пещера"
+msgstr ""
+
+#: loc_data.hpp:97
+msgid "Монстры, звери или гоблиноиды"
+msgstr ""
+
+#: loc_data.hpp:99
+msgid "Площадь"
+msgstr ""
+
+#: loc_data.hpp:101
+msgid "Адская комната"
+msgstr ""
+
+#: loc_data.hpp:101
+msgid "Лава"
+msgstr ""
+
+#: loc_data.hpp:101
+msgid "Демоны или элементали огня"
+msgstr ""
+
+#: loc_data.hpp:104
+msgid "Пустая комната"
+msgstr ""
+
+#: loc_data.hpp:106
+msgid "Зимний лес"
+msgstr ""
+
+#: loc_data.hpp:108
+msgid "Вулкан"
+msgstr ""
+
+#: loc_data.hpp:108
+msgid "Дракониды, демоны, элементали огня или земли"
+msgstr ""
+
+#: loc_data.hpp:110
+msgid "Стеклянная комната"
+msgstr ""
+
+#: loc_data.hpp:110
+msgid "Монстры или роботы"
+msgstr ""
+
+#: loc_data.hpp:112
+msgid "Опасная комната"
+msgstr ""
+
+#: loc_data.hpp:112
+msgid "Кто угодно"
+msgstr ""
+
+#: loc_data.hpp:115
+msgid "Кладбище"
+msgstr ""
+
+#: loc_data.hpp:115
+msgid "Монстры или нежить"
+msgstr ""
+
+#: loc_data.hpp:117
+msgid "Чёрная комната"
+msgstr ""
+
+#: loc_data.hpp:117
+msgid "Масло"
+msgstr ""
+
+#: loc_data.hpp:117
+msgid "Антиподы"
+msgstr ""
+
+#: loc_data.hpp:119
+msgid "Праздничная комната"
+msgstr ""
+
+#: loc_data.hpp:119
+msgid "Молоко или горячий шоколад"
+msgstr ""
+
+#: loc_data.hpp:119
+msgid "Кто-то добрый и безобидный"
+msgstr ""
+
+#: loc_data.hpp:121
+msgid "Крошечная комната"
+msgstr ""
+
+#: loc_data.hpp:121
+msgid "Монстры или демоны"
+msgstr ""
+
+#: loc_data.hpp:123
+msgid "Осенний лес"
+msgstr ""
+
+#: loc_data.hpp:123
+msgid "Звери и/или красные"
+msgstr ""
+
+#: loc_data.hpp:126
+msgid "Голубые луга"
+msgstr ""
+
+#: loc_data.hpp:126
+msgid "Звери и/или синие"
 msgstr ""
 
 #: main.cpp:66
@@ -4319,10 +4498,6 @@ msgstr ""
 
 #: names.cpp:1248 names_modified.cpp:1248
 msgid "Порывистый ветер"
-msgstr ""
-
-#: names_modified.cpp:1253
-msgid "Нет"
 msgstr ""
 
 #: names_modified.cpp:1254

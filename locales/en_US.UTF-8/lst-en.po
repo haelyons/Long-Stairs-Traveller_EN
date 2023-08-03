@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-30 13:49+0100\n"
-"PO-Revision-Date: 2023-07-30 14:07+0100\n"
+"POT-Creation-Date: 2023-08-03 17:32+0100\n"
+"PO-Revision-Date: 2023-08-03 17:32+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -142,6 +142,185 @@ msgstr "\tAt the level of - ~%d%%"
 #, c-format
 msgid "\tВниз - ~%d%%"
 msgstr "\tDown - ~%d%%"
+
+#: loc_data.hpp:82
+msgid "Пустыня"
+msgstr "Desert"
+
+#: loc_data.hpp:82 loc_data.hpp:108
+msgid "Лава или вода"
+msgstr "Lava or water"
+
+#: loc_data.hpp:82
+msgid "Дракониды или демоны"
+msgstr "Draconids or demons"
+
+#: loc_data.hpp:84
+msgid "Лес"
+msgstr "Forest"
+
+#: loc_data.hpp:84 loc_data.hpp:86 loc_data.hpp:88 loc_data.hpp:93
+#: loc_data.hpp:95 loc_data.hpp:97 loc_data.hpp:99 loc_data.hpp:106
+#: loc_data.hpp:110 loc_data.hpp:112 loc_data.hpp:115 loc_data.hpp:121
+#: loc_data.hpp:123 loc_data.hpp:126
+msgid "Вода"
+msgstr "Water"
+
+#: loc_data.hpp:84 loc_data.hpp:106
+msgid "Звери, монстры или лесные жители"
+msgstr "Beasts, monsters or forest dwellers"
+
+#: loc_data.hpp:86
+msgid "Болото"
+msgstr "Swamp"
+
+#: loc_data.hpp:86
+msgid "Монстры, нежить или болотные жители"
+msgstr "Monsters, undead or swamp dwellers"
+
+#: loc_data.hpp:88
+msgid "Каменная комната"
+msgstr "The Stone Room"
+
+#: loc_data.hpp:88 loc_data.hpp:90 loc_data.hpp:99
+msgid "Роботы"
+msgstr "Robots"
+
+#: loc_data.hpp:90
+msgid "Стальная комната"
+msgstr "Steel room"
+
+#: loc_data.hpp:90 loc_data.hpp:104 names_modified.cpp:1253
+msgid "Нет"
+msgstr "No"
+
+#: loc_data.hpp:93
+msgid "Степь"
+msgstr "Steppe"
+
+#: loc_data.hpp:93
+msgid "Звери или дракониды"
+msgstr "Beasts or Draconids"
+
+#: loc_data.hpp:95
+msgid "Деревянная комната"
+msgstr "Wooden room"
+
+#: loc_data.hpp:95
+msgid "Растения или роботы"
+msgstr "Plants or robots"
+
+#: loc_data.hpp:97
+msgid "Пещера"
+msgstr "Cave"
+
+#: loc_data.hpp:97
+msgid "Монстры, звери или гоблиноиды"
+msgstr "Monsters, beasts or goblinoids"
+
+#: loc_data.hpp:99
+msgid "Площадь"
+msgstr "Square"
+
+#: loc_data.hpp:101
+msgid "Адская комната"
+msgstr "The Hell Room"
+
+#: loc_data.hpp:101
+msgid "Лава"
+msgstr "Lava"
+
+#: loc_data.hpp:101
+msgid "Демоны или элементали огня"
+msgstr "Demons or Fire Elementals"
+
+#: loc_data.hpp:104
+msgid "Пустая комната"
+msgstr "Empty room"
+
+#: loc_data.hpp:106
+msgid "Зимний лес"
+msgstr "Winter Forest"
+
+#: loc_data.hpp:108
+msgid "Вулкан"
+msgstr "Volcano"
+
+#: loc_data.hpp:108
+msgid "Дракониды, демоны, элементали огня или земли"
+msgstr "Draconids, demons, elementals of fire or earth"
+
+#: loc_data.hpp:110
+msgid "Стеклянная комната"
+msgstr "The Glass Room"
+
+#: loc_data.hpp:110
+msgid "Монстры или роботы"
+msgstr "Monsters or robots"
+
+#: loc_data.hpp:112
+msgid "Опасная комната"
+msgstr "Danger Room"
+
+#: loc_data.hpp:112
+msgid "Кто угодно"
+msgstr "Anyone"
+
+#: loc_data.hpp:115
+msgid "Кладбище"
+msgstr "Cemetery"
+
+#: loc_data.hpp:115
+msgid "Монстры или нежить"
+msgstr "Monsters or undead"
+
+#: loc_data.hpp:117
+msgid "Чёрная комната"
+msgstr "The Black Room"
+
+#: loc_data.hpp:117
+msgid "Масло"
+msgstr "Oil"
+
+#: loc_data.hpp:117
+msgid "Антиподы"
+msgstr "Antipodes"
+
+#: loc_data.hpp:119
+msgid "Праздничная комната"
+msgstr "Festive room"
+
+#: loc_data.hpp:119
+msgid "Молоко или горячий шоколад"
+msgstr "Milk or hot chocolate"
+
+#: loc_data.hpp:119
+msgid "Кто-то добрый и безобидный"
+msgstr "Someone kind and harmless"
+
+#: loc_data.hpp:121
+msgid "Крошечная комната"
+msgstr "The Tiny Room"
+
+#: loc_data.hpp:121
+msgid "Монстры или демоны"
+msgstr "Monsters or demons"
+
+#: loc_data.hpp:123
+msgid "Осенний лес"
+msgstr "Autumn Forest"
+
+#: loc_data.hpp:123
+msgid "Звери и/или красные"
+msgstr "Beasts and/or Reds"
+
+#: loc_data.hpp:126
+msgid "Голубые луга"
+msgstr "Blue meadows"
+
+#: loc_data.hpp:126
+msgid "Звери и/или синие"
+msgstr "Beasts and/or blues"
 
 #: main.cpp:66
 #, c-format
@@ -2439,8 +2618,8 @@ msgid ""
 "Ржавая железная монета, изображающая повелителя гномов и миры «Five Rex "
 "Undra»"
 msgstr ""
-"A rusty iron coin depicting the Dwarf Lord and the worlds of \"Five Rex Undra"
-"\""
+"A rusty iron coin depicting the Dwarf Lord and the worlds of \"Five Rex "
+"Undra\""
 
 #: names.cpp:452 names_modified.cpp:452
 msgid "Пара восьмигранных кубиков, вырезанных из нетающего льда"
@@ -3938,8 +4117,8 @@ msgstr ""
 
 #: names.cpp:1073 names_modified.cpp:1073
 msgid ""
-"Согласно RDP вы можете использовать только слова \"вероятно\", \"сомнительно"
-"\", \"оперируй\", \"одумайся\" и \"RDP\""
+"Согласно RDP вы можете использовать только слова \"вероятно\", "
+"\"сомнительно\", \"оперируй\", \"одумайся\" и \"RDP\""
 msgstr ""
 "According to RDP, you can only use the words \"probably\", \"doubtful\", "
 "\"operate\", \"think again\" and \"RDP\""
@@ -4773,10 +4952,6 @@ msgstr "Strong wind"
 #: names.cpp:1248 names_modified.cpp:1248
 msgid "Порывистый ветер"
 msgstr "Gusty wind"
-
-#: names_modified.cpp:1253
-msgid "Нет"
-msgstr "No"
 
 #: names_modified.cpp:1254
 msgid "Рукопашный бой"
