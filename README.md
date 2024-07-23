@@ -6,6 +6,8 @@
 # 'Long Stairs' Background
 Long Stairs is a DnD style dungeon setup that features in the [Worth the Candle](https://www.royalroad.com/fiction/25137/worth-the-candle) books, where two locations are bridged by a staircase called the 'Long Stairs'. As you ascend, difficulty increases, and encounters in rooms become more challenging. To progress you have to pass through 'rooms', each with doors leading into further rooms. SOme of these are marked, som are not, but all have a probability to lead you to the next landing. The 'landings' are rooms consistent between run-throughs with distinct environments.
 
+Turns out [Gwern also thinks this is probably a good idea](https://gwern.net/cyoa)
+
 # Andralet's Intro
 - Program for Long Stairs map generation. Prints some inspiration for DM as well.
 - Maps are generated in JSON format to be rendered via deepnight.net map generator (see https://deepnight.net/tools/rpg-map/).
